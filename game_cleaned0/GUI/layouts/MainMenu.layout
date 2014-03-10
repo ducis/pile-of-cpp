@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="MainMenu" >
+        <Property Name="Alpha" Value="0.75" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="TaharezLook/StaticImage" Name="MainMenu/Bg" >
+            <Property Name="Image" Value="set:Syn image:Syn" />
+            <Property Name="Disabled" Value="True" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="HorzFormatting" Value="CentreAligned" />
+            <Property Name="VertFormatting" Value="CentreAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        </Window>
+        <Window Type="TaharezLook/FrameWindow" Name="MainMenu/LogIn" >
+            <Property Name="Text" Value="Welcome" />
+            <Property Name="TitlebarFont" Value="DejaVuSans-10" />
+            <Property Name="SizingEnabled" Value="False" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,384},{0,164}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="CloseButtonEnabled" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Window Type="DefaultWindow" >
+                <Property Name="UnifiedAreaRect" Value="{{0,8},{0,0},{1,-8},{1,-8}}" />
+                <Window Type="TaharezLook/StaticText" Name="MainMenu/LogIn/TextEmail" >
+                    <Property Name="Text" Value="E-mail:" />
+                    <Property Name="HorzExtent" Value="43" />
+                    <Property Name="VertExtent" Value="17.8576" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0,24}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="TaharezLook/Editbox" Name="MainMenu/LogIn/EditEmail" >
+                    <Property Name="MaxTextLength" Value="1073741823" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,24},{1,0},{0,48}}" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                </Window>
+                <Window Type="TaharezLook/StaticText" Name="MainMenu/LogIn/TextPassword" >
+                    <Property Name="Text" Value="Password:" />
+                    <Property Name="HorzExtent" Value="64" />
+                    <Property Name="VertExtent" Value="17.8576" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,48},{1,0},{0,72}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="TaharezLook/Editbox" Name="MainMenu/LogIn/EditPassword" >
+                    <Property Name="MaskText" Value="True" />
+                    <Property Name="MaxTextLength" Value="1073741823" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,72},{1,0},{0,96}}" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                </Window>
+                <Window Type="TaharezLook/Button" Name="MainMenu/LogIn/BtnLogIn" >
+                    <Property Name="Text" Value="Log in" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{1,-24},{0,72},{1,0}}" />
+                </Window>
+                <Window Type="TaharezLook/Button" Name="MainMenu/LogIn/BtnCreateAccount" >
+                    <Property Name="Text" Value="Create account" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,76},{1,-24},{1,-152},{1,0}}" />
+                </Window>
+                <Window Type="TaharezLook/Button" Name="MainMenu/LogIn/BtnRetrievePassword" >
+                    <Property Name="Text" Value="Retrieve Password" />
+                    <Property Name="UnifiedAreaRect" Value="{{1,-148},{1,-24},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="TaharezLook/Button" Name="MainMenu/BtnQuit" >
+            <Property Name="Text" Value="Quit to desktop" />
+            <Property Name="UnifiedAreaRect" Value="{{0,32},{0,-8},{0,196},{0,16}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+    </Window>
+</GUILayout>

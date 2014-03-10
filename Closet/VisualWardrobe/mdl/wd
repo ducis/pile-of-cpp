@@ -1,0 +1,747 @@
+<ObjectSet>
+	<Count>6</Count>
+	<Poly>
+		<Verts num = "8">
+			<Vertex>0.00187378 43891.6 1000.0</Vertex>
+			<Vertex>0.00187671 43909.6 1000.0</Vertex>
+			<Vertex>0.00196413 43909.6 -999.996</Vertex>
+			<Vertex>0.0019612 43891.6 -999.996</Vertex>
+			<Vertex>-599.998 43891.6 1000.0</Vertex>
+			<Vertex>-599.998 43909.6 1000.0</Vertex>
+			<Vertex>-599.998 43909.6 -999.996</Vertex>
+			<Vertex>-599.998 43891.6 -999.996</Vertex>
+		</Verts>
+		<Faces num = "6">
+			<Face degree = "4">
+				<Verts>0 1 5 4 </Verts>
+				<Edges>0 1 2 3 </Edges>
+				<Normal>0.0 0.0 1.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>1 2 6 5 </Verts>
+				<Edges>4 5 6 1 </Edges>
+				<Normal>1.62921e-007 1.0 0.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>2 3 7 6 </Verts>
+				<Edges>7 8 9 5 </Edges>
+				<Normal>0.0 0.0 -1.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>3 0 4 7 </Verts>
+				<Edges>10 3 11 8 </Edges>
+				<Normal>-1.62921e-007 -1.0 0.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>2 1 0 3 </Verts>
+				<Edges>4 0 10 7 </Edges>
+				<Normal>1.0 -1.62921e-007 0.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>6 7 4 5 </Verts>
+				<Edges>9 11 2 6 </Edges>
+				<Normal>-1.0 1.62921e-007 0.0</Normal>
+			</Face>
+		</Faces>
+		<Edges num = "12">
+			<Edge>
+				<Verts>0 1 </Verts>
+				<Faces>0 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>1 5 </Verts>
+				<Faces>0 1 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>5 4 </Verts>
+				<Faces>0 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>4 0 </Verts>
+				<Faces>0 3 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>1 2 </Verts>
+				<Faces>1 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>2 6 </Verts>
+				<Faces>1 2 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>6 5 </Verts>
+				<Faces>1 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>2 3 </Verts>
+				<Faces>2 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>3 7 </Verts>
+				<Faces>2 3 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>7 6 </Verts>
+				<Faces>2 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>3 0 </Verts>
+				<Faces>3 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>4 7 </Verts>
+				<Faces>3 5 </Faces>
+			</Edge>
+		</Edges>
+		<ControlPlaneXSet>
+			<ControlPlane>
+				<Faces>4 </Faces>
+				<Verts>2 1 0 3 </Verts>
+			</ControlPlane>
+			<ControlPlane>
+				<Faces>5 </Faces>
+				<Verts>6 7 4 5 </Verts>
+			</ControlPlane>
+		</ControlPlaneXSet>
+		<ControlPlaneYSet>
+			<ControlPlane>
+				<Faces>1 </Faces>
+				<Verts>1 2 6 5 </Verts>
+			</ControlPlane>
+			<ControlPlane>
+				<Faces>3 </Faces>
+				<Verts>3 0 4 7 </Verts>
+			</ControlPlane>
+		</ControlPlaneYSet>
+		<ControlPlaneZSet>
+			<ControlPlane>
+				<Faces>0 </Faces>
+				<Verts>0 1 5 4 </Verts>
+			</ControlPlane>
+			<ControlPlane>
+				<Faces>2 </Faces>
+				<Verts>2 3 7 6 </Verts>
+			</ControlPlane>
+		</ControlPlaneZSet>
+	</Poly>
+	<Poly>
+		<Verts num = "8">
+			<Vertex>0.0019167 44873.6 1000.0</Vertex>
+			<Vertex>0.00191964 44891.6 1000.0</Vertex>
+			<Vertex>0.00200706 44891.6 -999.996</Vertex>
+			<Vertex>0.00200413 44873.6 -999.996</Vertex>
+			<Vertex>-599.998 44873.6 1000.0</Vertex>
+			<Vertex>-599.998 44891.6 1000.0</Vertex>
+			<Vertex>-599.998 44891.6 -999.996</Vertex>
+			<Vertex>-599.998 44873.6 -999.996</Vertex>
+		</Verts>
+		<Faces num = "6">
+			<Face degree = "4">
+				<Verts>0 1 5 4 </Verts>
+				<Edges>0 1 2 3 </Edges>
+				<Normal>0.0 0.0 1.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>1 2 6 5 </Verts>
+				<Edges>4 5 6 1 </Edges>
+				<Normal>1.62921e-007 1.0 0.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>2 3 7 6 </Verts>
+				<Edges>7 8 9 5 </Edges>
+				<Normal>0.0 0.0 -1.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>3 0 4 7 </Verts>
+				<Edges>10 3 11 8 </Edges>
+				<Normal>-1.62921e-007 -1.0 0.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>2 1 0 3 </Verts>
+				<Edges>4 0 10 7 </Edges>
+				<Normal>1.0 -1.62921e-007 0.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>6 7 4 5 </Verts>
+				<Edges>9 11 2 6 </Edges>
+				<Normal>-1.0 1.62921e-007 0.0</Normal>
+			</Face>
+		</Faces>
+		<Edges num = "12">
+			<Edge>
+				<Verts>0 1 </Verts>
+				<Faces>0 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>1 5 </Verts>
+				<Faces>0 1 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>5 4 </Verts>
+				<Faces>0 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>4 0 </Verts>
+				<Faces>0 3 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>1 2 </Verts>
+				<Faces>1 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>2 6 </Verts>
+				<Faces>1 2 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>6 5 </Verts>
+				<Faces>1 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>2 3 </Verts>
+				<Faces>2 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>3 7 </Verts>
+				<Faces>2 3 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>7 6 </Verts>
+				<Faces>2 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>3 0 </Verts>
+				<Faces>3 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>4 7 </Verts>
+				<Faces>3 5 </Faces>
+			</Edge>
+		</Edges>
+		<ControlPlaneXSet>
+			<ControlPlane>
+				<Faces>4 </Faces>
+				<Verts>2 1 0 3 </Verts>
+			</ControlPlane>
+			<ControlPlane>
+				<Faces>5 </Faces>
+				<Verts>6 7 4 5 </Verts>
+			</ControlPlane>
+		</ControlPlaneXSet>
+		<ControlPlaneYSet>
+			<ControlPlane>
+				<Faces>1 </Faces>
+				<Verts>1 2 6 5 </Verts>
+			</ControlPlane>
+			<ControlPlane>
+				<Faces>3 </Faces>
+				<Verts>3 0 4 7 </Verts>
+			</ControlPlane>
+		</ControlPlaneYSet>
+		<ControlPlaneZSet>
+			<ControlPlane>
+				<Faces>0 </Faces>
+				<Verts>0 1 5 4 </Verts>
+			</ControlPlane>
+			<ControlPlane>
+				<Faces>2 </Faces>
+				<Verts>2 3 7 6 </Verts>
+			</ControlPlane>
+		</ControlPlaneZSet>
+	</Poly>
+	<Poly>
+		<Verts num = "8">
+			<Vertex>0.0018615 43909.6 1000.0</Vertex>
+			<Vertex>0.00201855 44873.6 1000.0</Vertex>
+			<Vertex>0.00201934 44873.6 982.004</Vertex>
+			<Vertex>0.00186228 43909.6 982.004</Vertex>
+			<Vertex>-599.998 43909.6 1000.0</Vertex>
+			<Vertex>-599.998 44873.6 1000.0</Vertex>
+			<Vertex>-599.998 44873.6 982.004</Vertex>
+			<Vertex>-599.998 43909.6 982.004</Vertex>
+		</Verts>
+		<Faces num = "6">
+			<Face degree = "4">
+				<Verts>0 1 5 4 </Verts>
+				<Edges>0 1 2 3 </Edges>
+				<Normal>0.0 0.0 1.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>1 2 6 5 </Verts>
+				<Edges>4 5 6 1 </Edges>
+				<Normal>1.62921e-007 1.0 0.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>2 3 7 6 </Verts>
+				<Edges>7 8 9 5 </Edges>
+				<Normal>0.0 0.0 -1.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>3 0 4 7 </Verts>
+				<Edges>10 3 11 8 </Edges>
+				<Normal>-1.62921e-007 -1.0 0.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>2 1 0 3 </Verts>
+				<Edges>4 0 10 7 </Edges>
+				<Normal>1.0 -1.62921e-007 0.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>6 7 4 5 </Verts>
+				<Edges>9 11 2 6 </Edges>
+				<Normal>-1.0 1.62921e-007 0.0</Normal>
+			</Face>
+		</Faces>
+		<Edges num = "12">
+			<Edge>
+				<Verts>0 1 </Verts>
+				<Faces>0 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>1 5 </Verts>
+				<Faces>0 1 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>5 4 </Verts>
+				<Faces>0 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>4 0 </Verts>
+				<Faces>0 3 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>1 2 </Verts>
+				<Faces>1 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>2 6 </Verts>
+				<Faces>1 2 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>6 5 </Verts>
+				<Faces>1 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>2 3 </Verts>
+				<Faces>2 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>3 7 </Verts>
+				<Faces>2 3 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>7 6 </Verts>
+				<Faces>2 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>3 0 </Verts>
+				<Faces>3 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>4 7 </Verts>
+				<Faces>3 5 </Faces>
+			</Edge>
+		</Edges>
+		<ControlPlaneXSet>
+			<ControlPlane>
+				<Faces>4 </Faces>
+				<Verts>2 1 0 3 </Verts>
+			</ControlPlane>
+			<ControlPlane>
+				<Faces>5 </Faces>
+				<Verts>6 7 4 5 </Verts>
+			</ControlPlane>
+		</ControlPlaneXSet>
+		<ControlPlaneYSet>
+			<ControlPlane>
+				<Faces>1 </Faces>
+				<Verts>1 2 6 5 </Verts>
+			</ControlPlane>
+			<ControlPlane>
+				<Faces>3 </Faces>
+				<Verts>3 0 4 7 </Verts>
+			</ControlPlane>
+		</ControlPlaneYSet>
+		<ControlPlaneZSet>
+			<ControlPlane>
+				<Faces>0 </Faces>
+				<Verts>0 1 5 4 </Verts>
+			</ControlPlane>
+			<ControlPlane>
+				<Faces>2 </Faces>
+				<Verts>2 3 7 6 </Verts>
+			</ControlPlane>
+		</ControlPlaneZSet>
+	</Poly>
+	<Poly>
+		<Verts num = "8">
+			<Vertex>0.0018615 43909.6 -881.996</Vertex>
+			<Vertex>0.00201855 44873.6 -881.996</Vertex>
+			<Vertex>0.00201934 44873.6 -899.996</Vertex>
+			<Vertex>0.00186228 43909.6 -899.996</Vertex>
+			<Vertex>-599.998 43909.6 -881.996</Vertex>
+			<Vertex>-599.998 44873.6 -881.996</Vertex>
+			<Vertex>-599.998 44873.6 -899.996</Vertex>
+			<Vertex>-599.998 43909.6 -899.996</Vertex>
+		</Verts>
+		<Faces num = "6">
+			<Face degree = "4">
+				<Verts>0 1 5 4 </Verts>
+				<Edges>0 1 2 3 </Edges>
+				<Normal>0.0 0.0 1.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>1 2 6 5 </Verts>
+				<Edges>4 5 6 1 </Edges>
+				<Normal>1.62921e-007 1.0 0.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>2 3 7 6 </Verts>
+				<Edges>7 8 9 5 </Edges>
+				<Normal>0.0 0.0 -1.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>3 0 4 7 </Verts>
+				<Edges>10 3 11 8 </Edges>
+				<Normal>-1.62921e-007 -1.0 0.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>2 1 0 3 </Verts>
+				<Edges>4 0 10 7 </Edges>
+				<Normal>1.0 -1.62921e-007 0.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>6 7 4 5 </Verts>
+				<Edges>9 11 2 6 </Edges>
+				<Normal>-1.0 1.62921e-007 0.0</Normal>
+			</Face>
+		</Faces>
+		<Edges num = "12">
+			<Edge>
+				<Verts>0 1 </Verts>
+				<Faces>0 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>1 5 </Verts>
+				<Faces>0 1 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>5 4 </Verts>
+				<Faces>0 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>4 0 </Verts>
+				<Faces>0 3 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>1 2 </Verts>
+				<Faces>1 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>2 6 </Verts>
+				<Faces>1 2 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>6 5 </Verts>
+				<Faces>1 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>2 3 </Verts>
+				<Faces>2 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>3 7 </Verts>
+				<Faces>2 3 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>7 6 </Verts>
+				<Faces>2 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>3 0 </Verts>
+				<Faces>3 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>4 7 </Verts>
+				<Faces>3 5 </Faces>
+			</Edge>
+		</Edges>
+		<ControlPlaneXSet>
+			<ControlPlane>
+				<Faces>4 </Faces>
+				<Verts>2 1 0 3 </Verts>
+			</ControlPlane>
+			<ControlPlane>
+				<Faces>5 </Faces>
+				<Verts>6 7 4 5 </Verts>
+			</ControlPlane>
+		</ControlPlaneXSet>
+		<ControlPlaneYSet>
+			<ControlPlane>
+				<Faces>1 </Faces>
+				<Verts>1 2 6 5 </Verts>
+			</ControlPlane>
+			<ControlPlane>
+				<Faces>3 </Faces>
+				<Verts>3 0 4 7 </Verts>
+			</ControlPlane>
+		</ControlPlaneYSet>
+		<ControlPlaneZSet>
+			<ControlPlane>
+				<Faces>0 </Faces>
+				<Verts>0 1 5 4 </Verts>
+			</ControlPlane>
+			<ControlPlane>
+				<Faces>2 </Faces>
+				<Verts>2 3 7 6 </Verts>
+			</ControlPlane>
+		</ControlPlaneZSet>
+	</Poly>
+	<Poly>
+		<Verts num = "8">
+			<Vertex>-565.304 43909.6 -899.996</Vertex>
+			<Vertex>-565.304 44873.6 -899.996</Vertex>
+			<Vertex>-565.304 44873.6 -999.996</Vertex>
+			<Vertex>-565.304 43909.6 -999.996</Vertex>
+			<Vertex>-583.304 43909.6 -899.996</Vertex>
+			<Vertex>-583.304 44873.6 -899.996</Vertex>
+			<Vertex>-583.304 44873.6 -999.996</Vertex>
+			<Vertex>-583.304 43909.6 -999.996</Vertex>
+		</Verts>
+		<Faces num = "6">
+			<Face degree = "4">
+				<Verts>0 1 5 4 </Verts>
+				<Edges>0 1 2 3 </Edges>
+				<Normal>0.0 0.0 1.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>1 2 6 5 </Verts>
+				<Edges>4 5 6 1 </Edges>
+				<Normal>1.62921e-007 1.0 0.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>2 3 7 6 </Verts>
+				<Edges>7 8 9 5 </Edges>
+				<Normal>0.0 0.0 -1.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>3 0 4 7 </Verts>
+				<Edges>10 3 11 8 </Edges>
+				<Normal>-1.62921e-007 -1.0 0.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>2 1 0 3 </Verts>
+				<Edges>4 0 10 7 </Edges>
+				<Normal>1.0 -1.62921e-007 0.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>6 7 4 5 </Verts>
+				<Edges>9 11 2 6 </Edges>
+				<Normal>-1.0 1.62921e-007 0.0</Normal>
+			</Face>
+		</Faces>
+		<Edges num = "12">
+			<Edge>
+				<Verts>0 1 </Verts>
+				<Faces>0 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>1 5 </Verts>
+				<Faces>0 1 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>5 4 </Verts>
+				<Faces>0 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>4 0 </Verts>
+				<Faces>0 3 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>1 2 </Verts>
+				<Faces>1 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>2 6 </Verts>
+				<Faces>1 2 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>6 5 </Verts>
+				<Faces>1 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>2 3 </Verts>
+				<Faces>2 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>3 7 </Verts>
+				<Faces>2 3 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>7 6 </Verts>
+				<Faces>2 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>3 0 </Verts>
+				<Faces>3 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>4 7 </Verts>
+				<Faces>3 5 </Faces>
+			</Edge>
+		</Edges>
+		<ControlPlaneXSet>
+			<ControlPlane>
+				<Faces>4 </Faces>
+				<Verts>2 1 0 3 </Verts>
+			</ControlPlane>
+			<ControlPlane>
+				<Faces>5 </Faces>
+				<Verts>6 7 4 5 </Verts>
+			</ControlPlane>
+		</ControlPlaneXSet>
+		<ControlPlaneYSet>
+			<ControlPlane>
+				<Faces>1 </Faces>
+				<Verts>1 2 6 5 </Verts>
+			</ControlPlane>
+			<ControlPlane>
+				<Faces>3 </Faces>
+				<Verts>3 0 4 7 </Verts>
+			</ControlPlane>
+		</ControlPlaneYSet>
+		<ControlPlaneZSet>
+			<ControlPlane>
+				<Faces>0 </Faces>
+				<Verts>0 1 5 4 </Verts>
+			</ControlPlane>
+			<ControlPlane>
+				<Faces>2 </Faces>
+				<Verts>2 3 7 6 </Verts>
+			</ControlPlane>
+		</ControlPlaneZSet>
+	</Poly>
+	<Poly>
+		<Verts num = "8">
+			<Vertex>-8.48138 43909.6 982.004</Vertex>
+			<Vertex>-8.48122 44873.6 982.004</Vertex>
+			<Vertex>-8.48114 44873.6 -881.996</Vertex>
+			<Vertex>-8.4813 43909.6 -881.996</Vertex>
+			<Vertex>-13.4814 43909.6 982.004</Vertex>
+			<Vertex>-13.4812 44873.6 982.004</Vertex>
+			<Vertex>-13.4811 44873.6 -881.996</Vertex>
+			<Vertex>-13.4813 43909.6 -881.996</Vertex>
+		</Verts>
+		<Faces num = "6">
+			<Face degree = "4">
+				<Verts>0 1 5 4 </Verts>
+				<Edges>0 1 2 3 </Edges>
+				<Normal>0.0 0.0 1.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>1 2 6 5 </Verts>
+				<Edges>4 5 6 1 </Edges>
+				<Normal>1.62921e-007 1.0 0.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>2 3 7 6 </Verts>
+				<Edges>7 8 9 5 </Edges>
+				<Normal>0.0 0.0 -1.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>3 0 4 7 </Verts>
+				<Edges>10 3 11 8 </Edges>
+				<Normal>-1.62921e-007 -1.0 0.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>2 1 0 3 </Verts>
+				<Edges>4 0 10 7 </Edges>
+				<Normal>1.0 -1.62921e-007 0.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>6 7 4 5 </Verts>
+				<Edges>9 11 2 6 </Edges>
+				<Normal>-1.0 1.62921e-007 0.0</Normal>
+			</Face>
+		</Faces>
+		<Edges num = "12">
+			<Edge>
+				<Verts>0 1 </Verts>
+				<Faces>0 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>1 5 </Verts>
+				<Faces>0 1 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>5 4 </Verts>
+				<Faces>0 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>4 0 </Verts>
+				<Faces>0 3 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>1 2 </Verts>
+				<Faces>1 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>2 6 </Verts>
+				<Faces>1 2 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>6 5 </Verts>
+				<Faces>1 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>2 3 </Verts>
+				<Faces>2 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>3 7 </Verts>
+				<Faces>2 3 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>7 6 </Verts>
+				<Faces>2 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>3 0 </Verts>
+				<Faces>3 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>4 7 </Verts>
+				<Faces>3 5 </Faces>
+			</Edge>
+		</Edges>
+		<ControlPlaneXSet>
+			<ControlPlane>
+				<Faces>4 </Faces>
+				<Verts>2 1 0 3 </Verts>
+			</ControlPlane>
+			<ControlPlane>
+				<Faces>5 </Faces>
+				<Verts>6 7 4 5 </Verts>
+			</ControlPlane>
+		</ControlPlaneXSet>
+		<ControlPlaneYSet>
+			<ControlPlane>
+				<Faces>1 </Faces>
+				<Verts>1 2 6 5 </Verts>
+			</ControlPlane>
+			<ControlPlane>
+				<Faces>3 </Faces>
+				<Verts>3 0 4 7 </Verts>
+			</ControlPlane>
+		</ControlPlaneYSet>
+		<ControlPlaneZSet>
+			<ControlPlane>
+				<Faces>0 </Faces>
+				<Verts>0 1 5 4 </Verts>
+			</ControlPlane>
+			<ControlPlane>
+				<Faces>2 </Faces>
+				<Verts>2 3 7 6 </Verts>
+			</ControlPlane>
+		</ControlPlaneZSet>
+	</Poly>
+</ObjectSet>

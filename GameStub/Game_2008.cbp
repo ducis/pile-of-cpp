@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Game" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="Game_2008" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-DDEBUG" />
+					<Add option="-DPROFILE" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-O0" />
+					<Add directory="..\..\Core" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\..\Core" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="dxerr" />
+					<Add library="dxguid" />
+					<Add library="d3dx9d" />
+					<Add library="d3d9" />
+					<Add library="winmm" />
+					<Add library="comctl32" />
+				</Linker>
+			</Target>
+			<Target title="Debug x64">
+				<Option output="Game_2008" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Win32\Debug x64" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-DDEBUG" />
+					<Add option="-DPROFILE" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-Wall" />
+					<Add option="-O0" />
+					<Add directory="..\..\Core" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\..\Core" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="dxerr" />
+					<Add library="dxguid" />
+					<Add library="d3dx9d" />
+					<Add library="d3d9" />
+					<Add library="winmm" />
+					<Add library="comctl32" />
+				</Linker>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="Release\Game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-Wall" />
+					<Add option="-O2" />
+					<Add directory="..\..\Core" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\..\Core" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="dxerr" />
+					<Add library="dxguid" />
+					<Add library="d3dx9" />
+					<Add library="d3d9" />
+					<Add library="winmm" />
+					<Add library="comctl32" />
+				</Linker>
+			</Target>
+			<Target title="Release x64">
+				<Option output="Win32\Release x64\Game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Win32\Release x64" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-Wall" />
+					<Add option="-O2" />
+					<Add directory="..\..\Core" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\..\Core" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="dxerr" />
+					<Add library="dxguid" />
+					<Add library="d3dx9" />
+					<Add library="d3d9" />
+					<Add library="winmm" />
+					<Add library="comctl32" />
+				</Linker>
+			</Target>
+			<Target title="Profile Win32">
+				<Option output="Profile\Game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Profile" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-DPROFILE" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-Wall" />
+					<Add option="-O2" />
+					<Add directory="..\..\Core" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\..\Core" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="dxerr" />
+					<Add library="dxguid" />
+					<Add library="d3dx9" />
+					<Add library="d3d9" />
+					<Add library="winmm" />
+					<Add library="comctl32" />
+				</Linker>
+			</Target>
+			<Target title="Profile x64">
+				<Option output="Win32\Profile x64\Game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Win32\Profile x64" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-DPROFILE" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-Wall" />
+					<Add option="-O2" />
+					<Add directory="..\..\Core" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\..\Core" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="dxerr" />
+					<Add library="dxguid" />
+					<Add library="d3dx9" />
+					<Add library="d3d9" />
+					<Add library="winmm" />
+					<Add library="comctl32" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="Game.cpp" />
+		<Unit filename="DXUT\Optional\directx.ico" />
+		<Unit filename="DXUT\Core\dpiaware.manifest" />
+		<Unit filename="Game.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="resource.h" />
+		<Unit filename="DXUT\Core\DXUT.cpp" />
+		<Unit filename="DXUT\Core\DXUT.h" />
+		<Unit filename="DXUT\Core\DXUTenum.cpp" />
+		<Unit filename="DXUT\Core\DXUTenum.h" />
+		<Unit filename="DXUT\Core\DXUTmisc.cpp" />
+		<Unit filename="DXUT\Core\DXUTmisc.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

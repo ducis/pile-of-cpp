@@ -1,0 +1,14 @@
+autoexec...
+LookAt 6000 2000 1000 0 2000 1000 0 0 1
+ActivateCamera
+Ortho 5000
+CoordSys 3000
+LightDir 0 1 1 1
+LightDir 1 -1 1 1
+LightsOn
+LoadFile room.xml
+Node type: Room
+DeployNewBorn
+CreateWardrobe W.移门不落地 默认
+DeployNewBornAsBoxyDraggableContainer 0 500 1000
+...autoexec

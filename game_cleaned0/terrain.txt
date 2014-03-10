@@ -1,0 +1,5 @@
+material material/terrain.mtl
+lod 16
+minUnitSize 1
+nPartition 256
+range 10000

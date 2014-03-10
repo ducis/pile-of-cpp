@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<Component name="ppdvs" mass="1" price="10">
+  <Children>
+    <Transform translate="0 0 -5">
+      <Children>
+        <!--<Material color="0.7 3 1.5">-->
+        <Material material="Material/White.mtl">
+          <Children>
+            <Mesh mesh="mesh/ppdvs.obj"/>
+          </Children>
+        </Material>
+      </Children>
+    </Transform>
+  </Children>
+</Component>

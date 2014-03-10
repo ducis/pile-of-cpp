@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<Imageset Name="Crate" Imagefile="Crate.tga" NativeHorzRes="800" NativeVertRes="600" AutoScaled="false">
+	<Image Name="Crate" XPos="0" YPos="0" Width="96" Height="96" />
+</Imageset>

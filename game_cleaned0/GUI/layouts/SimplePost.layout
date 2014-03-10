@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="TaharezLook/FrameWindow" Name="SimplePost" >
+        <Property Name="Text" Value="Post" />
+        <Property Name="Alpha" Value="0.75" />
+        <Property Name="TitlebarFont" Value="DejaVuSans-10" />
+        <Property Name="InheritsAlpha" Value="False" />
+        <Property Name="SizingEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,512},{0,512}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Property Name="CloseButtonEnabled" Value="False" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Window Type="DefaultWindow" Name="SimplePost/ClientArea" >
+            <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{1,-4},{1,-4}}" />
+            <Window Type="TaharezLook/StaticText" >
+                <Property Name="Text" Value="Title" />
+                <Property Name="HorzExtent" Value="27" />
+                <Property Name="VertExtent" Value="17.8576" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0,0},{1,0},{0,24}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/Editbox" Name="SimplePost/EbTitle" >
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0,24},{1,0},{0,48}}" />
+                <Property Name="TextParsingEnabled" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/StaticText" >
+                <Property Name="Text" Value="Type" />
+                <Property Name="HorzExtent" Value="33" />
+                <Property Name="VertExtent" Value="17.8576" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,48},{0,24}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/StaticText" >
+                <Property Name="Text" Value="Text" />
+                <Property Name="HorzExtent" Value="29" />
+                <Property Name="VertExtent" Value="17.8576" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.000732,0},{0,48},{0.999268,0},{0,72}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/MultiLineEditbox" Name="SimplePost/MleLyrics" >
+                <Property Name="Text" >
+</Property>
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,72},{1,0},{1,-28}}" />
+                <Property Name="TextParsingEnabled" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="SimplePost/BtnRecord" >
+                <Property Name="Text" Value="Record" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.2,0},{0,24}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="SimplePost/BtnStop" >
+                <Property Name="Text" Value="Stop" />
+                <Property Name="UnifiedAreaRect" Value="{{0.2,4},{0,0},{0.4,0},{0,24}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="SimplePost/BtnPlay" >
+                <Property Name="Text" Value="Play" />
+                <Property Name="UnifiedAreaRect" Value="{{0.4,4},{0,0},{0.6,0},{0,24}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="SimplePost/BtnRate" >
+                <Property Name="Text" Value="Rate" />
+                <Property Name="UnifiedAreaRect" Value="{{0.6,4},{0,0},{0.8,0},{0,24}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="SimplePost/BtnClose" >
+                <Property Name="Text" Value="Close" />
+                <Property Name="UnifiedAreaRect" Value="{{0.8,4},{0,0},{1,0},{0,24}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="TaharezLook/ComboEditbox" Name="SimplePost/CeType" >
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,24},{0.3,-4},{0,48}}" />
+                <Property Name="TextParsingEnabled" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,15 @@
+ID=0
+Position	[-100.0,0.0,0.0]
+Rotation	[0.707107,0.0,0.0,0.707107]
+Scale	[1.0,1.0,1.0]
+1 child(ren)
+ID=1
+Position	[0.0,0.0,0.0]
+Rotation	[0.707107,0.0,0.0,0.707107]
+Scale	[1.0,1.0,1.0]
+1 child(ren)
+ID=2
+Position	[100.0,0.0,-3.42727e-007]
+Rotation	[0.707107,0.0,0.0,0.707107]
+Scale	[1.0,1.0,1.0]
+0 child(ren)

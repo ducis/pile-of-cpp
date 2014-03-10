@@ -1,0 +1,7 @@
+Drag 3 5 5 5 5
+Acc 300 200 180 170 160
+AngSpeed 2 1.5
+MinHeight 10
+MaxHeight 1000
+MinPitch -1.7
+MaxPitch 1.7

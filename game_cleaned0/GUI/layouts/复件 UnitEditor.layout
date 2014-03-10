@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+  <Window Type="DefaultWindow" Name="Root" >
+    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+    <Window Type="DefaultWindow" Name="UnitWindow" >
+      <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.8,0},{0.8,0}}" />
+      <Property Name="ZOrderChangeEnabled" Value="False" />
+      <Window Type="DragContainer" Name="UnitWindowDraggable" >
+        <Property Name="DragAlpha" Value="0.5" />
+        <Property Name="StickyMode" Value="False" />
+        <Property Name="DragThreshold" Value="8" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+      </Window>
+    </Window>
+    <Window Type="TaharezLook/FrameWindow" Name="ComponentBrowserWindow" >
+      <Property Name="Text" Value="Double click here to roll me up/down(^_^)" />
+      <Property Name="Alpha" Value="0.75" />
+      <Property Name="TitlebarFont" Value="DejaVuSans-10" />
+      <Property Name="SizingEnabled" Value="False" />
+      <Property Name="TitlebarEnabled" Value="True" />
+      <Property Name="UnifiedAreaRect" Value="{{0.644802,0},{0.05,0},{0.662372,443},{0.946731,0}}" />
+      <Property Name="CloseButtonEnabled" Value="False" />
+      <Window Type="TaharezLook/StaticText" Name="ScrPnContainer" >
+        <Property Name="Alpha" Value="0.5" />
+        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,24},{1,-4},{1,-16}}" />
+        <Window Type="TaharezLook/ScrollablePane" Name="ScrPn" >
+          <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+          <Property Name="HorzStepSize" Value="0.1" />
+          <Property Name="VertStepSize" Value="0.1" />
+          <Property Name="InheritsAlpha" Value="False" />
+          <Property Name="HorzOverlapSize" Value="0.01" />
+          <Property Name="UnifiedAreaRect" Value="{{0,2},{0,2},{1,-2},{1,-2}}" />
+          <Property Name="VertOverlapSize" Value="0.01" />
+          <Property Name="HorzScrollPosition" Value="0" />
+          <Property Name="VertScrollPosition" Value="0" />
+          <AutoWindow NameSuffix="__auto_container__" >
+            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+            <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+          </AutoWindow>
+        </Window>
+      </Window>
+      <Window Type="TaharezLook/Checkbox" Name="AvailableOnly" >
+        <Property Name="Text" Value="Available Components Only" />
+        <Property Name="UnifiedAreaRect" Value="{{0,238},{0,4},{0,256},{0,18}}" />
+      </Window>
+      <Window Type="TaharezLook/RadioButton" Name="ButtonShop" >
+        <Property Name="Font" Value="DejaVuSans-10" />
+        <Property Name="Text" Value="Shop" />
+        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,20},{0,20}}" />
+      </Window>
+      <Window Type="TaharezLook/RadioButton" Name="ButtonMyWarehouse" >
+        <Property Name="Text" Value="Warehouse" />
+        <Property Name="UnifiedAreaRect" Value="{{0.18,0},{0,4},{0.18,20},{0,20}}" />
+      </Window>
+    </Window>
+    <Window Type="TaharezLook/FrameWindow" Name="ComponentEditorWindow" >
+      <Property Name="Text" Value="Double click here to roll me up/down(^_^)" />
+      <Property Name="Alpha" Value="0.75" />
+      <Property Name="TitlebarFont" Value="DejaVuSans-10" />
+      <Property Name="SizingEnabled" Value="False" />
+      <Property Name="TitlebarEnabled" Value="True" />
+      <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0.05,0},{0.02,274},{0.02,384}}" />
+      <Property Name="CloseButtonEnabled" Value="False" />
+      <Window Type="TaharezLook/StaticText" Name="ComponentEditorWindow/ComponentWindow" >
+        <Property Name="Alpha" Value="0.5" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,4},{0,256},{0,260}}" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Window Type="DefaultWindow" Name="ComponentEditorWindow/ComponentWindow/NodeShow" >
+          <Property Name="UnifiedAreaRect" Value="{{0.5,-128},{0.5,-128},{0.5,128},{0.5,128}}" />
+        </Window>
+      </Window>
+      <Window Type="DefaultWindow" Name="ComponentEditorWindow/Params" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,-4},{0,256},{0,64}}" />
+        <Property Name="VerticalAlignment" Value="Bottom" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Window Type="TaharezLook/HorizontalScrollbar" Name="ComponentEditorWindow/Params/Yaw" >
+          <Property Name="PageSize" Value="0" />
+          <Property Name="StepSize" Value="1" />
+          <Property Name="OverlapSize" Value="0" />
+          <Property Name="DocumentSize" Value="360" />
+          <Property Name="ScrollPosition" Value="180" />
+          <Property Name="UnifiedAreaRect" Value="{{0,64},{0,4},{1,0},{0,12}}" />
+        </Window>
+        <Window Type="TaharezLook/HorizontalScrollbar" Name="ComponentEditorWindow/Params/Pitch" >
+          <Property Name="PageSize" Value="0" />
+          <Property Name="StepSize" Value="1" />
+          <Property Name="OverlapSize" Value="0" />
+          <Property Name="DocumentSize" Value="360" />
+          <Property Name="ScrollPosition" Value="180" />
+          <Property Name="UnifiedAreaRect" Value="{{0,64},{0,16},{1,0},{0,24}}" />
+        </Window>
+        <Window Type="TaharezLook/HorizontalScrollbar" Name="ComponentEditorWindow/Params/Roll" >
+          <Property Name="PageSize" Value="0" />
+          <Property Name="StepSize" Value="1" />
+          <Property Name="OverlapSize" Value="0" />
+          <Property Name="DocumentSize" Value="360" />
+          <Property Name="ScrollPosition" Value="180" />
+          <Property Name="UnifiedAreaRect" Value="{{0,64},{0,28},{1,0},{0,36}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="ComponentEditorWindow/Params/BtnYaw" >
+          <Property Name="Text" Value="Yaw" />
+          <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,56},{0,14}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="ComponentEditorWindow/Params/BtnPitch" >
+          <Property Name="Text" Value="Pitch" />
+          <Property Name="UnifiedAreaRect" Value="{{0,0},{0,16},{0,56},{0,30}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="ComponentEditorWindow/Params/BtnRoll" >
+          <Property Name="Text" Value="Roll" />
+          <Property Name="UnifiedAreaRect" Value="{{0,0},{0,32},{0,56},{0,46}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="ComponentEditorWindow/Params/BtnResetOrientation" >
+          <Property Name="Text" Value="Reset Orientation" />
+          <Property Name="UnifiedAreaRect" Value="{{0,0},{0,48},{1,0},{0,62}}" />
+        </Window>
+        <Window Type="TaharezLook/HorizontalScrollbar" Name="ComponentEditorWindow/Params/Scale" >
+          <Property Name="Visible" Value="False" />
+          <Property Name="PageSize" Value="0" />
+          <Property Name="StepSize" Value="0.01" />
+          <Property Name="OverlapSize" Value="0" />
+          <Property Name="DocumentSize" Value="1" />
+          <Property Name="ScrollPosition" Value="0.5" />
+          <Property Name="UnifiedAreaRect" Value="{{0,36},{0,40},{1,0},{0,48}}" />
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="ComponentEditorWindow/Params/ScaleText" >
+          <Property Name="Visible" Value="False" />
+          <Property Name="Text" Value="Scale" />
+          <Property Name="HorzExtent" Value="35" />
+          <Property Name="VertExtent" Value="17.8576" />
+          <Property Name="FrameEnabled" Value="False" />
+          <Property Name="HorzFormatting" Value="RightAligned" />
+          <Property Name="UnifiedAreaRect" Value="{{0,0},{0,38},{0,36},{0,48}}" />
+          <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+      </Window>
+    </Window>
+  </Window>
+</GUILayout>

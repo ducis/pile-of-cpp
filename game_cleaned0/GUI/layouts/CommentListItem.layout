@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="TaharezLook/ListboxItem" Name="CommentListItem" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0,356}}" />
+        <Window Type="TaharezLook/StaticText" Name="CommentListItem/AvatarShow" >
+            <Property Name="UnifiedAreaRect" Value="{{0,2},{0,2},{0,242},{0,322}}" />
+        </Window>
+        <Window Type="TaharezLook/MultiLineEditbox" Name="CommentListItem/CommentShow" >
+            <Property Name="Text" >
+</Property>
+            <Property Name="ReadOnly" Value="True" />
+            <Property Name="MaxTextLength" Value="1073741823" />
+            <Property Name="UnifiedAreaRect" Value="{{0,244},{0,2},{1,-2},{0,322}}" />
+            <Property Name="TextParsingEnabled" Value="False" />
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="CommentListItem/RatingShow" >
+            <Property Name="UnifiedAreaRect" Value="{{0,2},{0,324},{1,-2},{0,352}}" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="TaharezLook/FrameWindow" Name="Translatable" >
+        <Property Name="Text" Value="Translatable" />
+        <Property Name="Alpha" Value="0.75" />
+        <Property Name="TitlebarFont" Value="DejaVuSans-10" />
+        <Property Name="InheritsAlpha" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.8,0},{0.8,0}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Property Name="CloseButtonEnabled" Value="False" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Window Type="DefaultWindow" Name="Translatable/ClientArea" >
+            <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{1,-4},{1,-4}}" />
+            <Window Type="DefaultWindow" Name="Translatable/LeftArea" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.2,0},{1,0}}" />
+                <Window Type="TaharezLook/MultiLineEditbox" Name="Translatable/MleInfo" >
+                    <Property Name="Text" >
+</Property>
+                    <Property Name="MaxTextLength" Value="1073741823" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,-256}}" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                </Window>
+                <Window Type="DefaultWindow" Name="Translatable/LeftArea/Buttons" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{1,-252},{1,0},{1,0}}" />
+                    <Window Type="TaharezLook/Button" Name="Translatable/BtnClose" >
+                        <Property Name="Text" Value="Close" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{1,-24},{1,0},{1,0}}" />
+                    </Window>
+                    <Window Type="TaharezLook/Button" Name="Translatable/BtnReportAbuse" >
+                        <Property Name="Text" Value="Report Abuse" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{1,-52},{1,0},{1,-28}}" />
+                    </Window>
+                    <Window Type="TaharezLook/Button" Name="Translatable/BtnPlaySelected" >
+                        <Property Name="Text" Value="Play selected" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,0},{1,0},{0,24}}" />
+                    </Window>
+                    <Window Type="TaharezLook/Button" Name="Translatable/BtnViewAuthor" >
+                        <Property Name="Text" Value="View author" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,28},{1,0},{0,52}}" />
+                    </Window>
+                    <Window Type="TaharezLook/Button" Name="Translatable/BtnRateSelected" >
+                        <Property Name="Text" Value="Rate selected" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,56},{1,0},{0,80}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="Translatable/RightArea" >
+                <Property Name="UnifiedAreaRect" Value="{{0.2,4},{0,0},{1,0},{1,0}}" />
+                <Window Type="TaharezLook/Listbox" Name="Translatable/LbPosts" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.6,0}}" />
+                </Window>
+                <Window Type="TaharezLook/MultiLineEditbox" Name="Translatable/MleNewPost" >
+                    <Property Name="Text" >
+</Property>
+                    <Property Name="MaxTextLength" Value="1073741823" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.6,4},{1,-100},{1,0}}" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                </Window>
+                <Window Type="TaharezLook/Button" Name="Translatable/BtnPost" >
+                    <Property Name="Text" Value="Post" />
+                    <Property Name="UnifiedAreaRect" Value="{{1,-96},{0.6,4},{1,0},{0.6,28}}" />
+                </Window>
+                <Window Type="TaharezLook/Button" Name="Translatable/BtnRecord" >
+                    <Property Name="Text" Value="Record" />
+                    <Property Name="UnifiedAreaRect" Value="{{1,-96},{0.6,32},{1,0},{0.6,56}}" />
+                </Window>
+                <Window Type="TaharezLook/Button" Name="Translatable/BtnStop" >
+                    <Property Name="Text" Value="Stop" />
+                    <Property Name="UnifiedAreaRect" Value="{{1,-96},{0.6,60},{1,0},{0.6,84}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

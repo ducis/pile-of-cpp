@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="root" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="DefaultWindow" Name="_scene" >
+            <Property Name="RiseOnClick" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0.02,0},{0.8,0},{0.95,0}}" />
+        </Window>
+        <Window Type="TaharezLook/FrameWindow" Name="jointShopWindow" >
+            <Property Name="Text" Value="Joints" />
+            <Property Name="TitlebarFont" Value="DejaVuSans-10" />
+            <Property Name="RollUpEnabled" Value="False" />
+            <Property Name="SizingEnabled" Value="False" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.6,0},{1,0},{1,0}}" />
+            <Property Name="DragMovingEnabled" Value="False" />
+            <Property Name="CloseButtonEnabled" Value="False" />
+            <Window Type="TaharezLook/ScrollablePane" Name="jointShopPanel" >
+                <Property Name="ContentArea" Value="l:0 t:0 r:75 b:64" />
+                <Property Name="HorzStepSize" Value="0.1" />
+                <Property Name="VertStepSize" Value="0.1" />
+                <Property Name="HorzOverlapSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VertOverlapSize" Value="0.01" />
+                <Property Name="HorzScrollPosition" Value="0" />
+                <Property Name="VertScrollPosition" Value="0" />
+                <AutoWindow NameSuffix="__auto_container__" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:75 b:64" />
+                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:75 b:64" />
+                    <Window Type="TaharezLook/Button" Name="_ballJointAdd" >
+                        <Property Name="Text" Value="BallJoint" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{0,64}}" />
+                    </Window>
+                </AutoWindow>
+            </Window>
+        </Window>
+        <Window Type="TaharezLook/FrameWindow" Name="componentShopWindow" >
+            <Property Name="Text" Value="Components" />
+            <Property Name="TitlebarFont" Value="DejaVuSans-10" />
+            <Property Name="SizingEnabled" Value="False" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0,0},{1,0},{0.6,0}}" />
+            <Property Name="DragMovingEnabled" Value="False" />
+            <Property Name="CloseButtonEnabled" Value="False" />
+            <Window Type="TaharezLook/ScrollablePane" Name="componentShopPane" >
+                <Property Name="ContentArea" Value="l:0 t:0 r:75 b:64" />
+                <Property Name="HorzStepSize" Value="0.1" />
+                <Property Name="VertStepSize" Value="0.1" />
+                <Property Name="HorzOverlapSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VertOverlapSize" Value="0.01" />
+                <Property Name="HorzScrollPosition" Value="0" />
+                <Property Name="VertScrollPosition" Value="0" />
+                <AutoWindow NameSuffix="__auto_container__" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:75 b:64" />
+                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:75 b:64" />
+                    <Window Type="TaharezLook/Button" Name="_simpleBoxComponentAdd0" >
+                        <Property Name="Text" Value="SBC0" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{0,64}}" />
+                    </Window>
+                  <Window Type="TaharezLook/Button" Name="_simpleBoxComponentAdd1" >
+                    <Property Name="Text" Value="SBC1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0,0},{1,0},{0,64}}" />
+                  </Window>
+                </AutoWindow>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

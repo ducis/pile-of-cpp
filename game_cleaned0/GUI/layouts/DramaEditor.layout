@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="TaharezLook/FrameWindow" Name="DramaEditor" >
+        <Property Name="Text" Value="Drama Script" />
+        <Property Name="Alpha" Value="0.75" />
+        <Property Name="TitlebarFont" Value="DejaVuSans-10" />
+        <Property Name="UnifiedMinSize" Value="{{0,480},{0,480}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{0.8,0}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Property Name="CloseButtonEnabled" Value="False" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Window Type="DefaultWindow" >
+            <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{1,-4},{1,-4}}" />
+            <Window Type="DefaultWindow" Name="DramaEditor/RoleSection" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.35,0},{0.6,0}}" />
+                <Window Type="TaharezLook/StaticText" >
+                    <Property Name="Text" Value="--Roles--" />
+                    <!--<Property Name="HorzExtent" Value="59" />-->
+                    <!--<Property Name="VertExtent" Value="17.8576" />-->
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0,20}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="TaharezLook/Listbox" Name="DramaEditor/LbRoles" >
+                    <Property Name="MultiSelect" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,20},{1,0},{1,-84}}" />
+                </Window>
+                <Window Type="TaharezLook/Editbox" Name="DramaEditor/EdtRoleName" >
+                    <Property Name="Text" Value="New role name here" />
+                    <Property Name="MaxTextLength" Value="64" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{1,-80},{1,0},{1,-56}}" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                </Window>
+                <Window Type="TaharezLook/Button" Name="DramaEditor/BtnNewRole" >
+                    <Property Name="Text" Value="Add" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{1,-52},{0.4,0},{1,-28}}" />
+                </Window>
+                <Window Type="TaharezLook/Button" Name="DramaEditor/BtnDeleteRole" >
+                    <Property Name="Text" Value="Remove" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.4,4},{1,-52},{1,0},{1,-28}}" />
+                </Window>
+                <Window Type="TaharezLook/Button" Name="DramaEditor/BtnChangeRoleName" >
+                    <Property Name="Text" Value="Rename" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{1,-24},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="DramaEditor/LineSection" >
+                <Property Name="UnifiedAreaRect" Value="{{0.35,4},{0,0},{1,0},{0.6,0}}" />
+                <Window Type="TaharezLook/StaticText" >
+                    <Property Name="Text" Value="--Lines--" />
+                    <!--<Property Name="HorzExtent" Value="56" />-->
+                    <!--<Property Name="VertExtent" Value="17.8576" />-->
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0,20}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="TaharezLook/Listbox" Name="DramaEditor/LbLines" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,20},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="DramaEditor/LowerSection" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.6,4},{1,0},{1,0}}" />
+                <Window Type="TaharezLook/MultiLineEditbox" Name="DramaEditor/EdtLine" >
+                    <Property Name="Text" >New line here
+</Property>
+                    <Property Name="MaxTextLength" Value="4096" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,-120},{1,-28}}" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                </Window>
+                <Window Type="TaharezLook/Button" Name="DramaEditor/BtnDone" >
+                    <Property Name="Text" Value="Done" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{1,-24},{0,84},{1,0}}" />
+                </Window>
+                <Window Type="TaharezLook/Button" Name="DramaEditor/BtnCancel" >
+                    <Property Name="Text" Value="Cancel" />
+                    <Property Name="UnifiedAreaRect" Value="{{1,-96},{1,-24},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="TaharezLook/Button" Name="DramaEditor/BtnAddLine" >
+                    <Property Name="Text" Value="Add line" />
+                    <Property Name="UnifiedAreaRect" Value="{{1,-116},{0,0},{1,0},{0,24}}" />
+                </Window>
+                <Window Type="TaharezLook/Button" Name="DramaEditor/BtnAddHint" >
+                    <Property Name="Text" Value="Add hint" />
+                    <Property Name="UnifiedAreaRect" Value="{{1,-116},{0,28},{1,0},{0,52}}" />
+                </Window>
+                <Window Type="TaharezLook/Button" Name="DramaEditor/BtnRemoveLast" >
+                    <Property Name="Text" Value="Remove last" />
+                    <Property Name="UnifiedAreaRect" Value="{{1,-116},{0,56},{1,0},{0,80}}" />
+                </Window>
+                <Window Type="TaharezLook/Button" Name="DramaEditor/BtnClear" >
+                    <Property Name="Text" Value="Clear all" />
+                    <Property Name="UnifiedAreaRect" Value="{{1,-116},{0,84},{1,0},{0,108}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

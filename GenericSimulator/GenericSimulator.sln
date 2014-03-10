@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GenericSimulatorLib", "GenericSimulatorLib\GenericSimulatorLib.vcproj", "{C29438B2-A271-48F1-8BE2-2DF6D5B53054}"
+	ProjectSection(ProjectDependencies) = postProject
+		{42C1703F-C6A1-4275-B767-9025E53AD617} = {42C1703F-C6A1-4275-B767-9025E53AD617}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GenericSimulatorTemplates", "GenericSimulatorTemplates\GenericSimulatorTemplates.vcproj", "{42C1703F-C6A1-4275-B767-9025E53AD617}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GenericSimulatorStreamShell", "GenericSimulatorStreamShell\GenericSimulatorStreamShell.vcproj", "{9961533A-2F6B-4F17-8406-A4FB828FB863}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C29438B2-A271-48F1-8BE2-2DF6D5B53054} = {C29438B2-A271-48F1-8BE2-2DF6D5B53054}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GenericSimulatorWorkbench", "GenericSimulatorWorkbench\GenericSimulatorWorkbench.vcproj", "{C407E452-1038-4E73-9570-7AEC43B57775}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9961533A-2F6B-4F17-8406-A4FB828FB863} = {9961533A-2F6B-4F17-8406-A4FB828FB863}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GenericSimulatorDLL", "GenericSimulatorDLL\GenericSimulatorDLL.vcproj", "{E18EF268-5CBA-4971-B1E6-DF94B37E3DC6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Doodle", "Doodle\Doodle.vcproj", "{35703EC4-3C70-4BB1-BCBC-7735EBD4F435}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C29438B2-A271-48F1-8BE2-2DF6D5B53054}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C29438B2-A271-48F1-8BE2-2DF6D5B53054}.Debug|Win32.Build.0 = Debug|Win32
+		{C29438B2-A271-48F1-8BE2-2DF6D5B53054}.Release|Win32.ActiveCfg = Release|Win32
+		{C29438B2-A271-48F1-8BE2-2DF6D5B53054}.Release|Win32.Build.0 = Release|Win32
+		{42C1703F-C6A1-4275-B767-9025E53AD617}.Debug|Win32.ActiveCfg = Debug|Win32
+		{42C1703F-C6A1-4275-B767-9025E53AD617}.Debug|Win32.Build.0 = Debug|Win32
+		{42C1703F-C6A1-4275-B767-9025E53AD617}.Release|Win32.ActiveCfg = Release|Win32
+		{42C1703F-C6A1-4275-B767-9025E53AD617}.Release|Win32.Build.0 = Release|Win32
+		{9961533A-2F6B-4F17-8406-A4FB828FB863}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9961533A-2F6B-4F17-8406-A4FB828FB863}.Debug|Win32.Build.0 = Debug|Win32
+		{9961533A-2F6B-4F17-8406-A4FB828FB863}.Release|Win32.ActiveCfg = Release|Win32
+		{9961533A-2F6B-4F17-8406-A4FB828FB863}.Release|Win32.Build.0 = Release|Win32
+		{C407E452-1038-4E73-9570-7AEC43B57775}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C407E452-1038-4E73-9570-7AEC43B57775}.Debug|Win32.Build.0 = Debug|Win32
+		{C407E452-1038-4E73-9570-7AEC43B57775}.Release|Win32.ActiveCfg = Release|Win32
+		{C407E452-1038-4E73-9570-7AEC43B57775}.Release|Win32.Build.0 = Release|Win32
+		{E18EF268-5CBA-4971-B1E6-DF94B37E3DC6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E18EF268-5CBA-4971-B1E6-DF94B37E3DC6}.Debug|Win32.Build.0 = Debug|Win32
+		{E18EF268-5CBA-4971-B1E6-DF94B37E3DC6}.Release|Win32.ActiveCfg = Release|Win32
+		{E18EF268-5CBA-4971-B1E6-DF94B37E3DC6}.Release|Win32.Build.0 = Release|Win32
+		{35703EC4-3C70-4BB1-BCBC-7735EBD4F435}.Debug|Win32.ActiveCfg = Debug|Win32
+		{35703EC4-3C70-4BB1-BCBC-7735EBD4F435}.Debug|Win32.Build.0 = Debug|Win32
+		{35703EC4-3C70-4BB1-BCBC-7735EBD4F435}.Release|Win32.ActiveCfg = Release|Win32
+		{35703EC4-3C70-4BB1-BCBC-7735EBD4F435}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

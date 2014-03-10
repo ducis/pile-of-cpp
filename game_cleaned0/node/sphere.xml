@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<Component name="sphere" mass="1" price="10">
+  <Children>
+    <Transform scale="0.1 0.1 0.1">
+      <Children>
+        <Material material="material/velvety.mtl">
+          <Children>
+            <Mesh mesh="mesh/sphere.obj"/>
+          </Children>
+        </Material>
+      </Children>
+    </Transform>
+  </Children>
+</Component>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GUILayout >
+
+  <Window Type="TaharezLook/FrameWindow" Name="GameMain/WriteAStory" >
+      <Property Name="Text" Value="Write A Story Here" />
+      <Property Name="Alpha" Value="0.75" />
+      <Property Name="TitlebarFont" Value="DejaVuSans-10" />
+      <Property Name="TitlebarEnabled" Value="True" />
+      <Property Name="UnifiedAreaRect" Value="{{0.258712,0},{0.252897,0},{0.519692,0},{0.850595,0}}" />
+      <Property Name="CloseButtonEnabled" Value="False" />
+      <Window Type="TaharezLook/MultiLineEditbox" Name="GameMain/WriteAStory/EdtStory" >
+        <Property Name="Text" Value="Place the story here" />
+        <Property Name="MaxTextLength" Value="1073741823" />
+        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,32},{1,-4},{1,-32}}" />
+        <Property Name="TextParsingEnabled" Value="False" />
+      </Window>
+      <Window Type="TaharezLook/Editbox" Name="GameMain/WriteAStory/EdtTitle" >
+        <Property Name="MaxTextLength" Value="1073741823" />
+        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{1,-4},{0,28}}" />
+        <Property Name="TextParsingEnabled" Value="False" />
+      </Window>
+      <Window Type="TaharezLook/Button" Name="GameMain/WriteAStory/PlaceStory" >
+        <Property Name="Text" Value="Place the story here" />
+        <Property Name="UnifiedAreaRect" Value="{{0,4},{1,-28},{0.5,-2},{1,-4}}" />
+      </Window>
+      <Window Type="TaharezLook/Button" Name="GameMain/WriteAStory/PlaceStory/Clear" >
+        <Property Name="Text" Value="Clear all" />
+        <Property Name="UnifiedAreaRect" Value="{{0.5,2},{1,-28},{1,-4},{1,-4}}" />
+      </Window>
+    </Window>
+</GUILayout>

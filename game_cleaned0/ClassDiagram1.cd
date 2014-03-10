@@ -1,0 +1,649 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CClient" Collapsed="true">
+    <Position X="3.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACBGACDBAAAIQAAAgAAAJCAgkAEAEAAgBAgQIAQ=</HashCode>
+      <FileName>CClient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAabb" Collapsed="true">
+    <Position X="20.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIIAQAAAAADBYhAIAAAAECAIBAAQBAAAAAAQAIAAA=</HashCode>
+      <FileName>CAabb.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CActor" Collapsed="true">
+    <Position X="0.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAACAEAAAAAAkABAoAAEAgAAEAQAAACAQAAAAAA=</HashCode>
+      <FileName>CActor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCamera" Collapsed="true">
+    <Position X="22.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECACAAAgIICAAgAAAACgGgEAEAQAAAQAgIAAAAABA=</HashCode>
+      <FileName>CCamera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAutoTabViewAABB" Collapsed="true">
+    <Position X="14.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAQAAAAAAAAAAAAAAAAAAAAAAEAAAQAAAAEBAIAAAA=</HashCode>
+      <FileName>CComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CComponent" Collapsed="true">
+    <Position X="11.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAFAAAAAAAAEEQAAAAAAAAQEAUAAAAA=</HashCode>
+      <FileName>CComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CComponentInstance" Collapsed="true">
+    <Position X="9.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAACBAQAAgBAAAEgAEAAAAAgAAAAAACGA=</HashCode>
+      <FileName>CComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFixedPipeShadow" Collapsed="true">
+    <Position X="24.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIACAAAAQQAAACAAAAAQEAAEAAgSBAAgABAAoCACAQ=</HashCode>
+      <FileName>CFixedPipeShadow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFunc" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CFunc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFuncOut1f" Collapsed="true">
+    <Position X="17" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CFunc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFuncIn1f" Collapsed="true">
+    <Position X="14" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CFunc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFuncDomainLeftZero" Collapsed="true">
+    <Position X="14" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>CFunc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFuncIn1fOut1f" Collapsed="true">
+    <Position X="14" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CFunc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFuncDomainLeftZeroOut1f" Collapsed="true">
+    <Position X="17" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CFunc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGraphics" Collapsed="true">
+    <Position X="26" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CRAIlNEixKlBnoXNQaxACNQCgApMA5McFEDaIUITiQM=</HashCode>
+      <FileName>CGraphics.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGui" Collapsed="true">
+    <Position X="27.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgACAACABAAAAIAAAAAAAgAAAAAAACAAAAAAA=</HashCode>
+      <FileName>CGui.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHeightfieldTerrain" Collapsed="true">
+    <Position X="29.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAGhwzwIAhCcCBCAAIEggAwQAAAAKBCAABAAII=</HashCode>
+      <FileName>CHeightfieldTerrain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHeightmapTerrainSquare" Collapsed="true">
+    <Position X="20.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgFAIAAAQAgQCCoQAECEEBAgAAgJAAgATAAAgAQEEA=</HashCode>
+      <FileName>CHeightmapTerrainSquare.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLog" Collapsed="true">
+    <Position X="22.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIACAAAAAgAAAQAAAAAAAAAAAgAEAAAABAAAAAAAAA=</HashCode>
+      <FileName>CLog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMainProgram" Collapsed="true">
+    <Position X="3.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CMainProgram.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMaterial" Collapsed="true">
+    <Position X="6.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAgAAAAABAAAAAAAAA=</HashCode>
+      <FileName>CMaterial.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMaterialSimple" Collapsed="true">
+    <Position X="5.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAABAACAgAAAA=</HashCode>
+      <FileName>CMaterial.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMaterialScriptedCg" Collapsed="true">
+    <Position X="7.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAgAAgAEBAAAAAMBAAAAAACAAAAkABAAAgIAAAA=</HashCode>
+      <FileName>CMaterial.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMatingSurface" Collapsed="true">
+    <Position X="24.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAIAAAAAAAAIAAAAAAACAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>CMatingSurface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMesh" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAiAAAAAAAAAAAAAAAAAAAACgCAAAAACAIUFACAA=</HashCode>
+      <FileName>CMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMeshNvModel" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAiAAAAAAAAAAAAAAAAAAAAAAAAAAACCCAUAAAAA=</HashCode>
+      <FileName>CMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CNamedVarManager&lt;T, Invalid, Init, InitNameList, InitVarList, InitPairs&gt;" Collapsed="true">
+    <Position X="26" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAQAEAAAQAAABAAAAAAAAAEAAAAAAACAAABAACAAAA=</HashCode>
+      <FileName>CNamedVarManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CNode" Collapsed="true">
+    <Position X="11.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAggAAEYABAAIMACACIAAAgkAAAAAAAAEKQBBIQA=</HashCode>
+      <FileName>CNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CNodeDynamic" Collapsed="true">
+    <Position X="7" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CNodeTransform" Collapsed="true">
+    <Position X="9.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAggIAAAAAAAAAAAAAAAAAggAAAAAAAAEAQAAAQA=</HashCode>
+      <FileName>CNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CNodeMesh" Collapsed="true">
+    <Position X="11.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAEAAAAAAAAAAAAAAgAAAQAAAAAEAQAAAAA=</HashCode>
+      <FileName>CNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CNodeMeshWithAxis" Collapsed="true">
+    <Position X="11.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQIAAIAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>CNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CNodeMaterial" Collapsed="true">
+    <Position X="13.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIQAAAAAAAAgAAAAAAAAAEIAAAAAA=</HashCode>
+      <FileName>CNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CNodeContext" Collapsed="true">
+    <Position X="27.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAgAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>CNodeContext.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CNodeSimpleTexture" Collapsed="true">
+    <Position X="18.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAACgAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>CNodeSimpleTexture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CParticleEmitter" Collapsed="true">
+    <Position X="0.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAACAAAAAAAAAAAAQAABAAAEACAgAQABABAAAAiAAAA=</HashCode>
+      <FileName>CParticleEmitter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPhysical" Collapsed="true">
+    <Position X="22.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAEAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>CPhysical.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CQuadTreeTerrain" Collapsed="true">
+    <Position X="24.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgIEAAAABgDAAAIGQAAAAAAABAACAUAAAERgBADAQA=</HashCode>
+      <FileName>CQuadTreeTerrain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CQuadTreeTerrainNode" Collapsed="true">
+    <Position X="26" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAACAAAACAgAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>CQuadTreeTerrainNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CResourceManager" Collapsed="true">
+    <Position X="27.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEACAAABAAAAAAAAAgAAUABgAgJAAAABAAAAEAA=</HashCode>
+      <FileName>CResourceManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRotatableView" Collapsed="true">
+    <Position X="29.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgCAAAAAgIABAEAAAAAQAAAAAAAgQAAEAABCAAQAA=</HashCode>
+      <FileName>CRotatableView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSASScript" Collapsed="true">
+    <Position X="20.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAEAAECAAAAAAAEAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSASScript.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSASScriptRenderer" Collapsed="true">
+    <Position X="22.5" Y="3.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="CSASScriptRenderer::DRAWTYPE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CSASScriptRenderer.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="CSASScriptRenderer::__unnamed_00a9_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CSASScriptRenderer.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="CSASScriptRenderer::RENDERERSTATE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CSASScriptRenderer.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="CSASScriptRenderer::RENDERTARGETSTATE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CSASScriptRenderer.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABAIAFgBIAABEIAAABBUBAECACAhIAAAgBASRAxAIAA=</HashCode>
+      <FileName>CSASScriptRenderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CScriptedEffect" Collapsed="true">
+    <Position X="24.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAFABAAACAAAEAAAEgAAAAAgSgAFGAAABCAAAAA=</HashCode>
+      <FileName>CScriptedEffect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSerializable" Collapsed="true">
+    <Position X="26" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSerializable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CServer" Collapsed="true">
+    <Position X="27.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CServer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSkybox" Collapsed="true">
+    <Position X="20.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSkybox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSubProgram" Collapsed="true">
+    <Position X="3.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAABAAABAFAAAAAAAAgAgAAAAAAACAAAQAAA=</HashCode>
+      <FileName>CSubProgram.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTimer" Collapsed="true">
+    <Position X="24.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAMAAAAAAAACAAAABQAAAAAAIAACAAAAAAA=</HashCode>
+      <FileName>CTimer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUnitEditor" Collapsed="true">
+    <Position X="3.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>TAdIYo60IQhVAghCEVQewA8NtmAER5i2wN8KQ4AQQoA=</HashCode>
+      <FileName>CUnitEditor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CVidConfig" Collapsed="true">
+    <Position X="26" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAEAAAAAAAAAAAEAwAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CVidConfig.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CVolume" Collapsed="true">
+    <Position X="27.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>CVolume.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CWorld" Collapsed="true">
+    <Position X="29.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CWorld.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vector2" Collapsed="true">
+    <Position X="24.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GgAAIAEAAAAQAAAAAEQAQAAAAAAABAgAAABgAAAAAoA=</HashCode>
+      <FileName>VRMLLoader\mtxlib\mtxlib.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vector3" Collapsed="true">
+    <Position X="26" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GgAAoAAAAAAQAAAAAEQAQQAAAAAABAgAAABgAQAAAoA=</HashCode>
+      <FileName>VRMLLoader\mtxlib\mtxlib.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vector4" Collapsed="true">
+    <Position X="27.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GgAAYAAAAAAQAAAAAEQAQQAAAAAABAgAAAhgAQAAAoA=</HashCode>
+      <FileName>VRMLLoader\mtxlib\mtxlib.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="matrix33" Collapsed="true">
+    <Position X="20.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GgAAAAAAAABAAAAAAAAAQQAAAAAAAAgACAAAAABAAoA=</HashCode>
+      <FileName>VRMLLoader\mtxlib\mtxlib.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="matrix44" Collapsed="true">
+    <Position X="22.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GggAAAAAAABAAAAAAAQAQQAAAAAAAAgACAAAAABAAgA=</HashCode>
+      <FileName>VRMLLoader\mtxlib\mtxlib.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTextureGL" Collapsed="true">
+    <Position X="2" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAABAAAAAAAAAAAAAACAAAgAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>nvImage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CServerNetworking" Collapsed="true">
+    <Position X="29.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCAABAAAKAAAAAAABCAAAAEAAAAAAAAAAAAABAACCAA=</HashCode>
+      <FileName>CServerNetworking.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="nv::Image" Collapsed="true">
+    <Position X="2" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UBDIBAACDICAAQQgAQMSQEKCAZAAQBIAABAQGIAAgEA=</HashCode>
+      <FileName>nvImage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="nv::Model" Collapsed="true">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AaNEqSCOIPUATMICksggIBUCAoUASNjiAA4CgBFBAIA=</HashCode>
+      <FileName>nvModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEGUIEXT::CNodeShow" Collapsed="true">
+    <Position X="29.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAABgAAAAAAAAAAAAEAFIBAAAAAAJQwAA=</HashCode>
+      <FileName>CEGUIEXTCNodeShow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEGUIEXT::CNodeShowInstance" Collapsed="true">
+    <Position X="20.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAACAAAAAAAAAAAAAABAAAAAAAAAQAAA=</HashCode>
+      <FileName>CEGUIEXTCNodeShow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEGUIEXT::CTexShow" Collapsed="true">
+    <Position X="22.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAQAABAAAAAAAAAQAgA=</HashCode>
+      <FileName>CEGUIEXTCTexShow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="BoundingBox" Collapsed="true">
+    <Position X="20.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAQA=</HashCode>
+      <FileName>VRMLLoader\VRMLLoader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Mesh" Collapsed="true">
+    <Position X="11.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAIAABAAEAAABBAAgCAAEAAAABAQYAAAAQAABABAAAA=</HashCode>
+      <FileName>VRMLLoader\VRMLLoader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CNamedVarManagerOBJECTNAMEPAIR&lt;T&gt;" Collapsed="true">
+    <Position X="22.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CNamedVarManager.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="QUAT" Collapsed="true">
+    <Position X="24.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhgAQAAAAA=</HashCode>
+      <FileName>TypeMacros.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="CVRMLMesh" Collapsed="true">
+    <Position X="11.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VRMLLoader\VRMLLoader.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CFunc1f1f" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CFunc.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="INDEXTYPE" Collapsed="true">
+    <Position X="20.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CQuadTreeTerrain.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SASPROCPTR" Collapsed="true">
+    <Position X="27.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSASScript.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SASCOMMANDPARSERPTR" Collapsed="true">
+    <Position X="26" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSASScript.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="nv::vec2f" Collapsed="true">
+    <Position X="20.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>nvMath.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="nv::vec2i" Collapsed="true">
+    <Position X="22.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>nvMath.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="nv::vec2ui" Collapsed="true">
+    <Position X="24.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>nvMath.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="nv::vec3f" Collapsed="true">
+    <Position X="26" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>nvMath.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="nv::vec3i" Collapsed="true">
+    <Position X="27.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>nvMath.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="nv::vec3ui" Collapsed="true">
+    <Position X="29.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>nvMath.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="nv::vec4f" Collapsed="true">
+    <Position X="20.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>nvMath.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="nv::vec4i" Collapsed="true">
+    <Position X="22.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>nvMath.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="nv::vec4ui" Collapsed="true">
+    <Position X="24.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>nvMath.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="nv::matrix4f" Collapsed="true">
+    <Position X="22.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>nvMath.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="nv::quaternionf" Collapsed="true">
+    <Position X="24.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>nvMath.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SRLFUNCPTR" Collapsed="true">
+    <Position X="29.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Serialization.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TEXTUREHANDLE" Collapsed="true">
+    <Position X="2" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TypeMacros.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="ERRORENUM" Collapsed="true">
+    <Position X="22.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAACAgAAAAAAAAAAAAAAAAgACAAQA=</HashCode>
+      <FileName>ERRORENUM.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NCollisionDetection::__unnamed_01c9" Collapsed="true">
+    <Position X="20.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>CollisionDetection.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="宋体" Size="9" />
+</ClassDiagram>

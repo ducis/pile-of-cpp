@@ -1,0 +1,140 @@
+  0
+TABLE
+  2
+LTYPE
+ 70
+     3
+  0
+LTYPE
+  2
+CONTINUOUS
+ 70
+     0
+  3
+Solid line
+ 72
+    65
+ 73
+     0
+ 40
+0.0
+  0
+LTYPE
+  2
+CENTER
+ 70
+     0
+  3
+Center ____ _ ____ _ ____ _ ____ _ ____ _ ____
+ 72
+    65
+ 73
+     4
+ 40
+2.0
+ 49
+1.25
+ 49
+-0.25
+ 49
+0.25
+ 49
+-0.25
+  0
+LTYPE
+  2
+DASHED
+ 70
+     0
+  3
+Dashed __ __ __ __ __ __ __ __ __ __ __ __ __ _
+ 72
+    65
+ 73
+     2
+ 40
+0.75
+ 49
+0.5
+ 49
+-0.25
+  0
+ENDTAB
+  0
+TABLE
+  2
+LAYER
+ 70
+     7
+  0
+LAYER
+  2
+0
+ 70
+     0
+ 62
+     7
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+标注
+ 70
+     0
+ 62
+     2
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+DEFPOINTS
+ 70
+     0
+ 62
+     7
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+实线
+ 70
+     0
+ 62
+     7
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+中心线
+ 70
+     4
+ 62
+     3
+  6
+CENTER
+  0
+LAYER
+  2
+虚线
+ 70
+     0
+ 62
+     9
+  6
+DASHED
+  0
+LAYER
+  2
+文字
+ 70
+     0
+ 62
+     7
+  6
+CONTINUOUS
+  0
+ENDTAB

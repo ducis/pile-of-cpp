@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<Component name="testcomponent" mass="10" price="100" tabViewDist="20">
+  <Children>
+    <Transform scale="0.1 0.1 0.1">
+      <Children>
+        <Material material="material/balloon.mtl">
+          <Children>
+            <Mesh name="testnode" mesh="mesh/teapot.obj" axis="0 0 -1"/>
+          </Children>
+        </Material>
+      </Children>
+    </Transform>
+  </Children>
+</Component>

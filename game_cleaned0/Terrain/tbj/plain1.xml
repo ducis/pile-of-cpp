@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<HeightfieldTerrain size="4500" minX="-2250" minY="-2250" sizeFirstBlockPool="1000" sizeNewBlockPool="50" lodThreshold="0.2" nBlockSeg="32" maxBlockLvl="1000" minBlockSize="32">
+  <NewHeightfield type="Cascaded" >
+	  <NewHeightfield type="Textured" texture="map1/high1.png" freqX="0.05" freqY="0.05" amp="3" zOffset="0" phaseX="0" phaseY="0"/>
+    <NewHeightfield type="Textured" texture="map1/high2.png" freqX="0.02" freqY="0.04" amp="2" zOffset="5" phaseX="1" phaseY="7"/>
+  </NewHeightfield>
+  <Colorfield texture="color/Simple_Stone_Mtl_Granite_bump.PNG" freq="0.0003"/>
+</HeightfieldTerrain>

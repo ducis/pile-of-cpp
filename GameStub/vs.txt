@@ -1,0 +1,91 @@
+
+float4 LightVec = {0.0f, 0.0f, -1.0f, 1.0f};    //light Direction 
+float4 LightColor = {1.0f, 1.0f, 1.0f, 1.0f}; // Light Diffuse
+//float4 MaterialAmbient : MATERIALAMBIENT = {0.1f, 0.1f, 0.1f, 1.0f};
+//float4 MaterialDiffuse : MATERIALDIFFUSE = {0.8f, 0.8f, 0.8f, 1.0f};
+
+
+struct VS_INPUT
+{
+    float4  Pos             : POSITION;
+    float4  Normal          : NORMAL;
+    float4  Tex0            : TEXCOORD0;
+    float4  BlendIndices    : BLENDINDICES;
+    float4  BlendWeights   : BLENDWEIGHT;
+};
+
+struct VS_OUTPUT
+{
+    float4  Pos     : POSITION;
+    float4  Color : COLOR;
+    float4  Tex0    : TEXCOORD0;
+};
+
+
+texture PosMatMap;
+
+sampler PosMatMapSampler = 
+sampler_state
+{
+    Texture = <PosMatMap>;
+    MipFilter = NONE;
+    MinFilter = NONE;
+    MagFilter = NONE;
+};
+
+
+texture NorMatMap;
+
+sampler NorMatMapSampler = 
+sampler_state
+{
+    Texture = <NorMatMap>;
+    MipFilter = NONE;
+    MinFilter = NONE;
+    MagFilter = NONE;
+};
+
+float4x4 ViewProj;
+float4x4 MatrixForUnbounded;
+float4x4 MatrixForUnboundedNormals;
+
+VS_OUTPUT Skin(VS_INPUT inp){
+	VS_OUTPUT outp;
+	outp.Tex0=inp.Tex0;
+	outp.Pos=0;
+	float3 normal={0.0f,0.0f,0.0f};
+	//to test float4
+	float originalWeight=1-inp.BlendWeights[0]-inp.BlendWeights[1]-inp.BlendWeights[2]-inp.BlendWeights[3];
+	if(originalWeight>0.0001f){
+		outp.Pos+=mul(inp.Pos,MatrixForUnbounded)*originalWeight;
+		normal+=mul(inp.Normal,MatrixForUnboundedNormals)*originalWeight;
+	}
+
+	if(inp.BlendWeights[0]>0.0001f){
+		float4x4 tMat;
+		/*tMat._m00_m10_m20_m30=tex1D(PosMatMapSampler,inp.BlendIndices[0]*4);
+		tMat._m01_m11_m21_m31=tex1D(PosMatMapSampler,inp.BlendIndices[0]*4+1);
+		tMat._m02_m12_m22_m32=tex1D(PosMatMapSampler,inp.BlendIndices[0]*4+2);
+		tMat._m03_m13_m23_m33=tex1D(PosMatMapSampler,inp.BlendIndices[0]*4+3);*/
+		outp.Pos+=mul(inp.Pos,tMat)*inp.BlendWeights[0];
+		
+		normal+=mul(inp.Normal,tMat)*inp.BlendWeights[0];
+	}
+	/*for(uint i=0;i<4;++i){
+		if(inp.BlendWeights[i]<0.0001f){
+			i=100;
+		}else{
+			float4x4 tMat;
+			tMat._m00_m10_m20_m30=tex1D(PosMatMapSampler,inp.BlendIndices[i]);
+			outp.Pos+=mul(inp.Pos,tMat)*inp.BlendWeights[i];
+			
+			normal+=mul(inp.Normal,tMat)*inp.BlendWeights[i];
+		}
+	}*/
+	outp.Pos.w=1.0f;
+	outp.Pos=mul(outp.Pos,ViewProj);
+	normalize(normal);
+	outp.Color=/*LightColor**/(float4)dot((float3)LightVec,normal);
+	outp.Color.w=1.0f;
+	return outp;
+}

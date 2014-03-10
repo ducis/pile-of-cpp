@@ -1,0 +1,78 @@
+/*
+
+% Description of my shader.
+% Second line of description for my shader.
+
+keywords: material classic
+
+date: YYMMDD
+
+*/
+
+//float4x4 WorldViewProj : WorldViewProjection;
+
+//float4 mainVS(float3 pos : POSITION) : POSITION{
+//	return mul(WorldViewProj, float4(pos.xyz, 1.0));
+//}
+
+//float4 mainPS() : COLOR {
+//	return float4(1.0, 1.0, 1.0, 1.0);
+//}
+
+#include "include/Quad.cgh"
+
+float Script : STANDARDSGLOBAL <
+    string UIWidget = "none";
+    string ScriptClass = "scene";
+    string ScriptOrder = "postprocess";
+    string ScriptOutput = "color";
+    string Script = "Technique=Main;";
+> = 0.8;
+
+float4 gClearColor <
+    string UIWidget = "Color";
+    string UIName = "Background";
+> = {1.0,0,0,0};
+
+float gClearDepth <string UIWidget = "none";> = 1.0;
+
+DECLARE_QUAD_TEX(gSceneTexture,gSceneSampler,"A8R8G8B8");
+DECLARE_QUAD_DEPTH_BUFFER(gDepthTexture,"D24S8");
+
+float4 Fill(QuadVertexOutput IN,
+		    uniform sampler2D SceneSampler
+) : COLOR {
+    QUAD_REAL4 scnC = tex2D(SceneSampler,IN.UV);
+    float4 t;
+    t.rgba=(scnC.r+scnC.g+scnC.b)/3;
+    return t*t*t*t;
+	//return float4(0.5,0.5,0.5,1.0);
+}
+technique Main < string Script =
+    "RenderColorTarget0=gSceneTexture;"
+	"RenderDepthStencilTarget=gDepthTexture;"
+    //"RenderDepthStencilTarget=DepthBuffer;"
+    "ClearSetColor=gClearColor;"
+    "ClearSetDepth=gClearDepth;"
+	"Clear=Color;"
+	"Clear=Depth;"
+    "ScriptExternal=Color;" // calls all "previous" techniques & materials
+    "Pass=PostP0;"
+	;
+> {
+    pass PostP0 < string Script =
+	"RenderColorTarget0=;"
+	"RenderDepthStencilTarget=;"
+	//"Clear=Color;"
+	"Draw=Buffer;"
+	;
+    > {
+		VertexProgram = compile vp40 ScreenQuadVS2(QuadTexelOffsets);
+		DepthTestEnable = false;
+		DepthMask = false;
+		BlendEnable = false;
+		CullFaceEnable = false;
+		DepthFunc = LEqual;
+		FragmentProgram = compile fp40 Fill(gSceneSampler);
+    }
+}

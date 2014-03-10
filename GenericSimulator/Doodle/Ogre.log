@@ -1,0 +1,179 @@
+20:14:00: Creating resource group General
+20:14:00: Creating resource group Internal
+20:14:00: Creating resource group Autodetect
+20:14:00: SceneManagerFactory for type 'DefaultSceneManager' registered.
+20:14:00: Registering ResourceManager for type Material
+20:14:00: Registering ResourceManager for type Mesh
+20:14:00: Registering ResourceManager for type Skeleton
+20:14:00: MovableObjectFactory for type 'ParticleSystem' registered.
+20:14:00: OverlayElementFactory for type Panel registered.
+20:14:00: OverlayElementFactory for type BorderPanel registered.
+20:14:00: OverlayElementFactory for type TextArea registered.
+20:14:00: Registering ResourceManager for type Font
+20:14:00: ArchiveFactory for archive type FileSystem registered.
+20:14:00: ArchiveFactory for archive type Zip registered.
+20:14:00: DDS codec registering
+20:14:00: FreeImage version: 3.13.1
+20:14:00: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+20:14:00: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2,pfm,pct,pict,pic,bay,bmq,cr2,crw,cs1,dc2,dcr,dng,erf,fff,hdr,k25,kdc,mdc,mos,mrw,nef,orf,pef,pxn,raf,raw,rdc,sr2,srf,arw,3fr,cine,ia,kc2,mef,nrw,qtk,rw2,sti,drf,dsc,ptx,cap,iiq,rwz
+20:14:00: Registering ResourceManager for type HighLevelGpuProgram
+20:14:00: Registering ResourceManager for type Compositor
+20:14:00: MovableObjectFactory for type 'Entity' registered.
+20:14:00: MovableObjectFactory for type 'Light' registered.
+20:14:00: MovableObjectFactory for type 'BillboardSet' registered.
+20:14:00: MovableObjectFactory for type 'ManualObject' registered.
+20:14:00: MovableObjectFactory for type 'BillboardChain' registered.
+20:14:00: MovableObjectFactory for type 'RibbonTrail' registered.
+20:14:00: Loading library .\RenderSystem_Direct3D9_d
+20:14:00: Installing plugin: D3D9 RenderSystem
+20:14:00: D3D9 : Direct3D9 Rendering Subsystem created.
+20:14:00: D3D9: Driver Detection Starts
+20:14:00: D3D9: Driver Detection Ends
+20:14:00: Plugin successfully installed
+20:14:00: Loading library .\RenderSystem_GL_d
+20:14:00: Installing plugin: GL RenderSystem
+20:14:00: OpenGL Rendering Subsystem created.
+20:14:00: Plugin successfully installed
+20:14:00: Loading library .\Plugin_ParticleFX_d
+20:14:00: Installing plugin: ParticleFX
+20:14:00: Particle Emitter Type 'Point' registered
+20:14:00: Particle Emitter Type 'Box' registered
+20:14:00: Particle Emitter Type 'Ellipsoid' registered
+20:14:00: Particle Emitter Type 'Cylinder' registered
+20:14:00: Particle Emitter Type 'Ring' registered
+20:14:00: Particle Emitter Type 'HollowEllipsoid' registered
+20:14:00: Particle Affector Type 'LinearForce' registered
+20:14:00: Particle Affector Type 'ColourFader' registered
+20:14:00: Particle Affector Type 'ColourFader2' registered
+20:14:00: Particle Affector Type 'ColourImage' registered
+20:14:00: Particle Affector Type 'ColourInterpolator' registered
+20:14:00: Particle Affector Type 'Scaler' registered
+20:14:00: Particle Affector Type 'Rotator' registered
+20:14:00: Particle Affector Type 'DirectionRandomiser' registered
+20:14:00: Particle Affector Type 'DeflectorPlane' registered
+20:14:00: Plugin successfully installed
+20:14:00: Loading library .\Plugin_CgProgramManager_d
+20:14:00: Installing plugin: Cg Program Manager
+20:14:01: Plugin successfully installed
+20:14:01: Loading library .\Plugin_PCZSceneManager_d
+20:14:01: Installing plugin: Portal Connected Zone Scene Manager
+20:14:01: PCZone Factory Type 'ZoneType_Default' registered
+20:14:01: Plugin successfully installed
+20:14:01: Loading library .\Plugin_OctreeZone_d
+20:14:01: Installing plugin: Octree Zone Factory
+20:14:01: Plugin successfully installed
+20:14:01: Loading library .\Plugin_OctreeSceneManager_d
+20:14:01: Installing plugin: Octree & Terrain Scene Manager
+20:14:01: Plugin successfully installed
+20:14:01: *-*-* OGRE Initialising
+20:14:01: *-*-* Version 1.7.3 (Cthugha)
+20:14:01: D3D9 : RenderSystem Option: Allow NVPerfHUD = No
+20:14:01: D3D9 : RenderSystem Option: FSAA = 0
+20:14:01: D3D9 : RenderSystem Option: Floating-point mode = Consistent
+20:14:01: D3D9 : RenderSystem Option: Full Screen = No
+20:14:01: D3D9 : RenderSystem Option: Rendering Device = Monitor-1-NVIDIA GeForce G105M
+20:14:01: D3D9 : RenderSystem Option: Resource Creation Policy = Create on all devices
+20:14:01: D3D9 : RenderSystem Option: VSync = No
+20:14:01: D3D9 : RenderSystem Option: VSync Interval = 1
+20:14:01: D3D9 : RenderSystem Option: Video Mode = 800 x 600 @ 32-bit colour
+20:14:01: D3D9 : RenderSystem Option: sRGB Gamma Conversion = No
+20:14:01: CPU Identifier & Features
+20:14:01: -------------------------
+20:14:01:  *   CPU ID: GenuineIntel: Pentium(R) Dual-Core CPU       T4200  @ 2.00GHz
+20:14:01:  *      SSE: yes
+20:14:01:  *     SSE2: yes
+20:14:01:  *     SSE3: yes
+20:14:01:  *      MMX: yes
+20:14:01:  *   MMXEXT: yes
+20:14:01:  *    3DNOW: no
+20:14:01:  * 3DNOWEXT: no
+20:14:01:  *     CMOV: yes
+20:14:01:  *      TSC: yes
+20:14:01:  *      FPU: yes
+20:14:01:  *      PRO: yes
+20:14:01:  *       HT: no
+20:14:01: -------------------------
+20:14:01: D3D9 : Subsystem Initialising
+20:14:01: Registering ResourceManager for type Texture
+20:14:01: Registering ResourceManager for type GpuProgram
+20:14:01: D3D9RenderSystem::_createRenderWindow "The Catapult Game", 800x600 windowed  miscParams: FSAA=0 FSAAHint= colourDepth=32 gamma=false monitorIndex=0 useNVPerfHUD=false vsync=false vsyncInterval=1 
+20:14:01: D3D9 : Created D3D9 Rendering Window 'The Catapult Game' : 800x600, 32bpp
+20:14:01: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+20:14:01: D3D9: Vertex texture format supported - PF_FLOAT16_RGB
+20:14:01: D3D9: Vertex texture format supported - PF_FLOAT16_RGBA
+20:14:01: D3D9: Vertex texture format supported - PF_FLOAT32_RGB
+20:14:01: D3D9: Vertex texture format supported - PF_FLOAT32_RGBA
+20:14:01: D3D9: Vertex texture format supported - PF_FLOAT16_R
+20:14:01: D3D9: Vertex texture format supported - PF_FLOAT32_R
+20:14:01: D3D9: Vertex texture format supported - PF_FLOAT16_GR
+20:14:01: D3D9: Vertex texture format supported - PF_FLOAT32_GR
+20:14:01: RenderSystem capabilities
+20:14:01: -------------------------
+20:14:01: RenderSystem Name: Direct3D9 Rendering Subsystem
+20:14:01: GPU Vendor: nvidia
+20:14:01: Device Name: Monitor-1-NVIDIA GeForce G105M
+20:14:01: Driver Version: 6.14.11.9744
+20:14:01:  * Fixed function pipeline: yes
+20:14:01:  * Hardware generation of mipmaps: yes
+20:14:01:  * Texture blending: yes
+20:14:01:  * Anisotropic texture filtering: yes
+20:14:01:  * Dot product texture operation: yes
+20:14:01:  * Cube mapping: yes
+20:14:01:  * Hardware stencil buffer: yes
+20:14:01:    - Stencil depth: 8
+20:14:01:    - Two sided stencil support: yes
+20:14:01:    - Wrap stencil values: yes
+20:14:01:  * Hardware vertex / index buffers: yes
+20:14:01:  * Vertex programs: yes
+20:14:01:  * Number of floating-point constants for vertex programs: 256
+20:14:01:  * Number of integer constants for vertex programs: 16
+20:14:01:  * Number of boolean constants for vertex programs: 16
+20:14:01:  * Fragment programs: yes
+20:14:01:  * Number of floating-point constants for fragment programs: 224
+20:14:01:  * Number of integer constants for fragment programs: 16
+20:14:01:  * Number of boolean constants for fragment programs: 16
+20:14:01:  * Geometry programs: no
+20:14:01:  * Number of floating-point constants for geometry programs: 0
+20:14:01:  * Number of integer constants for geometry programs: 0
+20:14:01:  * Number of boolean constants for geometry programs: 0
+20:14:01:  * Supported Shader Profiles: hlsl ps_1_1 ps_1_2 ps_1_3 ps_1_4 ps_2_0 ps_2_a ps_2_b ps_2_x ps_3_0 vs_1_1 vs_2_0 vs_2_a vs_2_x vs_3_0
+20:14:01:  * Texture Compression: yes
+20:14:01:    - DXT: yes
+20:14:01:    - VTC: no
+20:14:01:    - PVRTC: no
+20:14:01:  * Scissor Rectangle: yes
+20:14:01:  * Hardware Occlusion Query: yes
+20:14:01:  * User clip planes: yes
+20:14:01:  * VET_UBYTE4 vertex element type: yes
+20:14:01:  * Infinite far plane projection: yes
+20:14:01:  * Hardware render-to-texture: yes
+20:14:01:  * Floating point textures: yes
+20:14:01:  * Non-power-of-two textures: yes
+20:14:02:  * Volume textures: yes
+20:14:02:  * Multiple Render Targets: 4
+20:14:02:    - With different bit depths: yes
+20:14:02:  * Point Sprites: yes
+20:14:02:  * Extended point parameters: yes
+20:14:02:  * Max Point Size: 10
+20:14:02:  * Vertex texture fetch: yes
+20:14:02:  * Number of world matrices: 0
+20:14:02:  * Number of texture units: 8
+20:14:02:  * Stencil buffer depth: 8
+20:14:02:  * Number of vertex blend matrices: 0
+20:14:02:    - Max vertex textures: 4
+20:14:02:    - Vertex textures shared: no
+20:14:02:  * Render to Vertex Buffer : no
+20:14:02:  * DirectX per stage constants: yes
+20:14:02: ***************************************
+20:14:02: *** D3D9 : Subsystem Initialised OK ***
+20:14:02: ***************************************
+20:14:02: DefaultWorkQueue('Root') initialising on thread main.
+20:14:02: Particle Renderer Type 'billboard' registered
+20:14:02: SceneManagerFactory for type 'PCZSceneManager' registered.
+20:14:02: MovableObjectFactory for type 'PCZLight' registered.
+20:14:02: MovableObjectFactory for type 'Portal' registered.
+20:14:02: MovableObjectFactory for type 'AntiPortal' registered.
+20:14:02: PCZone Factory Type 'ZoneType_Octree' registered
+20:14:02: PCZone Factory Type 'ZoneType_Terrain' registered
+20:14:02: SceneManagerFactory for type 'OctreeSceneManager' registered.
+20:14:02: SceneManagerFactory for type 'TerrainSceneManager' registered.

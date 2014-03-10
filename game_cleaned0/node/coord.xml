@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<Component name="coord" mass="1" price="10">
+  <Children>
+    <Transform scale="0.2 0.2 0.2">
+      <Children>
+        <Material material="Material/Blinn.mtl">
+          <Children>
+            <Mesh mesh="mesh/coord.obj"/>
+            <UseNode group="node/cube.xml" name="cube"/>
+          </Children>
+        </Material>
+      </Children>
+    </Transform>
+  </Children>
+</Component>

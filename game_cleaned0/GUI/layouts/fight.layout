@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,800},{0,600}}" />
+        <Window Type="TaharezLook/StaticImage" Name="bgimage" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        </Window>
+        <Window Type="TaharezLook/StaticImage" Name="operationpanel " >
+            <Property Name="UnifiedAreaRect" Value="{{0.0125002,0},{0.746557,0},{0.992187,0},{0.985837,0}}" />
+            <Window Type="TaharezLook/StaticImage" Name="role" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0106051,0},{0.0488514,0},{0.163502,0},{0.954287,0}}" />
+                <Window Type="TaharezLook/ProgressBar" Name="hp" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0408733,0},{0.879612,0},{0.938691,0},{0.981174,0}}" />
+                </Window>
+            </Window>
+            <Window Type="TaharezLook/StaticImage" Name="scrollcontainer" >
+                <Property Name="UnifiedAreaRect" Value="{{0.477654,0},{0.0799997,0},{0.627813,0},{0.925199,0}}" />
+                <Window Type="TaharezLook/StaticImage" Name="one" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.45,0},{0.45,0}}" />
+                </Window>
+                <Window Type="TaharezLook/StaticImage" Name="two" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.55,0},{0.05,0},{0.95,0},{0.45,0}}" />
+                </Window>
+                <Window Type="TaharezLook/StaticImage" Name="three" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.55,0},{0.45,0},{0.95,0}}" />
+                </Window>
+                <Window Type="TaharezLook/StaticImage" Name="four" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.55,0},{0.55,0},{0.95,0},{0.95,0}}" />
+                </Window>
+            </Window>
+            <Window Type="TaharezLook/FrameWindow" Name="chatbox" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="TitlebarFont" Value="DejaVuSans-10" />
+                <Property Name="SizingEnabled" Value="False" />
+                <Property Name="TitlebarEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.172583,0},{0.05,0},{0.469334,0},{0.95,0}}" />
+                <Property Name="DragMovingEnabled" Value="False" />
+                <Property Name="CloseButtonEnabled" Value="False" />
+                <Window Type="TaharezLook/Editbox" Name="typebox" >
+                    <Property Name="MaxTextLength" Value="1073741823" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0128162,0},{0.651686,0},{0.986449,0},{0.901686,0}}" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                </Window>
+                <Window Type="TaharezLook/VerticalScrollbar" Name="chatroller" >
+                    <Property Name="PageSize" Value="0" />
+                    <Property Name="StepSize" Value="1" />
+                    <Property Name="OverlapSize" Value="0" />
+                    <Property Name="DocumentSize" Value="1" />
+                    <Property Name="ScrollPosition" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.938026,0},{0.0164439,0},{0.98648,0},{0.607778,0}}" />
+                </Window>
+            </Window>
+            <Window Type="TaharezLook/FrameWindow" Name="wordlist" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="TitlebarFont" Value="DejaVuSans-10" />
+                <Property Name="SizingEnabled" Value="False" />
+                <Property Name="TitlebarEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.632377,0},{0.05,0},{0.985248,0},{0.95,0}}" />
+                <Property Name="DragMovingEnabled" Value="False" />
+                <Property Name="CloseButtonEnabled" Value="False" />
+                <Window Type="TaharezLook/VerticalScrollbar" Name="wordroller" >
+                    <Property Name="Font" Value="DejaVuSans-10" />
+                    <Property Name="PageSize" Value="0" />
+                    <Property Name="StepSize" Value="1" />
+                    <Property Name="OverlapSize" Value="0" />
+                    <Property Name="DocumentSize" Value="1" />
+                    <Property Name="ScrollPosition" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.933335,0},{0.0159996,0},{0.984464,0},{0.877556,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

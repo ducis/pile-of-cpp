@@ -1,0 +1,15 @@
+﻿<三合一孔>
+  <Diameter>10</Diameter>
+  <Depth>24</Depth>
+  <Extrude>12</Extrude>
+  <SecondaryOffset>24</SecondaryOffset>
+  <Secondary>
+    <Diameter>20</Diameter>
+    <Depth>16</Depth>
+  </Secondary>
+</三合一孔>
+<木榫孔>
+  <Diameter>8</Diameter>
+  <Depth>36</Depth>
+  <Extrude>18</Extrude>
+</木榫孔>

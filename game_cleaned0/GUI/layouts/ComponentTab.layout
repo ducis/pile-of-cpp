@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="TaharezLook/StaticText" Name="ComponentTab" >
+        <Property Name="Alpha" Value="0.4" />
+        <Property Name="InheritsAlpha" Value="False" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,132},{0,132}}" />
+        <Window Type="DefaultWindow" Name="ComponentTab/NodeShow" >
+            <Property Name="UnifiedAreaRect" Value="{{0.5,-64},{0.5,-64},{0.5,64},{0.5,64}}" />
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="InfoShow" >
+            <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,24},{0,48}}" />
+        </Window>
+        <Window Type="DragContainer" Name="ComponentTab/Draggable" >
+            <Property Name="DragAlpha" Value="0.8" />
+            <Property Name="StickyMode" Value="False" />
+            <Property Name="DragThreshold" Value="8" />
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="TaharezLook/StaticImage" Name="ComponentTab/Draggable/NSI" >
+                <Property Name="Font" Value="DejaVuSans-10" />
+                <Property Name="Image" Value="set:Crate image:Crate" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="HorzFormatting" Value="CentreAligned" />
+                <Property Name="VertFormatting" Value="CentreAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,96},{0,96}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

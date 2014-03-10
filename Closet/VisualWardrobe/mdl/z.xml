@@ -1,0 +1,1701 @@
+<ObjectSet>
+	<Poly>
+		<Verts num = "22">
+			<Vertex>-0.4566 0.459509 0.500029</Vertex>
+			<Vertex>0.405872 0.459511 0.500021</Vertex>
+			<Vertex>0.429722 0.459513 0.481518</Vertex>
+			<Vertex>0.451649 0.459511 0.428818</Vertex>
+			<Vertex>0.470982 0.459511 0.346132</Vertex>
+			<Vertex>0.48708 0.459509 0.237684</Vertex>
+			<Vertex>0.499363 0.459509 0.107704</Vertex>
+			<Vertex>0.507221 0.459513 -0.0395889</Vertex>
+			<Vertex>0.509998 0.459511 -0.199987</Vertex>
+			<Vertex>0.509968 0.459511 -0.499996</Vertex>
+			<Vertex>-0.4566 0.459509 -0.499996</Vertex>
+			<Vertex>-0.4566 0.497566 0.500027</Vertex>
+			<Vertex>0.405888 0.497566 0.500027</Vertex>
+			<Vertex>0.429752 0.497568 0.48152</Vertex>
+			<Vertex>0.451649 0.497566 0.428818</Vertex>
+			<Vertex>0.470966 0.497566 0.346132</Vertex>
+			<Vertex>0.487095 0.497566 0.237688</Vertex>
+			<Vertex>0.499393 0.497566 0.107706</Vertex>
+			<Vertex>0.507252 0.497566 -0.0395927</Vertex>
+			<Vertex>0.509998 0.497566 -0.199989</Vertex>
+			<Vertex>0.509983 0.497568 -0.499996</Vertex>
+			<Vertex>-0.4566 0.497566 -0.499996</Vertex>
+		</Verts>
+		<Faces num = "13">
+			<Face degree = "4">
+				<Verts>0 1 12 11 </Verts>
+				<Edges>0 1 2 3 </Edges>
+				<Normal>4.423e-006 -5.00762e-005 1.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>1 2 13 12 </Verts>
+				<Edges>4 5 6 1 </Edges>
+				<Normal>0.612899 -0.000447703 0.790161</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>2 3 14 13 </Verts>
+				<Edges>7 8 9 5 </Edges>
+				<Normal>0.92337 -0.000379701 0.383912</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>3 4 15 14 </Verts>
+				<Edges>10 11 12 8 </Edges>
+				<Normal>0.973758 0.000195373 0.227587</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>4 5 16 15 </Verts>
+				<Edges>13 14 15 11 </Edges>
+				<Normal>0.989141 -7.2102e-006 0.14697</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>5 6 17 16 </Verts>
+				<Edges>16 17 18 14 </Edges>
+				<Normal>0.995559 -0.000605665 0.0941396</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>6 7 18 17 </Verts>
+				<Edges>19 20 21 17 </Edges>
+				<Normal>0.99858 -0.000799295 0.0532745</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>7 8 19 18 </Verts>
+				<Edges>22 23 24 20 </Edges>
+				<Normal>0.999852 -0.000399467 0.0172162</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>8 9 20 19 </Verts>
+				<Edges>25 26 27 23 </Edges>
+				<Normal>1.0 -0.000200327 -7.62926e-005</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>9 10 21 20 </Verts>
+				<Edges>28 29 30 26 </Edges>
+				<Normal>0.0 0.0 -1.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>10 0 11 21 </Verts>
+				<Edges>31 3 32 29 </Edges>
+				<Normal>-1.0 -1.50996e-007 0.0</Normal>
+			</Face>
+			<Face degree = "11">
+				<Verts>9 8 7 6 5 4 3 2 1 0 10 </Verts>
+				<Edges>25 22 19 16 13 10 7 4 0 31 28 </Edges>
+				<Normal>2.02049e-006 -1.0 1.56072e-007</Normal>
+			</Face>
+			<Face degree = "11">
+				<Verts>20 21 11 12 13 14 15 16 17 18 19 </Verts>
+				<Edges>30 32 2 6 9 12 15 18 21 24 27 </Edges>
+				<Normal>-5.23453e-007 1.0 8.80207e-007</Normal>
+			</Face>
+		</Faces>
+		<Edges num = "33">
+			<Edge>
+				<Verts>0 1 </Verts>
+				<Faces>0 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>1 12 </Verts>
+				<Faces>0 1 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>12 11 </Verts>
+				<Faces>0 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>11 0 </Verts>
+				<Faces>0 10 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>1 2 </Verts>
+				<Faces>1 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>2 13 </Verts>
+				<Faces>1 2 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>13 12 </Verts>
+				<Faces>1 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>2 3 </Verts>
+				<Faces>2 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>3 14 </Verts>
+				<Faces>2 3 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>14 13 </Verts>
+				<Faces>2 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>3 4 </Verts>
+				<Faces>3 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>4 15 </Verts>
+				<Faces>3 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>15 14 </Verts>
+				<Faces>3 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>4 5 </Verts>
+				<Faces>4 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>5 16 </Verts>
+				<Faces>4 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>16 15 </Verts>
+				<Faces>4 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>5 6 </Verts>
+				<Faces>5 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>6 17 </Verts>
+				<Faces>5 6 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>17 16 </Verts>
+				<Faces>5 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>6 7 </Verts>
+				<Faces>6 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>7 18 </Verts>
+				<Faces>6 7 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>18 17 </Verts>
+				<Faces>6 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>7 8 </Verts>
+				<Faces>7 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>8 19 </Verts>
+				<Faces>7 8 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>19 18 </Verts>
+				<Faces>7 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>8 9 </Verts>
+				<Faces>8 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>9 20 </Verts>
+				<Faces>8 9 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>20 19 </Verts>
+				<Faces>8 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>9 10 </Verts>
+				<Faces>9 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>10 21 </Verts>
+				<Faces>9 10 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>21 20 </Verts>
+				<Faces>9 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>10 0 </Verts>
+				<Faces>10 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>11 21 </Verts>
+				<Faces>10 12 </Faces>
+			</Edge>
+		</Edges>
+	</Poly>
+	<Poly>
+		<Verts num = "22">
+			<Vertex>-0.456615 -0.502472 0.500026</Vertex>
+			<Vertex>0.405888 -0.502472 0.500026</Vertex>
+			<Vertex>0.429737 -0.502472 0.481519</Vertex>
+			<Vertex>0.451618 -0.502472 0.428817</Vertex>
+			<Vertex>0.470951 -0.502472 0.346131</Vertex>
+			<Vertex>0.48708 -0.502472 0.237687</Vertex>
+			<Vertex>0.499378 -0.502472 0.107705</Vertex>
+			<Vertex>0.507206 -0.502472 -0.0395918</Vertex>
+			<Vertex>0.509983 -0.502472 -0.199988</Vertex>
+			<Vertex>0.509968 -0.502472 -0.499994</Vertex>
+			<Vertex>-0.456615 -0.502472 -0.499994</Vertex>
+			<Vertex>-0.4566 -0.464417 0.500026</Vertex>
+			<Vertex>0.405888 -0.464417 0.500026</Vertex>
+			<Vertex>0.429737 -0.464417 0.481519</Vertex>
+			<Vertex>0.451649 -0.464417 0.428817</Vertex>
+			<Vertex>0.470951 -0.464417 0.346131</Vertex>
+			<Vertex>0.487064 -0.464417 0.237683</Vertex>
+			<Vertex>0.499378 -0.464417 0.107705</Vertex>
+			<Vertex>0.507221 -0.464417 -0.0395899</Vertex>
+			<Vertex>0.509983 -0.464417 -0.199988</Vertex>
+			<Vertex>0.509968 -0.464417 -0.499996</Vertex>
+			<Vertex>-0.456615 -0.464417 -0.499994</Vertex>
+		</Verts>
+		<Faces num = "13">
+			<Face degree = "4">
+				<Verts>0 1 12 11 </Verts>
+				<Edges>0 1 2 3 </Edges>
+				<Normal>0.0 0.0 1.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>1 2 13 12 </Verts>
+				<Edges>4 5 6 1 </Edges>
+				<Normal>0.613061 1.27103e-007 0.790036</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>2 3 14 13 </Verts>
+				<Edges>7 8 9 5 </Edges>
+				<Normal>0.923467 -0.000370119 0.383678</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>3 4 15 14 </Verts>
+				<Edges>10 11 12 8 </Edges>
+				<Normal>0.973778 -0.000390291 0.227502</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>4 5 16 15 </Verts>
+				<Edges>13 14 15 11 </Edges>
+				<Normal>0.989131 0.000205827 0.147038</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>5 6 17 16 </Verts>
+				<Edges>16 17 18 14 </Edges>
+				<Normal>0.995548 0.000204467 0.0942562</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>6 7 18 17 </Verts>
+				<Edges>19 20 21 17 </Edges>
+				<Normal>0.998588 -0.000201376 0.0531198</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>7 8 19 18 </Verts>
+				<Edges>22 23 24 20 </Edges>
+				<Normal>0.999851 -0.000200732 0.0172637</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>8 9 20 19 </Verts>
+				<Edges>25 26 27 23 </Edges>
+				<Normal>1.0 1.49719e-007 -5.08613e-005</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>9 10 21 20 </Verts>
+				<Edges>28 29 30 26 </Edges>
+				<Normal>-9.86641e-007 -2.51039e-005 -1.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>10 0 11 21 </Verts>
+				<Edges>31 3 32 29 </Edges>
+				<Normal>-1.0 0.00020033 7.62923e-006</Normal>
+			</Face>
+			<Face degree = "11">
+				<Verts>9 8 7 6 5 4 3 2 1 0 10 </Verts>
+				<Edges>25 22 19 16 13 10 7 4 0 31 28 </Edges>
+				<Normal>1.50996e-007 -1.0 0.0</Normal>
+			</Face>
+			<Face degree = "11">
+				<Verts>20 21 11 12 13 14 15 16 17 18 19 </Verts>
+				<Edges>30 32 2 6 9 12 15 18 21 24 27 </Edges>
+				<Normal>-1.50996e-007 1.0 0.0</Normal>
+			</Face>
+		</Faces>
+		<Edges num = "33">
+			<Edge>
+				<Verts>0 1 </Verts>
+				<Faces>0 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>1 12 </Verts>
+				<Faces>0 1 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>12 11 </Verts>
+				<Faces>0 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>11 0 </Verts>
+				<Faces>0 10 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>1 2 </Verts>
+				<Faces>1 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>2 13 </Verts>
+				<Faces>1 2 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>13 12 </Verts>
+				<Faces>1 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>2 3 </Verts>
+				<Faces>2 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>3 14 </Verts>
+				<Faces>2 3 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>14 13 </Verts>
+				<Faces>2 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>3 4 </Verts>
+				<Faces>3 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>4 15 </Verts>
+				<Faces>3 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>15 14 </Verts>
+				<Faces>3 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>4 5 </Verts>
+				<Faces>4 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>5 16 </Verts>
+				<Faces>4 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>16 15 </Verts>
+				<Faces>4 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>5 6 </Verts>
+				<Faces>5 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>6 17 </Verts>
+				<Faces>5 6 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>17 16 </Verts>
+				<Faces>5 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>6 7 </Verts>
+				<Faces>6 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>7 18 </Verts>
+				<Faces>6 7 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>18 17 </Verts>
+				<Faces>6 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>7 8 </Verts>
+				<Faces>7 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>8 19 </Verts>
+				<Faces>7 8 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>19 18 </Verts>
+				<Faces>7 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>8 9 </Verts>
+				<Faces>8 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>9 20 </Verts>
+				<Faces>8 9 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>20 19 </Verts>
+				<Faces>8 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>9 10 </Verts>
+				<Faces>9 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>10 21 </Verts>
+				<Faces>9 10 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>21 20 </Verts>
+				<Faces>9 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>10 0 </Verts>
+				<Faces>10 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>11 21 </Verts>
+				<Faces>10 12 </Faces>
+			</Edge>
+		</Edges>
+	</Poly>
+	<Poly>
+		<Verts num = "8">
+			<Vertex>-0.423182 -0.464401 -0.440132</Vertex>
+			<Vertex>0.543371 -0.464401 -0.440136</Vertex>
+			<Vertex>0.543386 0.459503 -0.440138</Vertex>
+			<Vertex>-0.423166 0.459503 -0.440138</Vertex>
+			<Vertex>-0.423182 -0.464401 -0.31513</Vertex>
+			<Vertex>0.543356 -0.464401 -0.31513</Vertex>
+			<Vertex>0.543371 0.459503 -0.31513</Vertex>
+			<Vertex>-0.423182 0.459503 -0.315132</Vertex>
+		</Verts>
+		<Faces num = "6">
+			<Face degree = "4">
+				<Verts>0 1 5 4 </Verts>
+				<Edges>0 1 2 3 </Edges>
+				<Normal>1.50996e-007 -1.0 0.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>1 2 6 5 </Verts>
+				<Edges>4 5 6 1 </Edges>
+				<Normal>1.0 -1.63644e-005 0.000122064</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>2 3 7 6 </Verts>
+				<Edges>7 8 9 5 </Edges>
+				<Normal>-1.50996e-007 1.0 0.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>3 0 4 7 </Verts>
+				<Edges>10 3 11 8 </Edges>
+				<Normal>-1.0 8.10653e-006 -6.10333e-005</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>2 1 0 3 </Verts>
+				<Edges>4 0 10 7 </Edges>
+				<Normal>-1.97335e-006 -4.12886e-006 -1.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>6 7 4 5 </Verts>
+				<Edges>9 11 2 6 </Edges>
+				<Normal>-9.86684e-007 1.03223e-006 1.0</Normal>
+			</Face>
+		</Faces>
+		<Edges num = "12">
+			<Edge>
+				<Verts>0 1 </Verts>
+				<Faces>0 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>1 5 </Verts>
+				<Faces>0 1 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>5 4 </Verts>
+				<Faces>0 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>4 0 </Verts>
+				<Faces>0 3 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>1 2 </Verts>
+				<Faces>1 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>2 6 </Verts>
+				<Faces>1 2 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>6 5 </Verts>
+				<Faces>1 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>2 3 </Verts>
+				<Faces>2 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>3 7 </Verts>
+				<Faces>2 3 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>7 6 </Verts>
+				<Faces>2 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>3 0 </Verts>
+				<Faces>3 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>4 7 </Verts>
+				<Faces>3 5 </Faces>
+			</Edge>
+		</Edges>
+	</Poly>
+	<Poly>
+		<Verts num = "8">
+			<Vertex>-0.456543 -0.464478 0.500027</Vertex>
+			<Vertex>-0.423096 -0.464478 0.500027</Vertex>
+			<Vertex>-0.423096 -0.464478 -0.499994</Vertex>
+			<Vertex>-0.456543 -0.464478 -0.499994</Vertex>
+			<Vertex>-0.456543 0.455231 0.500027</Vertex>
+			<Vertex>-0.423096 0.455231 0.500027</Vertex>
+			<Vertex>-0.423065 0.455231 -0.499998</Vertex>
+			<Vertex>-0.456543 0.455231 -0.499998</Vertex>
+		</Verts>
+		<Faces num = "6">
+			<Face degree = "4">
+				<Verts>0 1 5 4 </Verts>
+				<Edges>0 1 2 3 </Edges>
+				<Normal>0.0 0.0 1.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>1 2 6 5 </Verts>
+				<Edges>4 5 6 1 </Edges>
+				<Normal>1.0 -1.64399e-005 1.52584e-005</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>2 3 7 6 </Verts>
+				<Edges>7 8 9 5 </Edges>
+				<Normal>0.0 -4.19144e-006 -1.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>3 0 4 7 </Verts>
+				<Edges>10 3 11 8 </Edges>
+				<Normal>-1.0 -1.50996e-007 0.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>2 1 0 3 </Verts>
+				<Edges>4 0 10 7 </Edges>
+				<Normal>1.50996e-007 -1.0 0.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>6 7 4 5 </Verts>
+				<Edges>9 11 2 6 </Edges>
+				<Normal>-1.50996e-007 1.0 0.0</Normal>
+			</Face>
+		</Faces>
+		<Edges num = "12">
+			<Edge>
+				<Verts>0 1 </Verts>
+				<Faces>0 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>1 5 </Verts>
+				<Faces>0 1 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>5 4 </Verts>
+				<Faces>0 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>4 0 </Verts>
+				<Faces>0 3 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>1 2 </Verts>
+				<Faces>1 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>2 6 </Verts>
+				<Faces>1 2 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>6 5 </Verts>
+				<Faces>1 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>2 3 </Verts>
+				<Faces>2 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>3 7 </Verts>
+				<Faces>2 3 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>7 6 </Verts>
+				<Faces>2 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>3 0 </Verts>
+				<Faces>3 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>4 7 </Verts>
+				<Faces>3 5 </Faces>
+			</Edge>
+		</Edges>
+	</Poly>
+	<Poly>
+		<Verts num = "8">
+			<Vertex>-0.238373 -0.464417 0.372704</Vertex>
+			<Vertex>-0.223511 -0.464417 0.372704</Vertex>
+			<Vertex>-0.223511 -0.464417 -0.314812</Vertex>
+			<Vertex>-0.238373 -0.464417 -0.314812</Vertex>
+			<Vertex>-0.238342 0.455292 0.372704</Vertex>
+			<Vertex>-0.223495 0.455261 0.372702</Vertex>
+			<Vertex>-0.22348 0.455292 -0.314814</Vertex>
+			<Vertex>-0.238342 0.455292 -0.314812</Vertex>
+		</Verts>
+		<Faces num = "6">
+			<Face degree = "4">
+				<Verts>0 1 5 4 </Verts>
+				<Edges>0 1 2 3 </Edges>
+				<Normal>6.42024e-005 1.07907e-006 1.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>1 2 6 5 </Verts>
+				<Edges>4 5 6 1 </Edges>
+				<Normal>1.0 -2.47357e-005 1.10965e-005</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>2 3 7 6 </Verts>
+				<Edges>7 8 9 5 </Edges>
+				<Normal>-6.41684e-005 -1.07852e-006 -1.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>3 0 4 7 </Verts>
+				<Edges>10 3 11 8 </Edges>
+				<Normal>-1.0 3.30308e-005 0.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>2 1 0 3 </Verts>
+				<Edges>4 0 10 7 </Edges>
+				<Normal>1.50996e-007 -1.0 0.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>6 7 4 5 </Verts>
+				<Edges>9 11 2 6 </Edges>
+				<Normal>0.00102707 0.999999 2.21618e-005</Normal>
+			</Face>
+		</Faces>
+		<Edges num = "12">
+			<Edge>
+				<Verts>0 1 </Verts>
+				<Faces>0 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>1 5 </Verts>
+				<Faces>0 1 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>5 4 </Verts>
+				<Faces>0 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>4 0 </Verts>
+				<Faces>0 3 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>1 2 </Verts>
+				<Faces>1 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>2 6 </Verts>
+				<Faces>1 2 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>6 5 </Verts>
+				<Faces>1 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>2 3 </Verts>
+				<Faces>2 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>3 7 </Verts>
+				<Faces>2 3 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>7 6 </Verts>
+				<Faces>2 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>3 0 </Verts>
+				<Faces>3 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>4 7 </Verts>
+				<Faces>3 5 </Faces>
+			</Edge>
+		</Edges>
+	</Poly>
+	<Poly>
+		<Verts num = "8">
+			<Vertex>-0.0458069 -0.464447 0.372704</Vertex>
+			<Vertex>-0.0309296 -0.464447 0.372704</Vertex>
+			<Vertex>-0.0309296 -0.464447 -0.314812</Vertex>
+			<Vertex>-0.0457916 -0.464447 -0.314812</Vertex>
+			<Vertex>-0.0457764 0.455261 0.372702</Vertex>
+			<Vertex>-0.030899 0.455261 0.372702</Vertex>
+			<Vertex>-0.030899 0.455261 -0.314814</Vertex>
+			<Vertex>-0.0457916 0.455261 -0.314812</Vertex>
+		</Verts>
+		<Faces num = "6">
+			<Face degree = "4">
+				<Verts>0 1 5 4 </Verts>
+				<Edges>0 1 2 3 </Edges>
+				<Normal>0.0 2.11757e-006 1.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>1 2 6 5 </Verts>
+				<Edges>4 5 6 1 </Edges>
+				<Normal>1.0 -3.30308e-005 0.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>2 3 7 6 </Verts>
+				<Edges>7 8 9 5 </Edges>
+				<Normal>-6.41026e-005 -1.07959e-006 -1.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>3 0 4 7 </Verts>
+				<Edges>10 3 11 8 </Edges>
+				<Normal>-1.0 1.64399e-005 0.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>2 1 0 3 </Verts>
+				<Edges>4 0 10 7 </Edges>
+				<Normal>1.50996e-007 -1.0 0.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>6 7 4 5 </Verts>
+				<Edges>9 11 2 6 </Edges>
+				<Normal>-1.50996e-007 1.0 0.0</Normal>
+			</Face>
+		</Faces>
+		<Edges num = "12">
+			<Edge>
+				<Verts>0 1 </Verts>
+				<Faces>0 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>1 5 </Verts>
+				<Faces>0 1 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>5 4 </Verts>
+				<Faces>0 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>4 0 </Verts>
+				<Faces>0 3 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>1 2 </Verts>
+				<Faces>1 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>2 6 </Verts>
+				<Faces>1 2 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>6 5 </Verts>
+				<Faces>1 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>2 3 </Verts>
+				<Faces>2 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>3 7 </Verts>
+				<Faces>2 3 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>7 6 </Verts>
+				<Faces>2 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>3 0 </Verts>
+				<Faces>3 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>4 7 </Verts>
+				<Faces>3 5 </Faces>
+			</Edge>
+		</Edges>
+	</Poly>
+	<Poly>
+		<Verts num = "8">
+			<Vertex>0.14679 -0.464447 0.372704</Vertex>
+			<Vertex>0.161652 -0.464447 0.372704</Vertex>
+			<Vertex>0.161652 -0.464447 -0.314814</Vertex>
+			<Vertex>0.14679 -0.464447 -0.31481</Vertex>
+			<Vertex>0.146805 0.455261 0.372704</Vertex>
+			<Vertex>0.161697 0.455261 0.372704</Vertex>
+			<Vertex>0.161682 0.455261 -0.31481</Vertex>
+			<Vertex>0.146835 0.455261 -0.314812</Vertex>
+		</Verts>
+		<Faces num = "6">
+			<Face degree = "4">
+				<Verts>0 1 5 4 </Verts>
+				<Edges>0 1 2 3 </Edges>
+				<Normal>0.0 0.0 1.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>1 2 6 5 </Verts>
+				<Edges>4 5 6 1 </Edges>
+				<Normal>1.0 -4.13262e-005 -1.10971e-005</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>2 3 7 6 </Verts>
+				<Edges>7 8 9 5 </Edges>
+				<Normal>-6.42013e-005 9.95873e-007 -1.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>3 0 4 7 </Verts>
+				<Edges>10 3 11 8 </Edges>
+				<Normal>-1.0 3.30308e-005 -2.21941e-005</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>2 1 0 3 </Verts>
+				<Edges>4 0 10 7 </Edges>
+				<Normal>1.50996e-007 -1.0 0.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>6 7 4 5 </Verts>
+				<Edges>9 11 2 6 </Edges>
+				<Normal>-1.50996e-007 1.0 0.0</Normal>
+			</Face>
+		</Faces>
+		<Edges num = "12">
+			<Edge>
+				<Verts>0 1 </Verts>
+				<Faces>0 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>1 5 </Verts>
+				<Faces>0 1 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>5 4 </Verts>
+				<Faces>0 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>4 0 </Verts>
+				<Faces>0 3 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>1 2 </Verts>
+				<Faces>1 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>2 6 </Verts>
+				<Faces>1 2 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>6 5 </Verts>
+				<Faces>1 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>2 3 </Verts>
+				<Faces>2 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>3 7 </Verts>
+				<Faces>2 3 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>7 6 </Verts>
+				<Faces>2 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>3 0 </Verts>
+				<Faces>3 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>4 7 </Verts>
+				<Faces>3 5 </Faces>
+			</Edge>
+		</Edges>
+	</Poly>
+	<Poly>
+		<Verts num = "22">
+			<Vertex>-0.422251 0.220436 0.50003</Vertex>
+			<Vertex>0.40589 0.220436 0.50003</Vertex>
+			<Vertex>0.429754 0.220436 0.481523</Vertex>
+			<Vertex>0.45162 0.220436 0.428817</Vertex>
+			<Vertex>0.470968 0.220436 0.346137</Vertex>
+			<Vertex>0.487082 0.220436 0.237691</Vertex>
+			<Vertex>0.499395 0.220436 0.107705</Vertex>
+			<Vertex>0.507193 0.220436 -0.0395899</Vertex>
+			<Vertex>0.509954 0.220436 -0.199986</Vertex>
+			<Vertex>0.50997 0.220436 -0.499992</Vertex>
+			<Vertex>-0.422251 0.220436 -0.499992</Vertex>
+			<Vertex>-0.422235 0.23735 0.50003</Vertex>
+			<Vertex>0.405905 0.23735 0.500028</Vertex>
+			<Vertex>0.429754 0.23735 0.481523</Vertex>
+			<Vertex>0.451666 0.23735 0.428819</Vertex>
+			<Vertex>0.470968 0.23735 0.346133</Vertex>
+			<Vertex>0.487112 0.23735 0.237693</Vertex>
+			<Vertex>0.499395 0.23735 0.107711</Vertex>
+			<Vertex>0.507269 0.23735 -0.039588</Vertex>
+			<Vertex>0.51 0.23735 -0.199988</Vertex>
+			<Vertex>0.509985 0.23735 -0.5</Vertex>
+			<Vertex>-0.422251 0.23735 -0.499996</Vertex>
+		</Verts>
+		<Faces num = "13">
+			<Face degree = "4">
+				<Verts>0 1 12 11 </Verts>
+				<Edges>0 1 2 3 </Edges>
+				<Normal>1.15158e-006 5.64252e-005 1.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>1 2 13 12 </Verts>
+				<Edges>4 5 6 1 </Edges>
+				<Normal>0.612919 -0.000231786 0.790146</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>2 3 14 13 </Verts>
+				<Edges>7 8 9 5 </Edges>
+				<Normal>0.923521 -0.00127116 0.383546</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>3 4 15 14 </Verts>
+				<Edges>10 11 12 8 </Edges>
+				<Normal>0.973755 -0.00130468 0.227594</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>4 5 16 15 </Verts>
+				<Edges>13 14 15 11 </Edges>
+				<Normal>0.98912 -0.000883854 0.14711</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>5 6 17 16 </Verts>
+				<Edges>16 17 18 14 </Edges>
+				<Normal>0.995553 -0.000919198 0.0941955</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>6 7 18 17 </Verts>
+				<Edges>19 20 21 17 </Edges>
+				<Normal>0.998586 -0.00226394 0.0531193</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>7 8 19 18 </Verts>
+				<Edges>22 23 24 20 </Edges>
+				<Normal>0.999847 -0.00360778 0.0171209</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>8 9 20 19 </Verts>
+				<Edges>25 26 27 23 </Edges>
+				<Normal>0.999998 -0.00180409 0.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>9 10 21 20 </Verts>
+				<Edges>28 29 30 26 </Edges>
+				<Normal>-2.04596e-006 -0.000338338 -1.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>10 0 11 21 </Verts>
+				<Edges>31 3 32 29 </Edges>
+				<Normal>-1.0 0.00045091 7.6292e-006</Normal>
+			</Face>
+			<Face degree = "11">
+				<Verts>9 8 7 6 5 4 3 2 1 0 10 </Verts>
+				<Edges>25 22 19 16 13 10 7 4 0 31 28 </Edges>
+				<Normal>1.50996e-007 -1.0 0.0</Normal>
+			</Face>
+			<Face degree = "11">
+				<Verts>20 21 11 12 13 14 15 16 17 18 19 </Verts>
+				<Edges>30 32 2 6 9 12 15 18 21 24 27 </Edges>
+				<Normal>-1.50996e-007 1.0 0.0</Normal>
+			</Face>
+		</Faces>
+		<Edges num = "33">
+			<Edge>
+				<Verts>0 1 </Verts>
+				<Faces>0 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>1 12 </Verts>
+				<Faces>0 1 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>12 11 </Verts>
+				<Faces>0 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>11 0 </Verts>
+				<Faces>0 10 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>1 2 </Verts>
+				<Faces>1 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>2 13 </Verts>
+				<Faces>1 2 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>13 12 </Verts>
+				<Faces>1 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>2 3 </Verts>
+				<Faces>2 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>3 14 </Verts>
+				<Faces>2 3 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>14 13 </Verts>
+				<Faces>2 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>3 4 </Verts>
+				<Faces>3 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>4 15 </Verts>
+				<Faces>3 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>15 14 </Verts>
+				<Faces>3 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>4 5 </Verts>
+				<Faces>4 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>5 16 </Verts>
+				<Faces>4 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>16 15 </Verts>
+				<Faces>4 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>5 6 </Verts>
+				<Faces>5 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>6 17 </Verts>
+				<Faces>5 6 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>17 16 </Verts>
+				<Faces>5 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>6 7 </Verts>
+				<Faces>6 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>7 18 </Verts>
+				<Faces>6 7 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>18 17 </Verts>
+				<Faces>6 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>7 8 </Verts>
+				<Faces>7 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>8 19 </Verts>
+				<Faces>7 8 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>19 18 </Verts>
+				<Faces>7 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>8 9 </Verts>
+				<Faces>8 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>9 20 </Verts>
+				<Faces>8 9 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>20 19 </Verts>
+				<Faces>8 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>9 10 </Verts>
+				<Faces>9 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>10 21 </Verts>
+				<Faces>9 10 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>21 20 </Verts>
+				<Faces>9 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>10 0 </Verts>
+				<Faces>10 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>11 21 </Verts>
+				<Faces>10 12 </Faces>
+			</Edge>
+		</Edges>
+	</Poly>
+	<Poly>
+		<Verts num = "22">
+			<Vertex>-0.422266 -0.00241089 0.500029</Vertex>
+			<Vertex>0.40589 -0.00241089 0.500029</Vertex>
+			<Vertex>0.429739 -0.00241089 0.481522</Vertex>
+			<Vertex>0.451651 -0.00241089 0.428816</Vertex>
+			<Vertex>0.470968 -0.00241089 0.346134</Vertex>
+			<Vertex>0.487097 -0.00241089 0.237692</Vertex>
+			<Vertex>0.499365 -0.00241089 0.107714</Vertex>
+			<Vertex>0.507208 -0.00241089 -0.039587</Vertex>
+			<Vertex>0.50997 -0.00241089 -0.199986</Vertex>
+			<Vertex>0.509985 -0.00241089 -0.499994</Vertex>
+			<Vertex>-0.422266 -0.00241089 -0.499992</Vertex>
+			<Vertex>-0.422266 0.0144958 0.500029</Vertex>
+			<Vertex>0.40589 0.0144958 0.500029</Vertex>
+			<Vertex>0.429739 0.0144958 0.48152</Vertex>
+			<Vertex>0.451651 0.0144958 0.42882</Vertex>
+			<Vertex>0.470953 0.0144958 0.346132</Vertex>
+			<Vertex>0.487082 0.0144958 0.237686</Vertex>
+			<Vertex>0.49938 0.0144958 0.107714</Vertex>
+			<Vertex>0.507223 0.0144958 -0.0395889</Vertex>
+			<Vertex>0.509985 0.0144958 -0.199986</Vertex>
+			<Vertex>0.51 0.0144958 -0.499994</Vertex>
+			<Vertex>-0.422251 0.0144958 -0.499994</Vertex>
+		</Verts>
+		<Faces num = "13">
+			<Face degree = "4">
+				<Verts>0 1 12 11 </Verts>
+				<Edges>0 1 2 3 </Edges>
+				<Normal>0.0 0.0 1.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>1 2 13 12 </Verts>
+				<Edges>4 5 6 1 </Edges>
+				<Normal>0.613081 4.46905e-005 0.79002</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>2 3 14 13 </Verts>
+				<Edges>7 8 9 5 </Edges>
+				<Normal>0.923375 -2.14988e-005 0.3839</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>3 4 15 14 </Verts>
+				<Edges>10 11 12 8 </Edges>
+				<Normal>0.973797 0.000426768 0.227419</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>4 5 16 15 </Verts>
+				<Edges>13 14 15 11 </Edges>
+				<Normal>0.98912 0.000926056 0.147108</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>5 6 17 16 </Verts>
+				<Edges>16 17 18 14 </Edges>
+				<Normal>0.995564 1.6076e-005 0.0940858</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>6 7 18 17 </Verts>
+				<Edges>19 20 21 17 </Edges>
+				<Normal>0.998585 -0.000898104 0.0531693</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>7 8 19 18 </Verts>
+				<Edges>22 23 24 20 </Edges>
+				<Normal>0.999851 -0.00090127 0.0172162</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>8 9 20 19 </Verts>
+				<Edges>25 26 27 23 </Edges>
+				<Normal>1.0 -0.000902376 5.08612e-005</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>9 10 21 20 </Verts>
+				<Edges>28 29 30 26 </Edges>
+				<Normal>-1.02297e-006 -5.64507e-005 -1.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>10 0 11 21 </Verts>
+				<Edges>31 3 32 29 </Edges>
+				<Normal>-1.0 0.000451112 -7.62925e-006</Normal>
+			</Face>
+			<Face degree = "11">
+				<Verts>9 8 7 6 5 4 3 2 1 0 10 </Verts>
+				<Edges>25 22 19 16 13 10 7 4 0 31 28 </Edges>
+				<Normal>1.50996e-007 -1.0 0.0</Normal>
+			</Face>
+			<Face degree = "11">
+				<Verts>20 21 11 12 13 14 15 16 17 18 19 </Verts>
+				<Edges>30 32 2 6 9 12 15 18 21 24 27 </Edges>
+				<Normal>-1.50996e-007 1.0 0.0</Normal>
+			</Face>
+		</Faces>
+		<Edges num = "33">
+			<Edge>
+				<Verts>0 1 </Verts>
+				<Faces>0 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>1 12 </Verts>
+				<Faces>0 1 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>12 11 </Verts>
+				<Faces>0 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>11 0 </Verts>
+				<Faces>0 10 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>1 2 </Verts>
+				<Faces>1 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>2 13 </Verts>
+				<Faces>1 2 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>13 12 </Verts>
+				<Faces>1 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>2 3 </Verts>
+				<Faces>2 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>3 14 </Verts>
+				<Faces>2 3 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>14 13 </Verts>
+				<Faces>2 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>3 4 </Verts>
+				<Faces>3 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>4 15 </Verts>
+				<Faces>3 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>15 14 </Verts>
+				<Faces>3 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>4 5 </Verts>
+				<Faces>4 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>5 16 </Verts>
+				<Faces>4 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>16 15 </Verts>
+				<Faces>4 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>5 6 </Verts>
+				<Faces>5 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>6 17 </Verts>
+				<Faces>5 6 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>17 16 </Verts>
+				<Faces>5 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>6 7 </Verts>
+				<Faces>6 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>7 18 </Verts>
+				<Faces>6 7 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>18 17 </Verts>
+				<Faces>6 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>7 8 </Verts>
+				<Faces>7 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>8 19 </Verts>
+				<Faces>7 8 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>19 18 </Verts>
+				<Faces>7 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>8 9 </Verts>
+				<Faces>8 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>9 20 </Verts>
+				<Faces>8 9 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>20 19 </Verts>
+				<Faces>8 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>9 10 </Verts>
+				<Faces>9 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>10 21 </Verts>
+				<Faces>9 10 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>21 20 </Verts>
+				<Faces>9 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>10 0 </Verts>
+				<Faces>10 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>11 21 </Verts>
+				<Faces>10 12 </Faces>
+			</Edge>
+		</Edges>
+	</Poly>
+	<Poly>
+		<Verts num = "22">
+			<Vertex>-0.422268 -0.225281 0.500028</Vertex>
+			<Vertex>0.405903 -0.225281 0.500028</Vertex>
+			<Vertex>0.429722 -0.225281 0.481524</Vertex>
+			<Vertex>0.451649 -0.225281 0.428819</Vertex>
+			<Vertex>0.470982 -0.225281 0.346133</Vertex>
+			<Vertex>0.48708 -0.225281 0.237689</Vertex>
+			<Vertex>0.499378 -0.225281 0.107709</Vertex>
+			<Vertex>0.507206 -0.225281 -0.0395899</Vertex>
+			<Vertex>0.509953 -0.225281 -0.199986</Vertex>
+			<Vertex>0.509983 -0.225281 -0.499994</Vertex>
+			<Vertex>-0.422268 -0.225281 -0.499994</Vertex>
+			<Vertex>-0.422253 -0.208344 0.500028</Vertex>
+			<Vertex>0.405888 -0.208344 0.500028</Vertex>
+			<Vertex>0.429722 -0.208344 0.481521</Vertex>
+			<Vertex>0.451649 -0.208344 0.428819</Vertex>
+			<Vertex>0.470951 -0.208344 0.346133</Vertex>
+			<Vertex>0.487095 -0.208344 0.237689</Vertex>
+			<Vertex>0.499378 -0.208344 0.107707</Vertex>
+			<Vertex>0.507221 -0.208344 -0.039588</Vertex>
+			<Vertex>0.509983 -0.208344 -0.199986</Vertex>
+			<Vertex>0.509968 -0.208344 -0.499994</Vertex>
+			<Vertex>-0.422268 -0.208344 -0.499994</Vertex>
+		</Verts>
+		<Faces num = "13">
+			<Face degree = "4">
+				<Verts>0 1 12 11 </Verts>
+				<Edges>0 1 2 3 </Edges>
+				<Normal>0.0 0.0 1.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>1 2 13 12 </Verts>
+				<Edges>4 5 6 1 </Edges>
+				<Normal>0.613389 0.000365368 0.789781</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>2 3 14 13 </Verts>
+				<Edges>7 8 9 5 </Edges>
+				<Normal>0.923282 4.33831e-005 0.384122</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>3 4 15 14 </Verts>
+				<Edges>10 11 12 8 </Edges>
+				<Normal>0.973777 0.000877434 0.227502</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>4 5 16 15 </Verts>
+				<Edges>13 14 15 11 </Edges>
+				<Normal>0.98913 0.00044571 0.14704</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>5 6 17 16 </Verts>
+				<Edges>16 17 18 14 </Edges>
+				<Normal>0.995559 -0.000442995 0.0941397</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>6 7 18 17 </Verts>
+				<Edges>19 20 21 17 </Edges>
+				<Normal>0.998588 -0.000449661 0.0531194</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>7 8 19 18 </Verts>
+				<Edges>22 23 24 20 </Edges>
+				<Normal>0.999852 -0.00135197 0.0171686</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>8 9 20 19 </Verts>
+				<Edges>25 26 27 23 </Edges>
+				<Normal>1.0 -0.000450299 2.54306e-005</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>9 10 21 20 </Verts>
+				<Edges>28 29 30 26 </Edges>
+				<Normal>0.0 0.0 -1.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>10 0 11 21 </Verts>
+				<Edges>31 3 32 29 </Edges>
+				<Normal>-1.0 0.000450299 7.6292e-006</Normal>
+			</Face>
+			<Face degree = "11">
+				<Verts>9 8 7 6 5 4 3 2 1 0 10 </Verts>
+				<Edges>25 22 19 16 13 10 7 4 0 31 28 </Edges>
+				<Normal>1.50996e-007 -1.0 0.0</Normal>
+			</Face>
+			<Face degree = "11">
+				<Verts>20 21 11 12 13 14 15 16 17 18 19 </Verts>
+				<Edges>30 32 2 6 9 12 15 18 21 24 27 </Edges>
+				<Normal>-1.50996e-007 1.0 0.0</Normal>
+			</Face>
+		</Faces>
+		<Edges num = "33">
+			<Edge>
+				<Verts>0 1 </Verts>
+				<Faces>0 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>1 12 </Verts>
+				<Faces>0 1 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>12 11 </Verts>
+				<Faces>0 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>11 0 </Verts>
+				<Faces>0 10 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>1 2 </Verts>
+				<Faces>1 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>2 13 </Verts>
+				<Faces>1 2 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>13 12 </Verts>
+				<Faces>1 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>2 3 </Verts>
+				<Faces>2 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>3 14 </Verts>
+				<Faces>2 3 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>14 13 </Verts>
+				<Faces>2 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>3 4 </Verts>
+				<Faces>3 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>4 15 </Verts>
+				<Faces>3 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>15 14 </Verts>
+				<Faces>3 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>4 5 </Verts>
+				<Faces>4 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>5 16 </Verts>
+				<Faces>4 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>16 15 </Verts>
+				<Faces>4 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>5 6 </Verts>
+				<Faces>5 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>6 17 </Verts>
+				<Faces>5 6 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>17 16 </Verts>
+				<Faces>5 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>6 7 </Verts>
+				<Faces>6 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>7 18 </Verts>
+				<Faces>6 7 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>18 17 </Verts>
+				<Faces>6 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>7 8 </Verts>
+				<Faces>7 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>8 19 </Verts>
+				<Faces>7 8 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>19 18 </Verts>
+				<Faces>7 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>8 9 </Verts>
+				<Faces>8 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>9 20 </Verts>
+				<Faces>8 9 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>20 19 </Verts>
+				<Faces>8 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>9 10 </Verts>
+				<Faces>9 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>10 21 </Verts>
+				<Faces>9 10 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>21 20 </Verts>
+				<Faces>9 12 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>10 0 </Verts>
+				<Faces>10 11 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>11 21 </Verts>
+				<Faces>10 12 </Faces>
+			</Edge>
+		</Edges>
+	</Poly>
+	<Poly>
+		<Verts num = "8">
+			<Vertex>0.509979 -0.464417 0.0598793</Vertex>
+			<Vertex>0.543442 -0.464417 0.0598755</Vertex>
+			<Vertex>0.543427 -0.464417 -0.315132</Vertex>
+			<Vertex>0.509979 -0.464417 -0.31513</Vertex>
+			<Vertex>0.509979 0.455292 0.0598755</Vertex>
+			<Vertex>0.543457 0.455292 0.0598736</Vertex>
+			<Vertex>0.543442 0.455292 -0.315132</Vertex>
+			<Vertex>0.509964 0.455261 -0.315132</Vertex>
+		</Verts>
+		<Faces num = "6">
+			<Face degree = "4">
+				<Verts>0 1 5 4 </Verts>
+				<Edges>0 1 2 3 </Edges>
+				<Normal>8.54798e-005 3.15381e-006 1.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>1 2 6 5 </Verts>
+				<Edges>4 5 6 1 </Edges>
+				<Normal>1.0 -1.64399e-005 -4.06894e-005</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>2 3 7 6 </Verts>
+				<Edges>7 8 9 5 </Edges>
+				<Normal>-2.84993e-005 -1.08066e-006 -1.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>3 0 4 7 </Verts>
+				<Edges>10 3 11 8 </Edges>
+				<Normal>-1.0 -8.44652e-006 2.03449e-005</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>2 1 0 3 </Verts>
+				<Edges>4 0 10 7 </Edges>
+				<Normal>1.50996e-007 -1.0 0.0</Normal>
+			</Face>
+			<Face degree = "4">
+				<Verts>6 7 4 5 </Verts>
+				<Edges>9 11 2 6 </Edges>
+				<Normal>-0.000455941 1.0 -4.07145e-005</Normal>
+			</Face>
+		</Faces>
+		<Edges num = "12">
+			<Edge>
+				<Verts>0 1 </Verts>
+				<Faces>0 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>1 5 </Verts>
+				<Faces>0 1 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>5 4 </Verts>
+				<Faces>0 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>4 0 </Verts>
+				<Faces>0 3 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>1 2 </Verts>
+				<Faces>1 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>2 6 </Verts>
+				<Faces>1 2 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>6 5 </Verts>
+				<Faces>1 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>2 3 </Verts>
+				<Faces>2 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>3 7 </Verts>
+				<Faces>2 3 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>7 6 </Verts>
+				<Faces>2 5 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>3 0 </Verts>
+				<Faces>3 4 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>4 7 </Verts>
+				<Faces>3 5 </Faces>
+			</Edge>
+		</Edges>
+	</Poly>
+</ObjectSet>

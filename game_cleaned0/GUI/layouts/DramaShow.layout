@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="TaharezLook/FrameWindow" Name="DramaShow" >
+        <Property Name="Text" Value="Audio Drama" />
+        <Property Name="Alpha" Value="0.75" />
+        <Property Name="TitlebarFont" Value="DejaVuSans-10" />
+        <Property Name="InheritsAlpha" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.7,0},{0.9,0}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Property Name="CloseButtonEnabled" Value="False" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Window Type="DefaultWindow" Name="DramaShow/ClientArea" >
+            <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{1,-4},{1,-4}}" />
+            <Window Type="TaharezLook/StaticText" Name="DramaShow/BasicInfo" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.4,0},{0.4,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Listbox" Name="DramaShow/LbScript" >
+                <Property Name="UnifiedAreaRect" Value="{{0.4,4},{0,0},{1,0},{0.6,0}}" />
+            </Window>
+            <Window Type="TaharezLook/MultiLineEditbox" Name="DramaShow/MleLine" >
+                <Property Name="Text" >
+</Property>
+                <Property Name="ReadOnly" Value="True" />
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedAreaRect" Value="{{0.4,4},{0.6,4},{1,0},{1,0}}" />
+                <Property Name="TextParsingEnabled" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/Listbox" Name="DramaShow/LbDubs" >
+                <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.4,48},{0.4,0},{1,0}}" />
+            </Window>
+            <Window Type="TaharezLook/StaticText" >
+                <Property Name="Text" >Finished voice 
+acting sessions:</Property>
+                <!--<Property Name="HorzExtent" Value="97" />-->
+                <!--<Property Name="VertExtent" Value="35.7152" />-->
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.4,4},{0.4,0},{0.4,44}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="DramaShow/BtnPlay" >
+                <Property Name="Text" Value="Play" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.4,4},{0.2,-4},{0.4,28}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="DramaShow/BtnStop" >
+                <Property Name="Text" Value="Stop" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.4,32},{0.2,-4},{0.4,56}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="DramaShow/BtnPause" >
+                <Property Name="Text" Value="Pause" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.4,60},{0.2,-4},{0.4,84}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="DramaShow/BtnRateScripts" >
+                <Property Name="Text" Value="Rate scripts" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.4,88},{0.2,-4},{0.4,112}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="DramaShow/BtnRateActing" >
+                <Property Name="Text" Value="Rate acting" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.4,116},{0.2,-4},{0.4,140}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="DramaShow/BtnDub" >
+                <Property Name="Text" Value="Dub it !!!" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.4,144},{0.2,-4},{0.4,168}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="DramaShow/BtnReport" >
+                <Property Name="Text" Value="Report Abuse" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{1,-52},{0.2,-4},{1,-28}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="DramaShow/BtnClose" >
+                <Property Name="Text" Value="Close" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{1,-24},{0.2,-4},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="TaharezLook/FrameWindow" Name="DramaShow/CommentWindow" >
+            <Property Name="Text" Value="Comments and Rating" />
+            <Property Name="Alpha" Value="0.9" />
+            <Property Name="TitlebarFont" Value="DejaVuSans-10" />
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="RollUpEnabled" Value="False" />
+            <Property Name="SizingEnabled" Value="False" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.95,0},{0.95,0}}" />
+            <Property Name="DragMovingEnabled" Value="False" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="CloseButtonEnabled" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Window Type="TaharezLook/ItemListbox" Name="DramaShow/CommentWindow/IlbCommentList" >
+                <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0.6,-4},{1,-49}}" />
+            </Window>
+            <Window Type="TaharezLook/StaticImage" Name="DramaShow/CommentWindow/GroupNewComment" >
+                <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0,4},{1,-4},{1,-48}}" />
+                <Window Type="TaharezLook/MultiLineEditbox" Name="DramaShow/CommentWindow/MleNewComment" >
+                    <Property Name="Text" >
+</Property>
+                    <Property Name="MaxTextLength" Value="4096" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,4},{0,32},{1,-48},{1,-32}}" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                </Window>
+                <Window Type="TaharezLook/StaticText" Name="DramaShow/CommentWindow/NewRatingShow" >
+                    <Property Name="Text" Value="100" />
+                    <!--<Property Name="HorzExtent" Value="23" />-->
+                    <!--<Property Name="VertExtent" Value="17.8576" />-->
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{1,-48},{1,-64},{1,0},{1,-32}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="TaharezLook/Slider" Name="DramaShow/CommentWindow/SldNewRating" >
+                    <Property Name="CurrentValue" Value="0" />
+                    <Property Name="MaximumValue" Value="1" />
+                    <Property Name="ClickStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{1,-30},{0,60},{1,-18},{1,-64}}" />
+                </Window>
+                <Window Type="TaharezLook/StaticText" >
+                    <Property Name="Text" Value="Rating" />
+                    <!--<Property Name="HorzExtent" Value="38" />-->
+                    <!--<Property Name="VertExtent" Value="17.8576" />-->
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{1,-48},{0,32},{1,0},{0,56}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="TaharezLook/Button" Name="DramaShow/CommentWindow/BtnPostComment" >
+                    <Property Name="Text" Value="Comment and rate" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,4},{1,-28},{0.47,-4},{1,-4}}" />
+                </Window>
+                <Window Type="TaharezLook/Button" Name="DramaShow/CommentWindow/BtnEasyRating" >
+                    <Property Name="Text" Value="Rate without comments" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.47,0},{1,-28},{1,-4},{1,-4}}" />
+                </Window>
+                <Window Type="TaharezLook/StaticText" >
+                    <Property Name="Text" Value="Your Opinion:" />
+                    <!--<Property Name="HorzExtent" Value="82" />-->
+                    <!--<Property Name="VertExtent" Value="17.8576" />-->
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,4},{0,0},{1,0},{0,32}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="TaharezLook/StaticText" Name="DramaShow/CommentWindow/InfoShow" >
+                <!--<Property Name="VertExtent" Value="17.8576" />-->
+                <Property Name="UnifiedAreaRect" Value="{{0,4},{1,-40},{1,-128},{1,-8}}" />
+                <Property Name="TextParsingEnabled" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="DramaShow/BtnBackFromComments" >
+                <Property Name="Text" Value="Back" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-124},{1,-36},{1,-4},{1,-12}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

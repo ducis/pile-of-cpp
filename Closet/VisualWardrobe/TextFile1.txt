@@ -1,0 +1,47 @@
+//LookAt 10000 -8000 6000 2000 2000 0 0 0 1
+//LookAt 10000 -8000 6000 0 0 0 0 0 1
+//LookAt 2000 2000 6000  2000 2000 0  0 1 0
+//LookAt 3000 0 1000 0 0 1000 0 0 1
+//LookAt 10000 9000 8000	2000 2000 2000		0 0 1
+//LookAt 5000 2000 6000 5000 2000 0 0 1 0
+LookAt 6000 2000 1000 0 2000 1000 0 0 1
+Ortho 5000
+CoordSys 3000
+LightDir 0 1 1 1
+LightDir 1 -1 1 1
+LightsOn
+LoadFile room.xml
+DeployNewBorn
+//Generate DefaultDrawer 默认
+//DeployNewBornAsBoxyDraggableContainer 0 6000 3000
+//Generate 移门不落地.ConnectedOnLeft 默认
+//
+CreateWardrobe 移门不落地 默认
+DeployNewBornAsBoxyDraggableContainer 0 3000 3000
+//CreateWardrobe 移门不落地 默认
+//DeployNewBornAsBoxyDraggableContainer 0 3000 4000
+//
+//Generate 移门不落地.ConnectedOnRight 默认
+//CreateWardrobe 移门不落地 默认
+//DeployNewBornAsBoxyDraggableContainer 0 5000 3000
+//LoadFile mdl/wd.xml
+//DeployNewBornAsBoxyDraggableContainer 0 0 0
+//DeployNewBornAsBoxyDraggableContainer 0 3000 3000
+//LoadFile mdl/wd.xml
+//DeployNewBornAsBoxyDraggableContainer 0 1000 1000
+//DeployNewBorn
+//PlaceRecentlyDeployed 1 1000 1000 0
+//LookAt 0 0 1000 0 0 0 0 1 0
+//PickCPHS 0 0
+//RememberCurCP
+//PickCPHS 0.1 0.1
+//AnnotateCP
+//LoadFile mdl/board.xml
+//DeployNewBornIntoInterior
+//LoadFile mdl/board0.xml
+//DeployNewBornIntoInterior
+//LoadFile mdl/board0.xml
+//DeployNewBornIntoInterior
+//LoadFile mdl/z.xml
+//DeployNewBorn
+ActivateCamera

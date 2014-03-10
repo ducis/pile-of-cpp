@@ -1,0 +1,133 @@
+/*********************************************************************NVMH3****
+*******************************************************************************
+$Revision$
+
+Copyright NVIDIA Corporation 2008
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THIS SOFTWARE IS PROVIDED
+*AS IS* AND NVIDIA AND ITS SUPPLIERS DISCLAIM ALL WARRANTIES, EITHER EXPRESS
+OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS FOR A PARTICULAR PURPOSE.  IN NO EVENT SHALL NVIDIA OR ITS SUPPLIERS
+BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT, OR CONSEQUENTIAL DAMAGES
+WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF BUSINESS PROFITS,
+BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION, OR ANY OTHER PECUNIARY
+LOSS) ARISING OUT OF THE USE OF OR INABILITY TO USE THIS SOFTWARE, EVEN IF
+NVIDIA HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+% This postprocess uses the values rendered by the previous part of the scene, and re-interprets
+%  their values as a 2D displacement map, which it applies to another image. The standard way
+%  to use this would be to have all objects export their normals.
+keywords: image_processing
+date: 080425
+
+
+
+To learn more about shading, shaders, and to bounce ideas off other shader
+    authors and users, visit the NVIDIA Shader Library Forums at:
+
+    http://developer.nvidia.com/forums/
+
+*******************************************************************************
+******************************************************************************/
+
+/*****************************************************************/
+/*** HOST APPLICATION IDENTIFIERS ********************************/
+/*** Potentially predefined by varying host environments *********/
+/*****************************************************************/
+
+// #define _XSI_		/* predefined when running in XSI */
+
+#ifndef FXCOMPOSER_VERSION	/* for very old versions */
+#define FXCOMPOSER_VERSION 180
+#endif /* FXCOMPOSER_VERSION */
+
+// #define FLIP_TEXTURE_Y	/* Different in OpenGL & DirectX */
+
+/*****************************************************************/
+/*** EFFECT-SPECIFIC CODE BEGINS HERE ****************************/
+/*****************************************************************/
+
+#include "include/Quad.cgh"
+
+float Script : STANDARDSGLOBAL <
+    string UIWidget = "none";
+    string ScriptClass = "scene";
+    string ScriptOrder = "postprocess";
+    string ScriptOutput = "color";
+    string Script = "Technique=Main;";
+> = 0.8;
+
+// color and depth used for full-screen clears
+
+float4 gClearColor <
+    string UIWidget = "Color";
+    string UIName = "Background";
+> = {0.5,0.5,0.5,0};
+
+float gClearDepth <string UIWidget = "none";> = 1.0;
+
+////////
+
+QUAD_REAL gDisplacement <
+	string UIWidget = "slider";
+	string UIName = "Displacement";
+	QUAD_REAL UIMin = 0.0;
+	QUAD_REAL UIMax = 1.0;
+	QUAD_REAL UIStep = 0.001;
+> = 0.15f;
+
+///////// Textures ///////////////
+
+FILE_TEXTURE_2D(ImageTexture,gImageSampler,"default_color.dds")
+
+DECLARE_QUAD_TEX(gSceneTexture,gSceneSampler,"A8R8G8B8")
+DECLARE_QUAD_DEPTH_BUFFER(DepthBuffer,"D24S8")
+
+/////////////////////////////
+
+QUAD_REAL4 dispPS(QuadVertexOutput IN,
+		uniform sampler2D ImageSampler,
+		uniform sampler2D ObjSampler,
+		uniform float Displacement) : COLOR {   
+    QUAD_REAL2 disp = Displacement*(((QUAD_REAL4)tex2D(ObjSampler, IN.UV)).xy-(QUAD_REAL2)0.5);
+    QUAD_REAL4 texCol = tex2D(ImageSampler, IN.UV+disp);
+    return texCol;
+}  
+
+///////////////////////////////////////
+/// TECHNIQUES ////////////////////////
+///////////////////////////////////////
+
+technique Main < string Script =
+#ifndef SHARED_BG_IMAGE
+    "RenderColorTarget0=gSceneTexture;"
+    "RenderDepthStencilTarget=DepthBuffer;"
+    "ClearSetColor=gClearColor;"
+    "ClearSetDepth=gClearDepth;"
+	"Clear=Color;"
+	"Clear=Depth;"
+    "ScriptExternal=Color;" // calls all "previous" techniques & materials
+    "Pass=PostP0;";
+#else /* defined(SHARED_BG_IMAGE)  - no nead to create one, COLLADA has done it for us  */
+    "ClearSetColor=gClearColor;"
+    "ClearSetDepth=gClearDepth;"
+	"Clear=Color;"
+	"Clear=Depth;"
+    "Pass=PostP0;";
+#endif /* SHARED_BG_IMAGE */
+> {
+    pass PostP0 < string Script =
+	"RenderColorTarget0=;"
+	"RenderDepthStencilTarget=;"
+	"Draw=Buffer;";
+    > {
+	VertexProgram = compile vp40 ScreenQuadVS2(QuadTexelOffsets);
+		DepthTestEnable = false;
+		DepthMask = false;
+		BlendEnable = false;
+		CullFaceEnable = false;
+		DepthFunc = LEqual;
+	FragmentProgram = compile fp40 dispPS(gImageSampler,gSceneSampler,gDisplacement);
+    }
+}
+
+/***************************** eof ***/

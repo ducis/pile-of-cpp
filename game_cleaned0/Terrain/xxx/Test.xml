@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<HeightfieldTerrain size="4500" minX="-2250" minY="-2250" sizeFirstBlockPool="1000" sizeNewBlockPool="50" lodThreshold="0.2" nBlockSeg="32" maxBlockLvl="1000" minBlockSize="32">
+  <!--<NewHeightfield type="IndexMap" texture="indexmap.png" freq="0.0001" indexMode="clamp" >-->
+  <NewHeightfield type="Cascaded">
+    <NewHeightfield type="Textured" texture="terrain.dds" freq="0.002" amp="100"/>
+    <NewHeightfield type="Textured" texture="map1/0306h5.png" freq="0.0097" amp="10"/>
+    <NewHeightfield type="Textured" texture="checker.dds" freq="0.0005" amp="200"/>
+  </NewHeightfield>
+    <!--<NewHeightfield type="Textured" texture="terrain.dds" freq="0.02" amp="10"/>
+    <NewAlphafield type="Textured" texture="terrain.dds" freq="0.15"  amp="1"/>-->
+    <!--<NewHeightfield type="Textured" texture="terrain.dds" freqX="1.1" freqY="1.5" amp="0.2"/>-->
+  <!--</NewHeightfield>-->
+  <!--<NewHeightfield type="Textured" texture="checker.dds" freq="0.1" amp="5"/>-->
+  <Colorfield texture="color/Simple_Stone_Mtl_Granite_bump.PNG" freq="0.0003"/>
+</HeightfieldTerrain>

@@ -1,0 +1,108 @@
+01/07/2010 01:11:15 (Std) 	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+01/07/2010 01:11:15 (Std) 	+                     Crazy Eddie's GUI System - Event log                    +
+01/07/2010 01:11:15 (Std) 	+                          (http://www.cegui.org.uk/)                         +
+01/07/2010 01:11:15 (Std) 	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+01/07/2010 01:11:15 (Std) 	CEGUI::Logger singleton created. (0264F0D0)
+01/07/2010 01:11:15 (Std) 	---- Started parse of CEGUI config file ----
+01/07/2010 01:11:15 (Std) 	---- Finished parse of CEGUI config file ----
+01/07/2010 01:11:15 (Std) 	
+01/07/2010 01:11:15 (Std) 	********************************************************************************
+01/07/2010 01:11:15 (Std) 	* Important:                                                                   *
+01/07/2010 01:11:15 (Std) 	*     To get support at the CEGUI forums, you must post _at least_ the section *
+01/07/2010 01:11:15 (Std) 	*     of this log file indicated below.  Failure to do this will result in no  *
+01/07/2010 01:11:15 (Std) 	*     support being given; please do not waste our time.                       *
+01/07/2010 01:11:15 (Std) 	********************************************************************************
+01/07/2010 01:11:15 (Std) 	********************************************************************************
+01/07/2010 01:11:15 (Std) 	* -------- START OF ESSENTIAL SECTION TO BE POSTED ON THE FORUM       -------- *
+01/07/2010 01:11:15 (Std) 	********************************************************************************
+01/07/2010 01:11:15 (Std) 	---- Version 0.7.1 (Build: Jan 27 2010 Debug Microsoft Windows MSVC++ 9.0 32 bit) ----
+01/07/2010 01:11:15 (Std) 	---- Renderer module is: CEGUI::OpenGLRenderer - Official OpenGL based 2nd generation renderer module.  TextureTarget support enabled via FBO extension. ----
+01/07/2010 01:11:15 (Std) 	---- XML Parser module is: CEGUI::ExpatParser - Official expat based parser module for CEGUI ----
+01/07/2010 01:11:15 (Std) 	---- Image Codec module is: SILLYImageCodec - Official SILLY based image codec ----
+01/07/2010 01:11:15 (Std) 	---- Scripting module is: None ----
+01/07/2010 01:11:15 (Std) 	********************************************************************************
+01/07/2010 01:11:15 (Std) 	* -------- END OF ESSENTIAL SECTION TO BE POSTED ON THE FORUM         -------- *
+01/07/2010 01:11:15 (Std) 	********************************************************************************
+01/07/2010 01:11:15 (Std) 	
+01/07/2010 01:11:15 (Std) 	---- Begining CEGUI System initialisation ----
+01/07/2010 01:11:15 (Std) 	CEGUI::ImagesetManager singleton created (02655290)
+01/07/2010 01:11:15 (Std) 	CEGUI::FontManager singleton created. (02655820)
+01/07/2010 01:11:15 (Std) 	CEGUI::WindowFactoryManager singleton created
+01/07/2010 01:11:15 (Std) 	CEGUI::WindowManager singleton created (02655CE8)
+01/07/2010 01:11:15 (Std) 	CEGUI::SchemeManager singleton created. (026510F0)
+01/07/2010 01:11:15 (Std) 	CEGUI::MouseCursor singleton created. (02651050)
+01/07/2010 01:11:15 (Std) 	CEGUI::GlobalEventSet singleton created. (02655110)
+01/07/2010 01:11:15 (Std) 	CEGUI::WidgetLookManager singleton created. (0264F710)
+01/07/2010 01:11:15 (Std) 	CEGUI::WindowRendererManager singleton created (0264FA08)
+01/07/2010 01:11:15 (Std) 	Created WindowFactory for 'DefaultWindow' windows.
+01/07/2010 01:11:15 (Std) 	WindowFactory for 'DefaultWindow' windows added. (02651A38)
+01/07/2010 01:11:15 (Std) 	Created WindowFactory for 'DragContainer' windows.
+01/07/2010 01:11:15 (Std) 	WindowFactory for 'DragContainer' windows added. (02651BF8)
+01/07/2010 01:11:15 (Std) 	Created WindowFactory for 'ScrolledContainer' windows.
+01/07/2010 01:11:15 (Std) 	WindowFactory for 'ScrolledContainer' windows added. (02651DB8)
+01/07/2010 01:11:15 (Std) 	Created WindowFactory for 'ClippedContainer' windows.
+01/07/2010 01:11:15 (Std) 	WindowFactory for 'ClippedContainer' windows added. (02651F78)
+01/07/2010 01:11:15 (Std) 	Created WindowFactory for 'CEGUI/Checkbox' windows.
+01/07/2010 01:11:15 (Std) 	WindowFactory for 'CEGUI/Checkbox' windows added. (02652138)
+01/07/2010 01:11:15 (Std) 	Created WindowFactory for 'CEGUI/PushButton' windows.
+01/07/2010 01:11:15 (Std) 	WindowFactory for 'CEGUI/PushButton' windows added. (02652398)
+01/07/2010 01:11:15 (Std) 	Created WindowFactory for 'CEGUI/RadioButton' windows.
+01/07/2010 01:11:15 (Std) 	WindowFactory for 'CEGUI/RadioButton' windows added. (02652558)
+01/07/2010 01:11:15 (Std) 	Created WindowFactory for 'CEGUI/Combobox' windows.
+01/07/2010 01:11:15 (Std) 	WindowFactory for 'CEGUI/Combobox' windows added. (02652718)
+01/07/2010 01:11:15 (Std) 	Created WindowFactory for 'CEGUI/ComboDropList' windows.
+01/07/2010 01:11:15 (Std) 	WindowFactory for 'CEGUI/ComboDropList' windows added. (02652978)
+01/07/2010 01:11:15 (Std) 	Created WindowFactory for 'CEGUI/Editbox' windows.
+01/07/2010 01:11:15 (Std) 	WindowFactory for 'CEGUI/Editbox' windows added. (02652B38)
+01/07/2010 01:11:15 (Std) 	Created WindowFactory for 'CEGUI/FrameWindow' windows.
+01/07/2010 01:11:15 (Std) 	WindowFactory for 'CEGUI/FrameWindow' windows added. (02656050)
+01/07/2010 01:11:15 (Std) 	Created WindowFactory for 'CEGUI/ItemEntry' windows.
+01/07/2010 01:11:15 (Std) 	WindowFactory for 'CEGUI/ItemEntry' windows added. (02656210)
+01/07/2010 01:11:15 (Std) 	Created WindowFactory for 'CEGUI/Listbox' windows.
+01/07/2010 01:11:15 (Std) 	WindowFactory for 'CEGUI/Listbox' windows added. (026563D0)
+01/07/2010 01:11:15 (Std) 	Created WindowFactory for 'CEGUI/ListHeader' windows.
+01/07/2010 01:11:15 (Std) 	WindowFactory for 'CEGUI/ListHeader' windows added. (02656590)
+01/07/2010 01:11:15 (Std) 	Created WindowFactory for 'CEGUI/ListHeaderSegment' windows.
+01/07/2010 01:11:15 (Std) 	WindowFactory for 'CEGUI/ListHeaderSegment' windows added. (02656750)
+01/07/2010 01:11:15 (Std) 	Created WindowFactory for 'CEGUI/Menubar' windows.
+01/07/2010 01:11:15 (Std) 	WindowFactory for 'CEGUI/Menubar' windows added. (026569E0)
+01/07/2010 01:11:15 (Std) 	Created WindowFactory for 'CEGUI/PopupMenu' windows.
+01/07/2010 01:11:15 (Std) 	WindowFactory for 'CEGUI/PopupMenu' windows added. (02656BA0)
+01/07/2010 01:11:15 (Std) 	Created WindowFactory for 'CEGUI/MenuItem' windows.
+01/07/2010 01:11:15 (Std) 	WindowFactory for 'CEGUI/MenuItem' windows added. (02656D60)
+01/07/2010 01:11:15 (Std) 	Created WindowFactory for 'CEGUI/MultiColumnList' windows.
+01/07/2010 01:11:15 (Std) 	WindowFactory for 'CEGUI/MultiColumnList' windows added. (02656F20)
+01/07/2010 01:11:15 (Std) 	Created WindowFactory for 'CEGUI/MultiLineEditbox' windows.
+01/07/2010 01:11:15 (Std) 	WindowFactory for 'CEGUI/MultiLineEditbox' windows added. (026570E0)
+01/07/2010 01:11:15 (Std) 	Created WindowFactory for 'CEGUI/ProgressBar' windows.
+01/07/2010 01:11:15 (Std) 	WindowFactory for 'CEGUI/ProgressBar' windows added. (026572A0)
+01/07/2010 01:11:15 (Std) 	Created WindowFactory for 'CEGUI/ScrollablePane' windows.
+01/07/2010 01:11:15 (Std) 	WindowFactory for 'CEGUI/ScrollablePane' windows added. (02657460)
+01/07/2010 01:11:15 (Std) 	Created WindowFactory for 'CEGUI/Scrollbar' windows.
+01/07/2010 01:11:15 (Std) 	WindowFactory for 'CEGUI/Scrollbar' windows added. (02657620)
+01/07/2010 01:11:15 (Std) 	Created WindowFactory for 'CEGUI/Slider' windows.
+01/07/2010 01:11:15 (Std) 	WindowFactory for 'CEGUI/Slider' windows added. (026577E0)
+01/07/2010 01:11:15 (Std) 	Created WindowFactory for 'CEGUI/Spinner' windows.
+01/07/2010 01:11:15 (Std) 	WindowFactory for 'CEGUI/Spinner' windows added. (026579A0)
+01/07/2010 01:11:15 (Std) 	Created WindowFactory for 'CEGUI/TabButton' windows.
+01/07/2010 01:11:15 (Std) 	WindowFactory for 'CEGUI/TabButton' windows added. (02657B60)
+01/07/2010 01:11:15 (Std) 	Created WindowFactory for 'CEGUI/TabControl' windows.
+01/07/2010 01:11:15 (Std) 	WindowFactory for 'CEGUI/TabControl' windows added. (02657D20)
+01/07/2010 01:11:15 (Std) 	Created WindowFactory for 'CEGUI/Thumb' windows.
+01/07/2010 01:11:15 (Std) 	WindowFactory for 'CEGUI/Thumb' windows added. (02657EE0)
+01/07/2010 01:11:15 (Std) 	Created WindowFactory for 'CEGUI/Titlebar' windows.
+01/07/2010 01:11:15 (Std) 	WindowFactory for 'CEGUI/Titlebar' windows added. (026580A0)
+01/07/2010 01:11:15 (Std) 	Created WindowFactory for 'CEGUI/Tooltip' windows.
+01/07/2010 01:11:15 (Std) 	WindowFactory for 'CEGUI/Tooltip' windows added. (02658348)
+01/07/2010 01:11:15 (Std) 	Created WindowFactory for 'CEGUI/ItemListbox' windows.
+01/07/2010 01:11:15 (Std) 	WindowFactory for 'CEGUI/ItemListbox' windows added. (02658508)
+01/07/2010 01:11:15 (Std) 	Created WindowFactory for 'CEGUI/GroupBox' windows.
+01/07/2010 01:11:15 (Std) 	WindowFactory for 'CEGUI/GroupBox' windows added. (026586C8)
+01/07/2010 01:11:15 (Std) 	Created WindowFactory for 'CEGUI/Tree' windows.
+01/07/2010 01:11:15 (Std) 	WindowFactory for 'CEGUI/Tree' windows added. (02658888)
+01/07/2010 01:11:15 (Std) 	Window type alias named 'DefaultGUISheet' added for window type 'DefaultWindow'.
+01/07/2010 01:11:15 (Std) 	CEGUI::System singleton created. (0264DA50)
+01/07/2010 01:11:15 (Std) 	---- CEGUI System initialisation completed ----
+01/07/2010 01:11:15 (Std) 	
+01/07/2010 01:11:15 (Error)	CEGUI::UnknownObjectException in file d:\temp\cegui-0.7.1-vc9\cegui\include\ceguinamedxmlresourcemanager.h(264) : NamedXMLResourceManager::get: No object of type 'Font' named 'DejaVuSans-10' is present in the collection.

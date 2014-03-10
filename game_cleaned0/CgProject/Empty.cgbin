@@ -1,0 +1,41 @@
+!!ARBfp1.0
+OPTION NV_fragment_program2;
+# cgc version 2.0.0016, build date Jun  5 2008
+# command line args: -profile fp40 -I c:\documents and settings\administrator\my documents\fx composer 2\shader library\hlsl\include -I c:\documents and settings\administrator\my documents\fx composer 2\shader library\cgfx\include -I c:\documents and settings\administrator\my documents\fx composer 2\shader library\hlsl -I c:\documents and settings\administrator\my documents\fx composer 2\shader library\cgfx -I d:\program files\nvidia corporation\fx composer 2.5\media\hlsl\include -I d:\program files\nvidia corporation\fx composer 2.5\media\cgfx\include -I d:\mydemos\otacraft\game\cgproject
+# source file: d:\mydemos\otacraft\game\cgproject\Empty.cgfx
+#vendor NVIDIA Corporation
+#version 2.0.0.16
+#profile fp40
+#program Fill
+#semantic Fill.SceneSampler
+#semantic QuadScreenSize : VIEWPORTPIXELSIZE
+#semantic Script : STANDARDSGLOBAL
+#semantic gClearColor
+#semantic gClearDepth
+#semantic gSceneTexture : RENDERCOLORTARGET
+#semantic gSceneSampler
+#semantic gDepthTexture : RENDERDEPTHSTENCILTARGET
+#var float2 IN.UV : $vin.TEXCOORD0 : TEX0 : 0 : 1
+#var sampler2D SceneSampler :  : texunit 0 : 1 : 1
+#var float2 QuadScreenSize : VIEWPORTPIXELSIZE :  : -1 : 0
+#var float Script : STANDARDSGLOBAL :  : -1 : 0
+#var float4 gClearColor :  :  : -1 : 0
+#var float gClearDepth :  :  : -1 : 0
+#var texture gSceneTexture : RENDERCOLORTARGET :  : -1 : 0
+#var sampler2D gSceneSampler :  :  : -1 : 0
+#var texture gDepthTexture : RENDERDEPTHSTENCILTARGET :  : -1 : 0
+#var float4 Fill : $vout.COLOR : COL : -1 : 1
+#const c[0] = 0.5 0
+#default Script = 0.80000001
+#default gClearColor = 1 0 0 0
+#default gClearDepth = 1
+PARAM c[1] = { { 0.5, 0 } };
+TEMP R0;
+TEMP RC;
+TEMP HC;
+OUTPUT oCol = result.color;
+TEX   R0.xyz, fragment.texcoord[0], texture[0], 2D;
+ADDR  oCol.xyz, R0, c[0].x;
+MOVR  oCol.w, c[0].y;
+END
+# 3 instructions, 1 R-regs, 0 H-regs

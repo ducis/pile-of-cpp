@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="TaharezLook/FrameWindow" Name="StoryRelayStarter" >
+        <Property Name="Text" Value="Story Relay" />
+        <Property Name="Alpha" Value="0.75" />
+        <Property Name="TitlebarFont" Value="DejaVuSans-10" />
+        <Property Name="InheritsAlpha" Value="False" />
+        <Property Name="SizingEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,512},{0,384}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Property Name="CloseButtonEnabled" Value="False" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Window Type="DefaultWindow" Name="StoryRelayStarter/ClientArea" >
+            <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{1,-4},{1,-4}}" />
+            <Window Type="TaharezLook/StaticText" >
+                <Property Name="Text" Value="Title:" />
+                <Property Name="HorzExtent" Value="30" />
+                <Property Name="VertExtent" Value="17.8576" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0,24}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/Editbox" Name="StoryRelayStarter/EbTitle" >
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,24},{1,0},{0,48}}" />
+                <Property Name="TextParsingEnabled" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/StaticText" >
+                <Property Name="Text" Value="Description and rules:" />
+                <Property Name="HorzExtent" Value="131" />
+                <Property Name="VertExtent" Value="17.8576" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,48},{1,0},{0,72}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/MultiLineEditbox" Name="StoryRelayStarter/MleDesc" >
+                <Property Name="Text" >
+</Property>
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,72},{1,0},{1,-72}}" />
+                <Property Name="TextParsingEnabled" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/StaticText" >
+                <Property Name="Text" Value="Type:" />
+                <Property Name="HorzExtent" Value="36" />
+                <Property Name="VertExtent" Value="17.8576" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{1,-72},{0,64},{1,-48}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="DefaultWindow" Name="StoryRelayStarter/ClientArea/TypeSelection" >
+                <Property Name="UnifiedAreaRect" Value="{{0,64},{1,-72},{1,0},{1,-24}}" />
+                <Window Type="TaharezLook/RadioButton" Name="StoryRelayStarter/ClientArea/TypeSelection/RbTextOnly" >
+                    <Property Name="Text" Value="Text only" />
+                    <Property Name="Selected" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.2,0},{0.5,0}}" />
+                </Window>
+                <Window Type="TaharezLook/RadioButton" Name="StoryRelayStarter/ClientArea/TypeSelection/RbAudioOnly" >
+                    <Property Name="Text" Value="Audio only" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0,0},{0.4,0},{0.5,0}}" />
+                </Window>
+                <Window Type="TaharezLook/RadioButton" Name="StoryRelayStarter/ClientArea/TypeSelection/RbTextAndAudio" >
+                    <Property Name="Text" Value="Text and audio" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0,0},{0.7,0},{0.5,0}}" />
+                </Window>
+                <Window Type="TaharezLook/RadioButton" Name="StoryRelayStarter/ClientArea/TypeSelection/RbTextOrAudio" >
+                    <Property Name="Text" Value="Text or audio" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0,0},{1,0},{0.5,0}}" />
+                </Window>
+                <Window Type="TaharezLook/RadioButton" Name="StoryRelayStarter/ClientArea/TypeSelection/RbTextWithOptionalAudio" >
+                    <Property Name="Text" Value="Text with optional audio" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.5,0},{0.4,0},{1,0}}" />
+                </Window>
+                <Window Type="TaharezLook/RadioButton" Name="StoryRelayStarter/ClientArea/TypeSelection/RbAudioWithOptionalText" >
+                    <Property Name="Text" Value="Audio with optional text" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.5,0},{0.8,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="TaharezLook/Button" Name="StoryRelayStarter/BtnCreate" >
+                <Property Name="Text" Value="Start thread" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,128},{0,24}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="StoryRelayStarter/BtnCancel" >
+                <Property Name="Text" Value="Cancel" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,96},{0,24}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

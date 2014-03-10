@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="TaharezLook/FrameWindow" Name="ComponentShopWindow" >
+            <Property Name="Alpha" Value="0.75" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="TitlebarFont" Value="DejaVuSans-10" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.546706,0},{0.0517385,0},{0.814275,0},{0.85312,0}}" />
+            <Property Name="CloseButtonEnabled" Value="False" />
+            <Window Type="TaharezLook/ItemListbox" Name="List" >
+              <!--<Property Name="Font" Value="FairChar-30" />-->
+              <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+              <Window Type="TaharezLook/ListboxItem">
+                <!--<Property Name="Font" Value="Batang-26" />-->
+                <!--<Property Name="Text" Value="简体中文tem 1\nffff" />-->
+                <!--<Property Name="UnifiedMinSize" Value="{{0,400},{0,100}}" />
+                <Property Name="UnifiedMaxSize" Value="{{0,400},{0,100}}" />-->
+                <!--<Property Name="Selected" Value="True"/>-->
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0,136}}" />
+                <Window Type="WindowsLook/Static" >
+                  <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0,136}}" />
+                  <Window Type="WindowsLook/Static"  >
+                    <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{1,-4},{1,-4}}" />
+                  </Window>
+                  <Window Type="TaharezLook/MultiLineEditbox" >
+                    <Property Name="Font" Value="DejaVuSans-10" />
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,136},{0,4},{1,-4},{1,-4}}" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                  </Window>
+                </Window>
+              </Window>
+              <Window Type="TaharezLook/ListboxItem">
+                <Property Name="Font" Value="DejaVuSans-10" />
+                <Property Name="Text" Value="Listbox Item 1\nffff" />
+              </Window>
+              <Window Type="TaharezLook/ListboxItem">
+                <Property Name="Font" Value="Batang-26" />
+                <Property Name="Text" Value="Listbox Item 1\nffff" />
+              </Window>
+              <Window Type="TaharezLook/ListboxItem">
+                <Property Name="Font" Value="Batang-26" />
+                <Property Name="Text" Value="Listbox Item 1\nffff" />
+              </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

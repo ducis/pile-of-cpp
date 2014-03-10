@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,800},{0,600}}" />
+        <Window Type="TaharezLook/FrameWindow" Name="chatbox" >
+            <Property Name="TitlebarFont" Value="DejaVuSans-10" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0109375,0},{0.742573,0},{0.377344,0},{0.992572,0}}" />
+            <Window Type="TaharezLook/Editbox" Name="typebox" >
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0119401,0},{0.749158,0},{0.989019,0},{0.999158,0}}" />
+                <Property Name="TextParsingEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="TaharezLook/Button" Name="system" >
+            <Property Name="UnifiedAreaRect" Value="{{0.93125,0},{0.9049,0},{0.992969,0},{1.00329,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="charactor" >
+            <Property Name="UnifiedAreaRect" Value="{{0.945311,0},{0.825729,0},{0.991406,0},{0.898087,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="object" >
+            <Property Name="UnifiedAreaRect" Value="{{0.880467,0},{0.829251,0},{0.926562,0},{0.901608,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="friend" >
+            <Property Name="UnifiedAreaRect" Value="{{0.87578,0},{0.928944,0},{0.921093,0},{0.993645,0}}" />
+        </Window>
+        <Window Type="TaharezLook/StaticImage" Name="systemwindow" >
+            <Property Name="UnifiedAreaRect" Value="{{0.415625,0},{0.336753,0},{0.703907,0},{0.556125,0}}" />
+            <Window Type="TaharezLook/Button" Name="image" >
+                <Property Name="Text" Value="Imageset" />
+                <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.15,0},{0.8,0},{0.45,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="exit" >
+                <Property Name="Text" Value="Exit" />
+                <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.55,0},{0.8,0},{0.85,0}}" />
+            </Window>
+        </Window>
+        <Window Type="TaharezLook/StaticImage" Name="imageset" >
+            <Property Name="UnifiedAreaRect" Value="{{0.446094,0},{0.331087,0},{0.678907,0},{0.565773,0}}" />
+            <Window Type="TaharezLook/RadioButton" Name="chose1" >
+                <Property Name="Text" Value="800x600" />
+                <Property Name="UnifiedAreaRect" Value="{{0.156038,0},{0.140046,0},{0.818359,0},{0.422673,0}}" />
+            </Window>
+        </Window>
+        <Window Type="TaharezLook/StaticImage" Name="characterwindow" >
+            <Property Name="UnifiedAreaRect" Value="{{0.364844,0},{0.131087,0},{0.747655,0},{0.762402,0}}" />
+            <Window Type="TaharezLook/StaticImage" Name="role" >
+                <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.084111,0},{0.85,0},{0.695543,0}}" />
+            </Window>
+            <Window Type="TaharezLook/StaticImage" Name="packet" >
+                <Property Name="UnifiedAreaRect" Value="{{0.10204,0},{0.729353,0},{0.405102,0},{0.974502,0}}" />
+                <Window Type="TaharezLook/StaticImage" Name="A" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.45,0},{0.45,0}}" />
+                </Window>
+                <Window Type="TaharezLook/StaticImage" Name="B" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.55,0},{0.05,0},{0.95,0},{0.45,0}}" />
+                </Window>
+                <Window Type="TaharezLook/StaticImage" Name="C" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.55,0},{0.45,0},{0.95,0}}" />
+                </Window>
+                <Window Type="TaharezLook/StaticImage" Name="D" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.55,0},{0.55,0},{0.95,0},{0.95,0}}" />
+                </Window>
+            </Window>
+            <Window Type="TaharezLook/StaticImage" Name="suit" >
+                <Property Name="UnifiedAreaRect" Value="{{0.440816,0},{0.732324,0},{0.590817,0},{0.96777,0}}" />
+            </Window>
+            <Window Type="TaharezLook/StaticImage" Name="decorate" >
+                <Property Name="UnifiedAreaRect" Value="{{0.626531,0},{0.735295,0},{0.74796,0},{0.832474,0}}" />
+            </Window>
+            <Window Type="TaharezLook/StaticImage" Name="body" >
+                <Property Name="UnifiedAreaRect" Value="{{0.626533,0},{0.862223,0},{0.74592,0},{0.961828,0}}" />
+            </Window>
+            <Window Type="TaharezLook/StaticImage" Name="body2" >
+                <Property Name="UnifiedAreaRect" Value="{{0.783676,0},{0.73663,0},{0.898982,0},{0.831383,0}}" />
+            </Window>
+            <Window Type="TaharezLook/StaticImage" Name="shoe" >
+                <Property Name="UnifiedAreaRect" Value="{{0.781634,0},{0.863314,0},{0.89694,0},{0.958067,0}}" />
+            </Window>
+        </Window>
+        <Window Type="TaharezLook/StaticImage" Name="baggage" >
+            <Property Name="UnifiedAreaRect" Value="{{0.561718,0},{0.226493,0},{0.94453,0},{0.764397,0}}" />
+            <Window Type="TaharezLook/TabControl" Name="baggage/" >
+                <Property Name="TabHeight" Value="{0,24.8789}" />
+                <Property Name="TabPanePosition" Value="Top" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0142849,0},{0.0153032,0},{0.990817,0},{0.99128,0}}" />
+                <Window Type="DefaultWindow" Name="baggage//Tab 1" >
+                    <Property Name="Text" Value="Cloth" />
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="DefaultWindow" Name="baggage//Tab 2" >
+                    <Property Name="Text" Value="Amulet" />
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="DefaultWindow" Name="baggage//Tab 3" >
+                    <Property Name="Text" Value="Gift" />
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="DefaultWindow" Name="baggage//Tab 4" >
+                    <Property Name="Text" Value="Collect" />
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="TaharezLook/StaticImage" Name="exitcheck" >
+            <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0.375038,0},{0.7,0},{0.55,0}}" />
+            <Window Type="TaharezLook/Button" Name="yes" >
+                <Property Name="Text" Value="Yes" />
+                <Property Name="UnifiedAreaRect" Value="{{0.106641,0},{0.562582,0},{0.356641,0},{0.812582,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="no" >
+                <Property Name="Text" Value="No" />
+                <Property Name="UnifiedAreaRect" Value="{{0.633984,0},{0.562582,0},{0.883984,0},{0.812582,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

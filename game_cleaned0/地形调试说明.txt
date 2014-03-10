@@ -1,0 +1,35 @@
+操作 wsad space上 c||l-ctrl下
+注意有两个摄像机，一个是实际使用的（也就是玩家应该看到的），另一个是旁观的（用来看裁减的情况）（一开始是这个），按tab切换。按q把旁观的摄像机和实际用的摄像机同步并切换到旁观摄像机。
+T 存储表中每个地形块被看到的情况 listBlocks.txt
+F1 切换地形树节点包围盒的显示(四种状态循环:不显示，显示所有看到的节点，显示所有的叶结点，显示所有的节点）
+F2 切换地形法线的显示
+F3 切换地形的显示
+F4 切换地形顶点的显示
+F5 切换地形块邻接关系的显示
+F6 切换地形块与相邻LOD的差的显示
+
+HeightfieldTerrain参数 
+	size大小
+	minX,minY原点（地形的范围会是[minX,minX+size] [minY,minY+size])
+	sizeFirstBlockPool初始地形块数量 多则速度快，少则省内存
+	sizeNewBlockPool万一地形块不够了，一次增加多少个
+	lodThreshold 用于根据到摄像机距离控制lod层次。不好描述，自己试。
+	nBlockSeg 地形块被分为nBlockSeg*nBlockSeg个格子
+	maxBlockLvl 地形树最大深度
+	minBlockSize 地形块最小边长 也是控制深度的，和maxBlockLvl是&&的关系
+
+高度场的种类
+Textured 高度图,限2^n边长正方形8位灰度dds 参数
+	texture 纹理路径
+	freqX x方向频率 就是高度图在游戏中宽度的倒数
+	freqY y方向频率
+	freq 同时设定freqX freqY
+	amp 振幅 可以为负，效果就是反过来。
+	zOffset z平移 颜色[黑，白]对应高度[zOffset，amp+zOffset] 。
+	phaseX,phaseY 相位
+	xOffset,yOffset 高度图平移。如果相位和平移都有出现那么它们的效果会叠加。
+SineX x方向的正弦波 参数amp angularFreq phase zOffset对应可用a omega phi c代替
+SineY y方向的正弦波 参数同上
+Cascaded 级联 就是对子高度场求和 没参数
+Composite 对每个子高度场有一个Alpha场（NewAlphafield) 高度乘以Alpha后求和 高度场和Alpha场个数必须相同
+Constant 常数 参数val，常数的值

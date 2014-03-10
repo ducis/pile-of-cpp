@@ -1,0 +1,20 @@
+26/11/2012 10:55:13 (Error)	ScrolledContainerProperties::ChildExtentsArea property does not support being set.
+26/11/2012 10:55:13 (Error)	ScrolledContainerProperties::ChildExtentsArea property does not support being set.
+26/11/2012 10:55:13 (Error)	Attempt to set value of '35'  to read only property 'HorzExtent' on window: ComponentEditorWindow/Params/ScaleText
+26/11/2012 10:55:13 (Error)	Attempt to set value of '17.8576'  to read only property 'VertExtent' on window: ComponentEditorWindow/Params/ScaleText
+26/11/2012 10:55:14 (Error)	Attempt to set value of '43'  to read only property 'HorzExtent' on window: MainMenu/LogIn/TextEmail
+26/11/2012 10:55:14 (Error)	Attempt to set value of '17.8576'  to read only property 'VertExtent' on window: MainMenu/LogIn/TextEmail
+26/11/2012 10:55:14 (Error)	Attempt to set value of '64'  to read only property 'HorzExtent' on window: MainMenu/LogIn/TextPassword
+26/11/2012 10:55:14 (Error)	Attempt to set value of '17.8576'  to read only property 'VertExtent' on window: MainMenu/LogIn/TextPassword
+26/11/2012 10:55:14 (Error)	Attempt to set value of '62'  to read only property 'HorzExtent' on window: GameMain/CharacterInfo/AvatarWindow/TexShow/text
+26/11/2012 10:55:14 (Error)	Attempt to set value of '17.8576'  to read only property 'VertExtent' on window: GameMain/CharacterInfo/AvatarWindow/TexShow/text
+26/11/2012 10:55:14 (Error)	Attempt to set value of '80'  to read only property 'HorzExtent' on window: GameMain/PlayerPlacedTabWindow/Drama
+26/11/2012 10:55:14 (Error)	Attempt to set value of '17.8576'  to read only property 'VertExtent' on window: GameMain/PlayerPlacedTabWindow/Drama
+26/11/2012 10:55:14 (Error)	Attempt to set value of '107'  to read only property 'HorzExtent' on window: GameMain/PlayerPlacedTabWindow/StoryRelay
+26/11/2012 10:55:14 (Error)	Attempt to set value of '17.8576'  to read only property 'VertExtent' on window: GameMain/PlayerPlacedTabWindow/StoryRelay
+26/11/2012 10:55:14 (Error)	Attempt to set value of '77'  to read only property 'HorzExtent' on window: GameMain/PlayerPlacedTabWindow/Translatable
+26/11/2012 10:55:14 (Error)	Attempt to set value of '17.8576'  to read only property 'VertExtent' on window: GameMain/PlayerPlacedTabWindow/Translatable
+26/11/2012 10:55:14 (Error)	Attempt to set value of '32'  to read only property 'HorzExtent' on window: GameMain/PlayerPlacedTabWindow/Song
+26/11/2012 10:55:14 (Error)	Attempt to set value of '17.8576'  to read only property 'VertExtent' on window: GameMain/PlayerPlacedTabWindow/Song
+26/11/2012 10:55:14 (Error)	Attempt to set value of '73'  to read only property 'HorzExtent' on window: GameMain/PlayerPlacedTabWindow/SimplePost
+26/11/2012 10:55:14 (Error)	Attempt to set value of '17.8576'  to read only property 'VertExtent' on window: GameMain/PlayerPlacedTabWindow/SimplePost

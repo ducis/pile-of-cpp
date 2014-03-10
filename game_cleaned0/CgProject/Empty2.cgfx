@@ -1,0 +1,86 @@
+/*
+
+% Description of my shader.
+% Second line of description for my shader.
+
+keywords: material classic
+
+date: YYMMDD
+
+*/
+
+float Script : STANDARDSGLOBAL <
+    string UIWidget = "none";
+    string ScriptClass = "object";
+    string ScriptOrder = "standard";
+    string ScriptOutput = "color";
+    string Script = "Technique=Main;";
+> = 0.8;
+//float4x4 WorldViewProj : WorldViewProjection;
+//float4x4 mWV:WORLDVIEW < string UIWidget="None"; >;
+float4x4 mV:VIEW <string UIWidget="None"; >;
+float4x4 mP:PROJECTION < string UIWidget="None"; >;
+float4 position;
+float size;
+float life;
+struct VSIN{
+	float2 pos : POSITION;
+	float2 uv: TEXCOORD0;
+};
+struct VSOUT{
+	float4 hpos : POSITION;
+	float2 uv : TEXCOORD0;
+};
+VSOUT mainVS(VSIN vsIn){
+	float4 posView=float4(vsIn.pos*size,0,0)+mul(mV,position);
+	//posView=float4(vsIn.pos*size,0,0)+position;
+	//posView.w=1;
+	//float4 posView=mul(mWV,vsIn.pos);
+	VSOUT vsOut;
+	vsOut.hpos=mul(mP,posView);
+	//vsOut.hpos=posView;
+	vsOut.uv=vsIn.uv;
+	//vsOut.uv=float2(0.5,0.5);
+	return vsOut;
+	//return mul(WorldViewProj, float4(pos.xyz, 1.0));
+}
+
+texture ColorTexture<
+    string ResourceName = "Particle.dds";
+    string ResourceType = "2D";
+>;
+
+sampler2D ColorSampler = sampler_state {
+    Texture = <ColorTexture>;
+    MagFilter = Linear;
+    WrapS = Clamp;
+    WrapT = Clamp;
+    MinFilter = LinearMipMapLinear;
+};  
+
+float4 mainPS(VSOUT psIn) : COLOR {
+	//return float4(1.0, 1.0, 1.0, 1.0);
+    float4 map = tex2D(ColorSampler,psIn.uv);
+    return float4(map.rgb, map.a * life);
+	//return float4(1,1,1,1);
+}
+
+technique Main <
+	string Script = "Pass=p0;";
+> {
+    pass p0 <
+	string Script = "Draw=geometry;";
+    > {
+		VertexProgram = compile vp40 mainVS();
+        DepthTestEnable = true;
+        DepthMask = false;
+        DepthFunc = LEqual;
+        BlendEnable = true;
+		//BlendEnable = false;
+        CullFaceEnable = false;
+        //FrontFace = CW;
+        BlendEquation = FuncAdd;
+        BlendFunc = int2(SrcAlpha, OneMinusSrcAlpha);
+		FragmentProgram = compile fp40 mainPS();
+	}
+}

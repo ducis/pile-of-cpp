@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root" >
+        <Property Name="Text" Value="Planet" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,800},{0,600}}" />
+        <Window Type="TaharezLook/FrameWindow" Name="bgimage" >
+            <Property Name="UnifiedAreaRect" Value="{{-0.00234376,0},{-0.00122502,0},{0.999218,0},{1.00069,0}}" />
+        </Window>
+        <Window Type="TaharezLook/FrameWindow" Name="titleimage" >
+            <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.088055,0},{0.85,0},{0.36562,0}}" />
+        </Window>
+        <Window Type="TaharezLook/FrameWindow" Name="loginboard" >
+            <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0.43124,0},{0.7,0},{0.813325,0}}" />
+            <Window Type="TaharezLook/Button" Name="signin" >
+                <Property Name="Text" Value="NEW" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0890625,0},{0.784967,0},{0.323438,0},{0.922744,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="enter" >
+                <Property Name="Text" Value="ENTER" />
+                <Property Name="UnifiedAreaRect" Value="{{0.389844,0},{0.784967,0},{0.624219,0},{0.922744,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="exit" >
+                <Property Name="Text" Value="EXIT" />
+                <Property Name="UnifiedAreaRect" Value="{{0.685156,0},{0.784768,0},{0.913672,0},{0.93056,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Editbox" Name="logintaccount" >
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedAreaRect" Value="{{0.34375,0},{0.139281,0},{0.933594,0},{0.345193,0}}" />
+                <Property Name="TextParsingEnabled" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/Editbox" Name="loginpassword" >
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedAreaRect" Value="{{0.344531,0},{0.464527,0},{0.930469,0},{0.67044,0}}" />
+                <Property Name="TextParsingEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="TaharezLook/StaticImage" Name="signinboard" >
+            <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.116233,0},{0.75,0},{0.906812,0}}" />
+            <Window Type="TaharezLook/Button" Name="ok" >
+                <Property Name="Text" Value="OK" />
+                <Property Name="UnifiedAreaRect" Value="{{0.16875,0},{0.853997,0},{0.379688,0},{0.931599,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="cancel" >
+                <Property Name="Text" Value="Cancel" />
+                <Property Name="UnifiedAreaRect" Value="{{0.609375,0},{0.857871,0},{0.817188,0},{0.933536,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Editbox" Name="signinaccount" >
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedAreaRect" Value="{{0.373437,0},{0.258595,0},{0.89375,0},{0.349757,0}}" />
+                <Property Name="TextParsingEnabled" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/Editbox" Name="signinpassword" >
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedAreaRect" Value="{{0.376562,0},{0.430266,0},{0.889062,0},{0.519491,0}}" />
+                <Property Name="TextParsingEnabled" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/Editbox" Name="signinmail" >
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedAreaRect" Value="{{0.38125,0},{0.604844,0},{0.890624,0},{0.694069,0}}" />
+                <Property Name="TextParsingEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="TaharezLook/StaticImage" Name="exitcheck" >
+            <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0.357733,0},{0.7,0},{0.564855,0}}" />
+            <Window Type="TaharezLook/Button" Name="yes" >
+                <Property Name="Text" Value="Yes" />
+                <Property Name="UnifiedAreaRect" Value="{{0.116406,0},{0.632715,0},{0.366406,0},{0.882715,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="no" >
+                <Property Name="Text" Value="No" />
+                <Property Name="UnifiedAreaRect" Value="{{0.628125,0},{0.632715,0},{0.878125,0},{0.882715,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

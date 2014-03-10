@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1253109362 source:d:\mydemo\game\game.rc
+	"resource.h"
+	<winresrc.h>
+
+1253109363 d:\mydemo\game\resource.h
+

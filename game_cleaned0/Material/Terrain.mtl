@@ -1,0 +1,10 @@
+effect CgProject\terrain.cgfx
+SetParamsByName
+heightfield terrain.dds
+heightfieldStep 0.01 0.01
+baseZ -500
+zCoefficient 4 4 4 4
+layerCoef 5
+layerUVMod 0.2 0.2
+FogColor 0.0 0.4 0.2 0.7
+diffuseColor 0.9 0.7 0.4

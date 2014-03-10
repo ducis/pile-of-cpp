@@ -1,0 +1,192 @@
+!!ARBvp1.0
+OPTION NV_vertex_program3;
+# cgc version 2.0.0016, build date Jun  5 2008
+# command line args: -profile vp40 -I c:\documents and settings\administrator\my documents\fx composer 2\shader library\hlsl\include -I c:\documents and settings\administrator\my documents\fx composer 2\shader library\cgfx\include -I c:\documents and settings\administrator\my documents\fx composer 2\shader library\hlsl -I c:\documents and settings\administrator\my documents\fx composer 2\shader library\cgfx -I d:\program files\nvidia corporation\fx composer 2.5\media\hlsl\include -I d:\program files\nvidia corporation\fx composer 2.5\media\cgfx\include -I d:\mydemos\otacraft\game\cgproject
+# source file: d:\mydemos\otacraft\game\cgproject\Terrain.cgfx
+#vendor NVIDIA Corporation
+#version 2.0.0.16
+#profile vp40
+#program std_VS
+#semantic Script : STANDARDSGLOBAL
+#semantic WorldITXf : WorldInverseTranspose
+#semantic WvpXf : WorldViewProjection
+#semantic WorldXf : World
+#semantic ViewIXf : ViewInverse
+#semantic VpXf : ViewProjection
+#semantic Lamp0Pos : Position
+#semantic Lamp0Color : Specular
+#semantic AmbiColor : Ambient
+#semantic Ks
+#semantic Eccentricity
+#semantic diffuseColor
+#semantic terrainOffset
+#semantic terrainStep
+#semantic heightfieldStep
+#semantic baseZ
+#semantic heightfield
+#semantic heightfieldSampler
+#semantic zCoefficient
+#semantic rep
+#var float2 IN.Position : $vin.POSITION : POSITION : 0 : 1
+#var float Script : STANDARDSGLOBAL :  : -1 : 0
+#var float4x4 WorldITXf : WorldInverseTranspose : , 4 : -1 : 0
+#var float4x4 WvpXf : WorldViewProjection : , 4 : -1 : 0
+#var float4x4 WorldXf : World : , 4 : -1 : 0
+#var float4x4 ViewIXf : ViewInverse : c[0], 4 : -1 : 1
+#var float4x4 VpXf : ViewProjection : c[4], 4 : -1 : 1
+#var float3 Lamp0Pos : Position : c[8] : -1 : 1
+#var float3 Lamp0Color : Specular :  : -1 : 0
+#var float3 AmbiColor : Ambient :  : -1 : 0
+#var float Ks :  :  : -1 : 0
+#var float Eccentricity :  :  : -1 : 0
+#var float3 diffuseColor :  :  : -1 : 0
+#var float2 terrainOffset :  : c[9] : -1 : 1
+#var float2 terrainStep :  : c[10] : -1 : 1
+#var float2 heightfieldStep :  : c[11] : -1 : 1
+#var float baseZ :  : c[12] : -1 : 1
+#var texture heightfield :  :  : -1 : 0
+#var sampler2D heightfieldSampler :  : texunit 0 : -1 : 1
+#var float4 zCoefficient :  : c[13] : -1 : 1
+#var int rep :  : c[14] : -1 : 1
+#var float4 std_VS.HPosition : $vout.POSITION : HPOS : -1 : 1
+#var float3 std_VS.LightVec : $vout.TEXCOORD1 : TEX1 : -1 : 1
+#var float3 std_VS.WorldNormal : $vout.TEXCOORD2 : TEX2 : -1 : 1
+#var float3 std_VS.WorldView : $vout.TEXCOORD5 : TEX5 : -1 : 1
+#const c[15] = 0 1
+#default Script = 0.80000001
+#default Lamp0Pos = -0.5 2 1.25
+#default Lamp0Color = 1 1 1
+#default AmbiColor = 0.07 0.07 0.07
+#default Ks = 0.40000001
+#default Eccentricity = 0.30000001
+#default diffuseColor = 1 0.80000001 0.5
+#default terrainOffset = 0 0
+#default terrainStep = 1 1
+#default heightfieldStep = 1 1
+#default baseZ = -1
+#default zCoefficient = 1 0 0 0
+#default rep = 3
+PARAM c[16] = { program.local[0..14],
+		{ 0, 1 } };
+TEMP R0;
+TEMP R1;
+TEMP R2;
+TEMP R3;
+TEMP RC, HC;
+BB1:
+MUL   R0.xy, vertex.position, c[10];
+ADD   R2.xy, c[9], R0;
+MOV   R0.x, c[11];
+MUL   R3.xy, R2, c[11];
+MOV   R0.y, c[15].x;
+MUL   R0.x, R0, c[10];
+ADD   R3.zw, R3.xyxy, R0.xyxy;
+TEX   R0, R3, texture[0], 2D;
+TEX   R1, R3.zwzw, texture[0], 2D;
+DP4   R2.z, R0, c[13];
+DP4   R1.z, R1, c[13];
+MOV   R0.x, c[14];
+SLTC  HC.x, c[15], R0;
+MOV   R1.x, c[15];
+BRA   BB3 (EQ.x);
+BB2:
+MUL   R3.zw, R3, c[11].xyxy;
+TEX   R0, R3.zwzw, texture[0], 2D;
+DP4   R0.x, R0, c[13];
+ADD   R1.x, c[15].y, R1;
+SLTC  HC.x, R1, c[14];
+MUL   R1.z, R1, R0.x;
+BRA   BB2 (NE.x);
+BB3:
+MOV   R0.x, c[11];
+MOV   R0.y, c[15].x;
+MUL   R0.x, R0, c[10];
+ADD   R1.xy, R3, -R0;
+TEX   R0, R1, texture[0], 2D;
+DP4   R1.w, R0, c[13];
+MOV   R0.x, c[14];
+SLTC  HC.x, c[15], R0;
+MOV   R2.w, c[15].x;
+BRA   BB5 (EQ.x);
+BB4:
+MUL   R1.xy, R1, c[11];
+TEX   R0, R1, texture[0], 2D;
+DP4   R0.x, R0, c[13];
+ADD   R2.w, c[15].y, R2;
+SLTC  HC.x, R2.w, c[14];
+MUL   R1.w, R1, R0.x;
+BRA   BB4 (NE.x);
+BB5:
+MOV   R0.x, c[11].y;
+MUL   R0.y, R0.x, c[10];
+MOV   R0.x, c[15];
+ADD   R1.xy, R3, R0;
+TEX   R0, R1, texture[0], 2D;
+DP4   R2.w, R0, c[13];
+MOV   R0.x, c[14];
+SLTC  HC.x, c[15], R0;
+MOV   R3.z, c[15].x;
+BRA   BB7 (EQ.x);
+BB6:
+MUL   R1.xy, R1, c[11];
+TEX   R0, R1, texture[0], 2D;
+DP4   R0.x, R0, c[13];
+ADD   R3.z, c[15].y, R3;
+SLTC  HC.x, R3.z, c[14];
+MUL   R2.w, R2, R0.x;
+BRA   BB6 (NE.x);
+BB7:
+MOV   R0.x, c[11].y;
+MUL   R0.y, R0.x, c[10];
+MOV   R0.x, c[15];
+ADD   R1.xy, R3, -R0;
+TEX   R0, R1, texture[0], 2D;
+DP4   R3.w, R0, c[13];
+MOV   R0.x, c[14];
+SLTC  HC.x, c[15], R0;
+MOV   R3.x, c[15];
+BRA   BB9 (EQ.x);
+BB8:
+MUL   R1.xy, R1, c[11];
+TEX   R0, R1, texture[0], 2D;
+DP4   R0.x, R0, c[13];
+ADD   R3.x, c[15].y, R3;
+SLTC  HC.x, R3, c[14];
+MUL   R3.w, R3, R0.x;
+BRA   BB8 (NE.x);
+BB9:
+ADD   R0.w, c[12].x, R2.z;
+MOV   R0.z, R0.w;
+MOV   R0.xy, R2;
+MOV   R3.x, c[0].w;
+MOV   R3.z, c[2].w;
+MOV   R3.y, c[1].w;
+ADD   R3.xyz, -R0, R3;
+DP3   R1.x, R3, R3;
+RSQ   R1.x, R1.x;
+MUL   result.texcoord[5].xyz, R1.x, R3;
+ADD   R3.x, R2.z, -R1.z;
+ADD   R1.x, -R2.z, R1.w;
+MOV   R1.w, c[15].y;
+MOV   R3.y, c[15].x;
+MOV   R3.z, c[10].x;
+MOV   R1.z, c[10].x;
+MOV   R1.y, c[15].x;
+ADD   R1.xyz, R3, R1;
+ADD   R3.y, R2.z, -R2.w;
+MOV   R3.x, c[15];
+MOV   R3.z, c[10].x;
+ADD   R1.xyz, R3, R1;
+ADD   R3.y, -R2.z, R3.w;
+MOV   R3.x, c[15];
+MOV   R3.z, c[10].x;
+ADD   result.texcoord[2].xyz, R3, R1;
+MOV   R1.xy, R2;
+MOV   R1.z, R0.w;
+DP4   result.position.w, R1, c[7];
+DP4   result.position.z, R1, c[6];
+DP4   result.position.y, R1, c[5];
+DP4   result.position.x, R1, c[4];
+ADD   result.texcoord[1].xyz, c[8], -R0;
+END
+# 106 instructions, 4 R-regs

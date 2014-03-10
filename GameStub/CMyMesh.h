@@ -1,0 +1,13 @@
+#include <DXUT.h>
+#define MYMESH_MAXVB 16
+#define MYMESH_MAXIB 1
+class CMyMesh{
+	LPDIRECT3DVERTEXBUFFER9 vBuf[MYMESH_MAXVB];
+	LPDIRECT3DINDEXBUFFER9 iBuf[MYMESH_MAXIB];
+	LPDIRECT3DVERTEXDECLARATION9 pVertDecl[MYMESH_MAXVB];
+	long vSize[MYMESH_MAXVB];
+	long nV,nI,nVB,nIB,Options,Type;
+	CMyMesh();
+	CMyMesh(FILE *file);
+	~CMyMesh();
+};

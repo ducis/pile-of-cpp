@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="TaharezLook/FrameWindow" Name="Song" >
+        <Property Name="Text" Value="Singing" />
+        <Property Name="Alpha" Value="0.75" />
+        <Property Name="TitlebarFont" Value="DejaVuSans-10" />
+        <Property Name="InheritsAlpha" Value="False" />
+        <Property Name="SizingEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,512},{0,512}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Property Name="CloseButtonEnabled" Value="False" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Window Type="DefaultWindow" Name="Song/ClientArea" >
+            <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{1,-4},{1,-4}}" />
+            <Window Type="TaharezLook/StaticText" >
+                <Property Name="Text" Value="Title:" />
+                <Property Name="HorzExtent" Value="30" />
+                <Property Name="VertExtent" Value="17.8576" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0,24}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/Editbox" Name="Song/EbTitle" >
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,24},{1,0},{0,48}}" />
+                <Property Name="TextParsingEnabled" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/StaticText" >
+                <Property Name="Text" Value="Additional info" />
+                <Property Name="HorzExtent" Value="85" />
+                <Property Name="VertExtent" Value="17.8576" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,48},{1,0},{0,72}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/MultiLineEditbox" Name="Song/MleDesc" >
+                <Property Name="Text" >
+</Property>
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,72},{1,0},{0.4,0}}" />
+                <Property Name="TextParsingEnabled" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/StaticText" >
+                <Property Name="Text" Value="Lyrics" />
+                <Property Name="HorzExtent" Value="35" />
+                <Property Name="VertExtent" Value="17.8576" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.4,0},{1,0},{0.4,24}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/MultiLineEditbox" Name="Song/MleLyrics" >
+                <Property Name="Text" >
+</Property>
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.4,24},{1,0},{1,-28}}" />
+                <Property Name="TextParsingEnabled" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="Song/BtnRecord" >
+                <Property Name="Text" Value="Record" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.2,0},{0,24}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="Song/BtnStop" >
+                <Property Name="Text" Value="Stop" />
+                <Property Name="UnifiedAreaRect" Value="{{0.2,4},{0,0},{0.4,0},{0,24}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="Song/BtnPlay" >
+                <Property Name="Text" Value="Play" />
+                <Property Name="UnifiedAreaRect" Value="{{0.4,4},{0,0},{0.6,0},{0,24}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="Song/BtnRate" >
+                <Property Name="Text" Value="Rate" />
+                <Property Name="UnifiedAreaRect" Value="{{0.6,4},{0,0},{0.8,0},{0,24}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="Song/BtnClose" >
+                <Property Name="Text" Value="Close" />
+                <Property Name="UnifiedAreaRect" Value="{{0.8,4},{0,0},{1,0},{0,24}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

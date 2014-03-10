@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<CEGUIConfig>
+  <Logging filename="useless.log" level="Errors" />
+  <!--<Logging filename="useless.log" level="Insane" />-->
+  <ResourceDirectory group="imagesets" directory="gui/imagesets/" />
+  <ResourceDirectory group="fonts" directory="gui/fonts/" />
+  <ResourceDirectory group="layouts" directory="gui/layouts/" />
+  <ResourceDirectory group="looknfeels" directory="gui/looknfeel/" />
+  <ResourceDirectory group="schemes" directory="gui/schemes/" />
+  <DefaultResourceGroup type="Imageset" group="imagesets" />
+  <DefaultResourceGroup type="Font" group="fonts" />
+  <DefaultResourceGroup type="Scheme" group="schemes" />
+  <DefaultResourceGroup type="LookNFeel" group="looknfeels" />
+  <DefaultResourceGroup type="Layout" group="layouts" />
+  <AutoLoad type="Scheme" pattern="gui/schemes/*.scheme" />
+  <AutoLoad type="LookNFeel" pattern="gui/looknfeel/*.looknfeel" />
+  <AutoLoad type="Imageset" pattern="gui/imagesets/*.imageset" />
+  <AutoLoad type="Font" pattern="gui/fonts/*.font" />
+  <!--<AutoLoad type="Layout" pattern="gui/layouts/tbj.layout" />-->
+  <DefaultFont name="DejaVuSans-10" />
+  <DefaultMouseCursor imageset="TaharezLook" image="MouseArrow" />
+  <DefaultTooltip name="TaharezLook/Tooltip" />
+  <!--<DefaultGUISheet name="tbj.layout" />--> 
+</CEGUIConfig>

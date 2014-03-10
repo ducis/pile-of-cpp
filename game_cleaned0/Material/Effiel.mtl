@@ -1,0 +1,5 @@
+effect CgProject\Blinn.cgfx
+SetParamsByName
+Ks 1.0
+Eccentricity 1.0
+diffuseColor 0.4 0.3 0.3

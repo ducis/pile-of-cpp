@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="ascii"?>
+<hkpackfile classversion="7" contentsversion="Havok-6.6.0-r1" toplevelobject="#0037">
+
+	<hksection name="__data__">
+
+		<hkobject name="#0038" class="hkMemoryResourceContainer" signature="0x93561016">
+			<!-- memSizeAndFlags SERIALIZE_IGNORED -->
+			<!-- referenceCount SERIALIZE_IGNORED -->
+			<hkparam name="nameIsAllocated">false</hkparam>
+			<hkparam name="name"></hkparam>
+			<!-- parent SERIALIZE_IGNORED -->
+			<hkparam name="resourceHandles" numelements="0"></hkparam>
+			<hkparam name="children" numelements="0"></hkparam>
+		</hkobject>
+
+		<hkobject name="#0039" class="hkxCamera" signature="0xd5c65fae">
+			<hkparam name="from">(3.277984 -7.066386 5.058482 0.000000)</hkparam>
+			<hkparam name="focus">(1.084754 0.842148 0.224181 0.000000)</hkparam>
+			<hkparam name="up">(-0.135634 0.489079 0.861629 0.000000)</hkparam>
+			<hkparam name="fov">0.602416</hkparam>
+			<hkparam name="far">76.200012</hkparam>
+			<hkparam name="near">0.009525</hkparam>
+			<hkparam name="leftHanded">false</hkparam>
+		</hkobject>
+
+		<hkobject name="#0040" class="hkxNode" signature="0x6af1b5a">
+			<hkparam name="attributeGroups" numelements="0"></hkparam>
+			<hkparam name="name">defaultCamera</hkparam>
+			<hkparam name="object">(#0039 null)</hkparam>
+			<hkparam name="keyFrames" numelements="1">
+				(1.000000 0.000000 0.000000 0.000000)(0.000000 1.000000 0.000000 0.000000)(0.000000 0.000000 1.000000 0.000000)(0.000000 0.000000 0.000000 1.000000)
+			</hkparam>
+			<hkparam name="children" numelements="0"></hkparam>
+			<hkparam name="annotations" numelements="0"></hkparam>
+			<hkparam name="userProperties">&#9216;</hkparam>
+			<hkparam name="selected">false</hkparam>
+		</hkobject>
+
+		<hkobject name="#0041" class="hkxIndexBuffer" signature="0x1c8a8c37">
+			<hkparam name="indexType">INDEX_TYPE_TRI_LIST</hkparam>
+			<hkparam name="indices16" numelements="36">
+				0 1 2 2 3 0 4 5 6 6 7 4 8 9 10 10
+				11 8 12 13 14 14 15 12 16 17 18 18 19 16 20 21
+				22 22 23 20
+			</hkparam>
+			<hkparam name="indices32" numelements="0"></hkparam>
+			<hkparam name="vertexBaseOffset">0</hkparam>
+			<hkparam name="length">36</hkparam>
+		</hkobject>
+
+		<hkobject name="#0042" class="hkxVertexDescription" signature="0xe745584c">
+			<hkparam name="stride">48</hkparam>
+			<hkparam name="decls" numelements="3">
+				<hkobject>
+					<hkparam name="byteOffset">0</hkparam>
+					<hkparam name="type">HKX_DT_FLOAT4</hkparam>
+					<hkparam name="usage">HKX_DU_POSITION</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="byteOffset">16</hkparam>
+					<hkparam name="type">HKX_DT_FLOAT4</hkparam>
+					<hkparam name="usage">HKX_DU_NORMAL</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="byteOffset">32</hkparam>
+					<hkparam name="type">HKX_DT_FLOAT2</hkparam>
+					<hkparam name="usage">HKX_DU_TEXCOORD</hkparam>
+				</hkobject>
+			</hkparam>
+		</hkobject>
+
+		<hkobject name="#0043" class="hkClass" signature="0x14425e51">
+			<hkparam name="name">hkxVertexP4N4T4</hkparam>
+			<hkparam name="parent">null</hkparam>
+			<hkparam name="objectSize">48</hkparam>
+			<hkparam name="numImplementedInterfaces">0</hkparam>
+			<hkparam name="declaredEnums" numelements="0"></hkparam>
+			<hkparam name="declaredMembers" numelements="6">
+				<hkobject>
+					<hkparam name="name">position</hkparam>
+					<hkparam name="class">null</hkparam>
+					<hkparam name="enum">null</hkparam>
+					<hkparam name="type">TYPE_VECTOR4</hkparam>
+					<hkparam name="subtype">TYPE_VOID</hkparam>
+					<hkparam name="cArraySize">0</hkparam>
+					<hkparam name="flags">0</hkparam>
+					<hkparam name="offset">0</hkparam>
+					<!-- attributes SERIALIZE_IGNORED -->
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">normal</hkparam>
+					<hkparam name="class">null</hkparam>
+					<hkparam name="enum">null</hkparam>
+					<hkparam name="type">TYPE_VECTOR4</hkparam>
+					<hkparam name="subtype">TYPE_VOID</hkparam>
+					<hkparam name="cArraySize">0</hkparam>
+					<hkparam name="flags">0</hkparam>
+					<hkparam name="offset">16</hkparam>
+					<!-- attributes SERIALIZE_IGNORED -->
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">u0</hkparam>
+					<hkparam name="class">null</hkparam>
+					<hkparam name="enum">null</hkparam>
+					<hkparam name="type">TYPE_REAL</hkparam>
+					<hkparam name="subtype">TYPE_VOID</hkparam>
+					<hkparam name="cArraySize">0</hkparam>
+					<hkparam name="flags">0</hkparam>
+					<hkparam name="offset">32</hkparam>
+					<!-- attributes SERIALIZE_IGNORED -->
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">v0</hkparam>
+					<hkparam name="class">null</hkparam>
+					<hkparam name="enum">null</hkparam>
+					<hkparam name="type">TYPE_REAL</hkparam>
+					<hkparam name="subtype">TYPE_VOID</hkparam>
+					<hkparam name="cArraySize">0</hkparam>
+					<hkparam name="flags">0</hkparam>
+					<hkparam name="offset">36</hkparam>
+					<!-- attributes SERIALIZE_IGNORED -->
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">u1</hkparam>
+					<hkparam name="class">null</hkparam>
+					<hkparam name="enum">null</hkparam>
+					<hkparam name="type">TYPE_REAL</hkparam>
+					<hkparam name="subtype">TYPE_VOID</hkparam>
+					<hkparam name="cArraySize">0</hkparam>
+					<hkparam name="flags">0</hkparam>
+					<hkparam name="offset">40</hkparam>
+					<!-- attributes SERIALIZE_IGNORED -->
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">v1</hkparam>
+					<hkparam name="class">null</hkparam>
+					<hkparam name="enum">null</hkparam>
+					<hkparam name="type">TYPE_REAL</hkparam>
+					<hkparam name="subtype">TYPE_VOID</hkparam>
+					<hkparam name="cArraySize">0</hkparam>
+					<hkparam name="flags">0</hkparam>
+					<hkparam name="offset">44</hkparam>
+					<!-- attributes SERIALIZE_IGNORED -->
+				</hkobject>
+			</hkparam>
+			<!-- defaults SERIALIZE_IGNORED -->
+			<!-- attributes SERIALIZE_IGNORED -->
+			<hkparam name="flags">0</hkparam>
+			<hkparam name="describedVersion">0</hkparam>
+		</hkobject>
+
+		<hkobject name="#0044" class="hkxVertexBuffer" signature="0x8e9b1727">
+			<hkparam name="vertexData" numelements="24">
+				<!-- Homogeneous Class -->#0043
+				<hkobject>
+					<hkparam name="position">(-1.000000 -1.000000 -1.000000 0.000000)</hkparam>
+					<hkparam name="normal">(0.000000 0.000000 -1.000000 0.000000)</hkparam>
+					<hkparam name="u0">0.000000</hkparam>
+					<hkparam name="v0">0.000000</hkparam>
+					<hkparam name="u1">0.000000</hkparam>
+					<hkparam name="v1">0.000000</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="position">(-1.000000 1.000000 -1.000000 0.000000)</hkparam>
+					<hkparam name="normal">(0.000000 0.000000 -1.000000 0.000000)</hkparam>
+					<hkparam name="u0">0.000000</hkparam>
+					<hkparam name="v0">0.000000</hkparam>
+					<hkparam name="u1">0.000000</hkparam>
+					<hkparam name="v1">0.000000</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="position">(1.000000 1.000000 -1.000000 0.000000)</hkparam>
+					<hkparam name="normal">(0.000000 0.000000 -1.000000 0.000000)</hkparam>
+					<hkparam name="u0">0.000000</hkparam>
+					<hkparam name="v0">0.000000</hkparam>
+					<hkparam name="u1">0.000000</hkparam>
+					<hkparam name="v1">0.000000</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="position">(1.000000 -1.000000 -1.000000 0.000000)</hkparam>
+					<hkparam name="normal">(0.000000 0.000000 -1.000000 0.000000)</hkparam>
+					<hkparam name="u0">0.000000</hkparam>
+					<hkparam name="v0">0.000000</hkparam>
+					<hkparam name="u1">0.000000</hkparam>
+					<hkparam name="v1">0.000000</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="position">(-1.000000 -1.000000 1.000000 0.000000)</hkparam>
+					<hkparam name="normal">(0.000000 0.000000 1.000000 0.000000)</hkparam>
+					<hkparam name="u0">0.000000</hkparam>
+					<hkparam name="v0">0.000000</hkparam>
+					<hkparam name="u1">0.000000</hkparam>
+					<hkparam name="v1">0.000000</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="position">(1.000000 -1.000000 1.000000 0.000000)</hkparam>
+					<hkparam name="normal">(0.000000 0.000000 1.000000 0.000000)</hkparam>
+					<hkparam name="u0">0.000000</hkparam>
+					<hkparam name="v0">0.000000</hkparam>
+					<hkparam name="u1">0.000000</hkparam>
+					<hkparam name="v1">0.000000</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="position">(1.000000 1.000000 1.000000 0.000000)</hkparam>
+					<hkparam name="normal">(0.000000 0.000000 1.000000 0.000000)</hkparam>
+					<hkparam name="u0">0.000000</hkparam>
+					<hkparam name="v0">0.000000</hkparam>
+					<hkparam name="u1">0.000000</hkparam>
+					<hkparam name="v1">0.000000</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="position">(-1.000000 1.000000 1.000000 0.000000)</hkparam>
+					<hkparam name="normal">(0.000000 0.000000 1.000000 0.000000)</hkparam>
+					<hkparam name="u0">0.000000</hkparam>
+					<hkparam name="v0">0.000000</hkparam>
+					<hkparam name="u1">0.000000</hkparam>
+					<hkparam name="v1">0.000000</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="position">(-1.000000 -1.000000 -1.000000 0.000000)</hkparam>
+					<hkparam name="normal">(0.000000 -1.000000 0.000000 0.000000)</hkparam>
+					<hkparam name="u0">0.000000</hkparam>
+					<hkparam name="v0">0.000000</hkparam>
+					<hkparam name="u1">0.000000</hkparam>
+					<hkparam name="v1">0.000000</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="position">(1.000000 -1.000000 -1.000000 0.000000)</hkparam>
+					<hkparam name="normal">(0.000000 -1.000000 0.000000 0.000000)</hkparam>
+					<hkparam name="u0">0.000000</hkparam>
+					<hkparam name="v0">0.000000</hkparam>
+					<hkparam name="u1">0.000000</hkparam>
+					<hkparam name="v1">0.000000</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="position">(1.000000 -1.000000 1.000000 0.000000)</hkparam>
+					<hkparam name="normal">(0.000000 -1.000000 0.000000 0.000000)</hkparam>
+					<hkparam name="u0">0.000000</hkparam>
+					<hkparam name="v0">0.000000</hkparam>
+					<hkparam name="u1">0.000000</hkparam>
+					<hkparam name="v1">0.000000</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="position">(-1.000000 -1.000000 1.000000 0.000000)</hkparam>
+					<hkparam name="normal">(0.000000 -1.000000 0.000000 0.000000)</hkparam>
+					<hkparam name="u0">0.000000</hkparam>
+					<hkparam name="v0">0.000000</hkparam>
+					<hkparam name="u1">0.000000</hkparam>
+					<hkparam name="v1">0.000000</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="position">(1.000000 -1.000000 -1.000000 0.000000)</hkparam>
+					<hkparam name="normal">(1.000000 0.000000 0.000000 0.000000)</hkparam>
+					<hkparam name="u0">0.000000</hkparam>
+					<hkparam name="v0">0.000000</hkparam>
+					<hkparam name="u1">0.000000</hkparam>
+					<hkparam name="v1">0.000000</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="position">(1.000000 1.000000 -1.000000 0.000000)</hkparam>
+					<hkparam name="normal">(1.000000 0.000000 0.000000 0.000000)</hkparam>
+					<hkparam name="u0">0.000000</hkparam>
+					<hkparam name="v0">0.000000</hkparam>
+					<hkparam name="u1">0.000000</hkparam>
+					<hkparam name="v1">0.000000</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="position">(1.000000 1.000000 1.000000 0.000000)</hkparam>
+					<hkparam name="normal">(1.000000 0.000000 0.000000 0.000000)</hkparam>
+					<hkparam name="u0">0.000000</hkparam>
+					<hkparam name="v0">0.000000</hkparam>
+					<hkparam name="u1">0.000000</hkparam>
+					<hkparam name="v1">0.000000</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="position">(1.000000 -1.000000 1.000000 0.000000)</hkparam>
+					<hkparam name="normal">(1.000000 0.000000 0.000000 0.000000)</hkparam>
+					<hkparam name="u0">0.000000</hkparam>
+					<hkparam name="v0">0.000000</hkparam>
+					<hkparam name="u1">0.000000</hkparam>
+					<hkparam name="v1">0.000000</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="position">(1.000000 1.000000 -1.000000 0.000000)</hkparam>
+					<hkparam name="normal">(0.000000 1.000000 0.000000 0.000000)</hkparam>
+					<hkparam name="u0">0.000000</hkparam>
+					<hkparam name="v0">0.000000</hkparam>
+					<hkparam name="u1">0.000000</hkparam>
+					<hkparam name="v1">0.000000</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="position">(-1.000000 1.000000 -1.000000 0.000000)</hkparam>
+					<hkparam name="normal">(0.000000 1.000000 0.000000 0.000000)</hkparam>
+					<hkparam name="u0">0.000000</hkparam>
+					<hkparam name="v0">0.000000</hkparam>
+					<hkparam name="u1">0.000000</hkparam>
+					<hkparam name="v1">0.000000</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="position">(-1.000000 1.000000 1.000000 0.000000)</hkparam>
+					<hkparam name="normal">(0.000000 1.000000 0.000000 0.000000)</hkparam>
+					<hkparam name="u0">0.000000</hkparam>
+					<hkparam name="v0">0.000000</hkparam>
+					<hkparam name="u1">0.000000</hkparam>
+					<hkparam name="v1">0.000000</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="position">(1.000000 1.000000 1.000000 0.000000)</hkparam>
+					<hkparam name="normal">(0.000000 1.000000 0.000000 0.000000)</hkparam>
+					<hkparam name="u0">0.000000</hkparam>
+					<hkparam name="v0">0.000000</hkparam>
+					<hkparam name="u1">0.000000</hkparam>
+					<hkparam name="v1">0.000000</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="position">(-1.000000 1.000000 -1.000000 0.000000)</hkparam>
+					<hkparam name="normal">(-1.000000 0.000000 0.000000 0.000000)</hkparam>
+					<hkparam name="u0">0.000000</hkparam>
+					<hkparam name="v0">0.000000</hkparam>
+					<hkparam name="u1">0.000000</hkparam>
+					<hkparam name="v1">0.000000</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="position">(-1.000000 -1.000000 -1.000000 0.000000)</hkparam>
+					<hkparam name="normal">(-1.000000 0.000000 0.000000 0.000000)</hkparam>
+					<hkparam name="u0">0.000000</hkparam>
+					<hkparam name="v0">0.000000</hkparam>
+					<hkparam name="u1">0.000000</hkparam>
+					<hkparam name="v1">0.000000</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="position">(-1.000000 -1.000000 1.000000 0.000000)</hkparam>
+					<hkparam name="normal">(-1.000000 0.000000 0.000000 0.000000)</hkparam>
+					<hkparam name="u0">0.000000</hkparam>
+					<hkparam name="v0">0.000000</hkparam>
+					<hkparam name="u1">0.000000</hkparam>
+					<hkparam name="v1">0.000000</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="position">(-1.000000 1.000000 1.000000 0.000000)</hkparam>
+					<hkparam name="normal">(-1.000000 0.000000 0.000000 0.000000)</hkparam>
+					<hkparam name="u0">0.000000</hkparam>
+					<hkparam name="v0">0.000000</hkparam>
+					<hkparam name="u1">0.000000</hkparam>
+					<hkparam name="v1">0.000000</hkparam>
+				</hkobject></hkparam>
+			<hkparam name="vertexDesc">#0042</hkparam>
+		</hkobject>
+
+		<hkobject name="#0045" class="hkxMeshSection" signature="0x912c8863">
+			<hkparam name="vertexBuffer">#0044</hkparam>
+			<hkparam name="indexBuffers" numelements="1">
+				#0041
+			</hkparam>
+			<hkparam name="material">null</hkparam>
+			<hkparam name="userChannels" numelements="0"></hkparam>
+		</hkobject>
+
+		<hkobject name="#0046" class="hkxMesh" signature="0x72e8e849">
+			<hkparam name="sections" numelements="1">
+				#0045
+			</hkparam>
+			<hkparam name="userChannelInfos" numelements="0"></hkparam>
+		</hkobject>
+
+		<hkobject name="#0047" class="hkxNode" signature="0x6af1b5a">
+			<hkparam name="attributeGroups" numelements="0"></hkparam>
+			<hkparam name="name">Box01</hkparam>
+			<hkparam name="object">(#0046 null)</hkparam>
+			<hkparam name="keyFrames" numelements="2">
+				(1.000000 -0.000000 0.000000 0.000000)(0.000000 1.000000 0.000000 0.000000)(0.000000 0.000000 1.000000 0.000000)(1.000000 1.000000 1.000000 1.000000)
+				(1.000000 -0.000000 0.000000 0.000000)(0.000000 1.000000 0.000000 0.000000)(0.000000 0.000000 1.000000 0.000000)(1.000000 1.000000 1.000000 1.000000)
+			</hkparam>
+			<hkparam name="children" numelements="0"></hkparam>
+			<hkparam name="annotations" numelements="0"></hkparam>
+			<hkparam name="userProperties"></hkparam>
+			<hkparam name="selected">true</hkparam>
+		</hkobject>
+
+		<hkobject name="#0048" class="hkxNode" signature="0x6af1b5a">
+			<hkparam name="attributeGroups" numelements="0"></hkparam>
+			<hkparam name="name">ROOT_NODE</hkparam>
+			<hkparam name="object"></hkparam>
+			<hkparam name="keyFrames" numelements="1">
+				(1.000000 0.000000 0.000000 0.000000)(0.000000 1.000000 0.000000 0.000000)(0.000000 0.000000 1.000000 0.000000)(0.000000 0.000000 0.000000 1.000000)
+			</hkparam>
+			<hkparam name="children" numelements="2">
+				#0047 #0040
+			</hkparam>
+			<hkparam name="annotations" numelements="0"></hkparam>
+			<hkparam name="userProperties">&#9216;</hkparam>
+			<hkparam name="selected">false</hkparam>
+		</hkobject>
+
+		<hkobject name="#0049" class="hkxScene" signature="0x1fb22361">
+			<hkparam name="modeller">3ds max 9.0.0</hkparam>
+			<hkparam name="asset">C:\Documents and Settings\Administrator\My Documents\3dsmax\scenes\havoktest.max</hkparam>
+			<hkparam name="sceneLength">3.333333</hkparam>
+			<hkparam name="rootNode">#0048</hkparam>
+			<hkparam name="selectionSets" numelements="0"></hkparam>
+			<hkparam name="cameras" numelements="1">
+				#0039
+			</hkparam>
+			<hkparam name="lights" numelements="0"></hkparam>
+			<hkparam name="meshes" numelements="1">
+				#0046
+			</hkparam>
+			<hkparam name="materials" numelements="0"></hkparam>
+			<hkparam name="inplaceTextures" numelements="0"></hkparam>
+			<hkparam name="externalTextures" numelements="0"></hkparam>
+			<hkparam name="skinBindings" numelements="0"></hkparam>
+			<hkparam name="appliedTransform">(0.025400 0.000000 0.000000)(0.000000 0.025400 0.000000)(0.000000 0.000000 0.025400)</hkparam>
+		</hkobject>
+
+		<hkobject name="#0037" class="hkRootLevelContainer" signature="0xf598a34e">
+			<hkparam name="namedVariants" numelements="2">
+				<hkobject>
+					<hkparam name="name">Scene Data</hkparam>
+					<hkparam name="className">hkxScene</hkparam>
+					<hkparam name="variant">(#0049 null)</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">Resource Data</hkparam>
+					<hkparam name="className">hkMemoryResourceContainer</hkparam>
+					<hkparam name="variant">(#0038 null)</hkparam>
+				</hkobject>
+			</hkparam>
+		</hkobject>
+
+	</hksection>
+
+</hkpackfile>

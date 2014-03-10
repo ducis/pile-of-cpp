@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<Component name="cube" mass="1" price="10">
+  <Children>
+    <Mesh mesh="mesh/cube.obj">
+    </Mesh>
+  </Children>
+</Component>

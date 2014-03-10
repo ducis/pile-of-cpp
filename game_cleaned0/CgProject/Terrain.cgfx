@@ -1,0 +1,177 @@
+float Script : STANDARDSGLOBAL <
+    string UIWidget = "none";
+    string ScriptClass = "object";
+    string ScriptOrder = "standard";
+    string ScriptOutput = "color";
+    string Script = "Technique=Main;";
+> = 0.8;
+
+float4x4 WorldITXf : WorldInverseTranspose < string UIWidget="None"; >;
+float4x4 WvpXf : WorldViewProjection < string UIWidget="None"; >;
+float4x4 WorldXf : World < string UIWidget="None"; >;
+float4x4 ViewIXf : ViewInverse < string UIWidget="None"; >;
+float4x4 VpXf : ViewProjection <string UIWidget="None"; >;
+float2 terrainX <string UIWidgt="None";> = {1,0};
+float2 terrainY <string UIWidgt="None";> = {0,1};
+
+float3 Lamp0Pos : Position <
+    string Object = "PointLight0";
+    string UIName =  "Lamp 0 Position";
+    string Space = "World";
+> = {-0.5f,2.0f,1.25f};
+
+float3 Lamp0Color : Specular <
+    string UIName =  "Lamp 0";
+    string Object = "Pointlight0";
+    string UIWidget = "Color";
+> = {1.0,1.0,1.0};
+
+float3 AmbiColor : Ambient <
+    string UIName =  "Ambient Light";
+    string UIWidget = "Color";
+> = {0.07f,0.07f,0.07f};
+
+float4 FogColor;
+
+float Ks < string UIWidget="None"; > = 0.4;
+
+float Eccentricity < string UIWidget="None"; > = 0.3;
+ 
+float3 diffuseColor < string UIWidget="None"; > = {1.0f,0.8f,0.5f};
+
+float2 terrainOffset = {0,0};
+float2 terrainStep ={1,1};
+float2 heightfieldStep = {1,1};
+float baseZ = -1.0f;
+struct appdata {
+    float2 Position	: POSITION;
+};
+
+texture heightfield  <
+	string ResourceName = "terrain.dds";//Optional default file name
+	string UIName =  "heightfield Texture";
+	string ResourceType = "2D";
+>;
+
+sampler2D heightfieldSampler = sampler_state {
+    Texture = <heightfield>;
+    MinFilter = LinearMipMapLinear;
+    MagFilter = Linear;
+    WrapS = Repeat;
+    WrapT = Repeat;
+};
+
+texture ColorTexture  <
+	  string ResourceName = "tex.dds";//Optional default file name
+	  string UIName =  "ColorTexture Texture";
+	  string ResourceType = "2D";
+>;
+
+sampler2D ColorTextureSampler = sampler_state {
+	  Texture = <ColorTexture>;
+	  MinFilter = LinearMipMapLinear;
+	  MagFilter = Linear;
+	  WrapS = Repeat;
+	  WrapT = Repeat;
+};
+	
+		
+struct vertexOutput {
+    float4 HPosition	: POSITION;
+	float fogIntensity : TEXCOORD3;
+	float2 coloruv :TEXCOORD0;
+    float3 LightVec	: TEXCOORD1;
+    float3 WorldNormal	: TEXCOORD2;
+    float3 WorldView	: TEXCOORD5;
+};
+float4 zCoefficient = float4(1.0,0.0,0.0,0.0);
+float layerCoef = 5.0f;
+float2 layerUVMod = {0.1f,0.1f};
+
+float GetHeight(float2 uv){
+	float4 z1=tex2D(heightfieldSampler,uv);
+	float c = 1;
+	for(int i=0;i<2;++i){
+		uv*=layerUVMod;
+		c*=layerCoef;
+		z1+=tex2D(heightfieldSampler,uv)*c;//,zCoefficient);
+	}
+	//uv*=heightfieldStep;
+	//z1*=dot(tex2D(heightfieldSampler,uv),zCoefficient);
+	return dot(z1,zCoefficient);
+}
+vertexOutput std_VS(appdata IN) {
+    vertexOutput OUT = (vertexOutput)0;
+    OUT.WorldNormal = (0,0,1);
+    //float4 Po = float4(IN.Position.xyz,1);
+    //float3 Pw = mul(WorldXf,Po).xyz;
+	float3 Pw;
+	Pw.xy = (IN.Position.x*terrainX+IN.Position.y*terrainY)*terrainStep+terrainOffset;
+	float2 uv=Pw.xy*heightfieldStep;//{Pw.x*heightfieldStep,Pw.y*heightfieldStep};
+	Pw.z = GetHeight(uv);
+	float z1 = GetHeight(uv+float2(1.0/128,0));
+	float z2 = GetHeight(uv-float2(1.0/128,0));
+	float z3 = GetHeight(uv+float2(0,1.0/128));
+	float z4 = GetHeight(uv-float2(0,1.0/128));
+	//float z1 = GetHeight(uv+float2(abs(terrainStep.x)*heightfieldStep.x,0));
+	//float z2 = GetHeight(uv-float2(abs(terrainStep.x)*heightfieldStep.x,0));
+	//float z3 = GetHeight(uv+float2(0,abs(terrainStep.y)*heightfieldStep.y));
+	//float z4 = GetHeight(uv-float2(0,abs(terrainStep.y)*heightfieldStep.y));
+	//OUT.WorldNormal = float3(Pw.z-z1,0,terrainStep)+
+		//			  float3(z2-Pw.z,0,terrainStep);//+
+					  //float3(0,Pw.z-z3,terrainStep)+
+				      //float3(0,z4-Pw.z,terrainStep);
+	OUT.WorldNormal=float3(z2-z1,z4-z3,4*abs(terrainStep));
+	Pw.z+=baseZ;
+    OUT.LightVec = (Lamp0Pos - Pw);
+    OUT.WorldView = normalize(float3(ViewIXf[0].w,ViewIXf[1].w,ViewIXf[2].w) - Pw);
+    OUT.HPosition = mul(VpXf ,float4(Pw,1));
+	//OUT.coloruv=Pw.xy;
+	OUT.fogIntensity=max((IN.Position.x*IN.Position.x+IN.Position.y*IN.Position.y)-25000000,0)*0.0000001;
+    return OUT;
+}
+float fogOff = 0;
+float4 std_PS(vertexOutput IN) : COLOR {
+    //float3 diffContrib;
+    //float3 specContrib;
+    float3 Ln = normalize(IN.LightVec);
+    float3 Vn = normalize(IN.WorldView);
+    float3 Nn = normalize(IN.WorldNormal);
+	//blinn_shading(IN,Lamp0Color,Nn,Ln,Vn,diffContrib,specContrib);
+    //float3 result = specContrib+(diffuseColor*(diffContrib+AmbiColor));
+	float3 result = dot(Nn,Ln)*diffuseColor;
+	//float3 result = dot(Nn,Ln)*tex2D(ColorTextureSampler,IN.coloruv).xyz;
+    // return as float4
+if(fogOff>0.5) 
+	return float4(result,1);
+else
+    //return float4(result*(1-IN.fogIntensity)+FogColor*(IN.fogIntensity),1);
+	return float4(result,1)*(1-IN.fogIntensity)+FogColor*(IN.fogIntensity);
+	//return float4(Nn,1);
+	//return float4(IN.WorldNormal,1);
+	//return float4(1.0,1.0,1.0,1.0);
+	//return float4(Lamp0Color,1);
+}
+
+///// TECHNIQUES /////////////////////////////
+
+technique Main <
+	string Script = "Pass=p0;";
+> {
+    pass p0 <
+	string Script = "Draw=geometry;";
+    > {
+        VertexProgram = compile vp40 std_VS();
+		DepthTestEnable = true;
+		DepthMask = true;
+		CullFaceEnable = false;
+		//BlendEnable = false;
+		DepthFunc = LEqual;
+		BlendEnable = true;
+        BlendEquation = FuncAdd;
+        BlendFunc = int2(SrcAlpha, OneMinusSrcAlpha);
+        FragmentProgram = compile fp40 std_PS();
+    }
+}
+
+/////////////////////////////////////// eof //

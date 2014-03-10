@@ -1,0 +1,3 @@
+effect CgProject\Empty2.cgfx
+SetParamsByName
+ColorTexture Particle.dds

@@ -1,0 +1,27 @@
+
+float Script : STANDARDSGLOBAL <
+    string UIWidget = "none";
+    string ScriptClass = "object";
+    string ScriptOrder = "standard";
+    string ScriptOutput = "color";
+    string Script = "Technique=Main;";
+> = 0.8;
+
+///// TECHNIQUES /////////////////////////////
+
+technique Main <
+	string Script = "Pass=p0;";
+> {
+    pass p0 <
+	string Script = "Draw=geometry;";
+    > {
+//		DepthTestEnable = true;
+//		DepthMask = true;
+//		CullFaceEnable = false;
+//		BlendEnable = false;
+//		DepthFunc = LEqual;
+    }
+}
+
+/////////////////////////////////////// eof //
+

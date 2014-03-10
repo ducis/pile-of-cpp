@@ -1,0 +1,46 @@
+<ObjectSet>
+	<Count>1</Count>
+	<Poly>
+		<Verts num = "4">
+			<Vertex>-1000 -1000 0</Vertex>
+			<Vertex>1000 -1000 0</Vertex>
+			<Vertex>-1000 1000 0</Vertex>
+			<Vertex>1000 1000 0</Vertex>
+		</Verts>
+		<Faces num = "1">
+			<Face degree = "4">
+				<Verts>2 0 1 3 </Verts>
+				<Edges>0 3 2 1 </Edges>
+				<Normal>0.0 0.0 1.0</Normal>
+			</Face>
+		</Faces>
+		<Edges num = "4">
+			<Edge>
+				<Verts>2 0 </Verts>
+				<Faces>0 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>3 2 </Verts>
+				<Faces>0 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>1 3 </Verts>
+				<Faces>0 </Faces>
+			</Edge>
+			<Edge>
+				<Verts>0 1 </Verts>
+				<Faces>0 </Faces>
+			</Edge>
+		</Edges>
+		<ControlPlaneXSet>
+		</ControlPlaneXSet>
+		<ControlPlaneYSet>
+		</ControlPlaneYSet>
+		<ControlPlaneZSet>
+			<ControlPlane>
+				<Faces>0 </Faces>
+				<Verts>2 0 1 3 </Verts>
+			</ControlPlane>
+		</ControlPlaneZSet>
+	</Poly>
+</ObjectSet>

@@ -1,0 +1,31 @@
+#include "stdafx.h"
+#include <Common/Base/hkBase.h>
+#include <Common/Base/Reflection/hkClass.h>
+#include <Common/Base/Reflection/hkInternalClassMember.h>
+#include <Common/Base/Reflection/hkTypeInfo.h>
+#include <d3d9types.h>
+//
+// Class MyVertexDataStorage
+//
+static const hkInternalClassMember D3DVERTEXELEMENT9Class_Members[] =
+{
+	{ "Stream,Offset", HK_NULL, HK_NULL, hkClassMember::TYPE_UINT16, hkClassMember::TYPE_VOID, 0, 0, HK_OFFSET_OF(D3DVERTEXELEMENT9,Stream,Offset), HK_NULL },
+	{ "Type,Method,Usage,UsageIndex", HK_NULL, HK_NULL, hkClassMember::TYPE_UINT8, hkClassMember::TYPE_VOID, 0, 0, HK_OFFSET_OF(D3DVERTEXELEMENT9,Type,Method,Usage,UsageIndex), HK_NULL }
+};
+extern const hkClass D3DVERTEXELEMENT9Class;
+const hkClass D3DVERTEXELEMENT9Class(
+	"D3DVERTEXELEMENT9",
+	HK_NULL, // parent
+	sizeof(D3DVERTEXELEMENT9),
+	HK_NULL,
+	0, // interfaces
+	HK_NULL,
+	0, // enums
+	reinterpret_cast<const hkClassMember*>(D3DVERTEXELEMENT9Class_Members),
+	HK_COUNT_OF(D3DVERTEXELEMENT9Class_Members),
+	HK_NULL, // defaults
+	HK_NULL, // attributes
+	0, // flags
+	0 // version
+	);
+//HK_REFLECTION_DEFINE_SIMPLE(D3DVERTEXELEMENT9);

@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<HeightfieldTerrain size="100" minX="-50" minY="-50" sizeFirstBlockPool="200" sizeNewBlockPool="50" lodThreshold="0.2" nBlockSeg="32" maxBlockLvl="10000" minBlockSize="1">
+  <NewHeightfield type="Cascaded">
+    <NewHeightfield type="SineX" amp="1" angularFreq="1" phase="1" zOffset="0"/>
+    <NewHeightfield type="SineY" amp="1" angularFreq="1" phase="1" zOffset="0"/>
+  </NewHeightfield>
+</HeightfieldTerrain>

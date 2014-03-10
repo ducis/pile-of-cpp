@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="GameMain" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="DefaultWindow" Name="GameMain/LockableMain" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="TaharezLook/FrameWindow" Name="GameMain/CharacterInfo" >
+                <Property Name="Text" Value="Personal Info" />
+                <Property Name="Alpha" Value="0.75" />
+                <Property Name="TitlebarFont" Value="DejaVuSans-10" />
+                <Property Name="SizingEnabled" Value="False" />
+                <Property Name="TitlebarEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.05,0},{0.01,256},{0.05,416}}" />
+                <Property Name="CloseButtonEnabled" Value="False" />
+                <Window Type="TaharezLook/StaticText" Name="GameMain/CharacterInfo/AvatarWindow" >
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,4},{0,240},{0,324}}" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Window Type="DefaultWindow" Name="GameMain/CharacterInfo/AvatarWindow/TexShow" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                    <Window Type="TaharezLook/StaticText" Name="GameMain/CharacterInfo/AvatarWindow/TexShow/text" >
+                        <Property Name="Text" Value="My Avatar" />
+                        <Property Name="HorzExtent" Value="62" />
+                        <Property Name="VertExtent" Value="17.8576" />
+                        <Property Name="TextColours" Value="tl:FF555555 tr:FF555555 bl:FF555555 br:FF555555" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,78},{0,24}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="TaharezLook/Button" Name="GameMain/CharacterInfo/AvatarWindow/NextAvatar" >
+                        <Property Name="Text" Value="Next" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,-4},{0,-4},{0,60},{0,12}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                        <Property Name="HorizontalAlignment" Value="Right" />
+                    </Window>
+                    <Window Type="TaharezLook/Button" Name="GameMain/CharacterInfo/AvatarWindow/PrevAvatar" >
+                        <Property Name="Text" Value="Prev" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,-4},{0,68},{0,12}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                    <Window Type="TaharezLook/Button" Name="GameMain/CharacterInfo/AvatarWindow/ConfirmAvatar" >
+                        <Property Name="Text" Value="Confirm" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,-4},{0,84},{0,12}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                    </Window>
+                </Window>
+                <Window Type="DefaultWindow" Name="GameMain/CharacterInfo/InfoPanel" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,328},{0,240},{1,-4}}" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Window Type="TaharezLook/Editbox" Name="GameMain/CharacterInfo/InfoPanel/Email" >
+                        <Property Name="Text" Value="Email" />
+                        <Property Name="Disabled" Value="True" />
+                        <Property Name="ReadOnly" Value="True" />
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0,24}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                    <Window Type="TaharezLook/Editbox" Name="GameMain/CharacterInfo/InfoPanel/Name" >
+                        <Property Name="Text" Value="Name" />
+                        <Property Name="Disabled" Value="True" />
+                        <Property Name="ReadOnly" Value="True" />
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,28},{0,48},{0,52}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                    <Window Type="TaharezLook/Editbox" Name="GameMain/CharacterInfo/InfoPanel/EdtName" >
+                        <Property Name="MaxTextLength" Value="64" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,52},{0,28},{1,0},{0,52}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Window Type="TaharezLook/Button" Name="GameMain/CharacterInfo/InfoPanel/EdtName/Confirm" >
+                            <Property Name="UnifiedAreaRect" Value="{{0,-24},{0,0},{0,0},{1,0}}" />
+                            <Property Name="HorizontalAlignment" Value="Right" />
+                            <Window Type="TaharezLook/StaticImage" Name="GameMain/CharacterInfo/InfoPanel/EdtName/Confirm/Image" >
+                                <Property Name="Image" Value="set:Symbols image:Tick" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                            </Window>
+                        </Window>
+                        <Window Type="TaharezLook/Button" Name="GameMain/CharacterInfo/InfoPanel/EdtName/Cancel" >
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,24},{1,0}}" />
+                            <Property Name="HorizontalAlignment" Value="Right" />
+                            <Window Type="TaharezLook/StaticImage" Name="GameMain/CharacterInfo/InfoPanel/EdtName/Cancel/Image" >
+                                <Property Name="Image" Value="set:Symbols image:Cross" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                            </Window>
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="GameMain/SceneWindow" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="TaharezLook/FrameWindow" Name="GameMain/DeployWindow" >
+                <Property Name="Text" Value="Creation Panel" />
+                <Property Name="Alpha" Value="0.75" />
+                <Property Name="TitlebarFont" Value="DejaVuSans-10" />
+                <Property Name="SizingEnabled" Value="False" />
+                <Property Name="TitlebarEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.83,0},{0.05,0},{0.83,192},{0.05,256}}" />
+                <Property Name="CloseButtonEnabled" Value="False" />
+                <Window Type="DefaultWindow" Name="GameMain/DeployWindow/Buttons" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{1,-4},{1,-4}}" />
+                    <Window Type="TaharezLook/Button" Name="GameMain/BtnCreateDrama" >
+                        <Property Name="Text" Value="Drama" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0,24}}" />
+                    </Window>
+                    <Window Type="TaharezLook/Button" Name="GameMain/BtnCreateStoryRelay" >
+                        <Property Name="Text" Value="Story relay" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,28},{1,0},{0,52}}" />
+                    </Window>
+                    <Window Type="TaharezLook/Button" Name="GameMain/BtnCreateTranslatable" >
+                        <Property Name="Text" Value="Translatable" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,56},{1,0},{0,80}}" />
+                    </Window>
+                    <Window Type="TaharezLook/Button" Name="GameMain/BtnCreateSong" >
+                        <Property Name="Text" Value="Song" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,84},{1,0},{0,108}}" />
+                    </Window>
+                    <Window Type="TaharezLook/Button" Name="GameMain/BtnCreateSimplePost" >
+                        <Property Name="Text" Value="Simple post" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,112},{1,0},{0,136}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="GameMain/CurPlayerPlaced" >
+                <Property Name="Alpha" Value="0.75" />
+                <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.1,0},{0.65,0},{0.3,0}}" />
+                <Window Type="TaharezLook/Button" Name="GameMain/BtnViewCurPlayerPlaced" >
+                    <Property Name="Text" Value="View" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.5,4},{1,0},{0.5,32}}" />
+                </Window>
+                <Window Type="DefaultWindow" Name="GameMain/PlayerPlacedTabWindow" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,16},{1,0},{0.5,0}}" />
+                    <Window Type="TaharezLook/StaticText" Name="GameMain/PlayerPlacedTabWindow/Drama" >
+                        <Property Name="Text" Value="Audio Drama" />
+                        <Property Name="HorzExtent" Value="80" />
+                        <Property Name="VertExtent" Value="17.8576" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                    <Window Type="TaharezLook/StaticText" Name="GameMain/PlayerPlacedTabWindow/StoryRelay" >
+                        <Property Name="Text" Value="Story relay thread" />
+                        <Property Name="HorzExtent" Value="107" />
+                        <Property Name="VertExtent" Value="17.8576" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                    <Window Type="TaharezLook/StaticText" Name="GameMain/PlayerPlacedTabWindow/Translatable" >
+                        <Property Name="Text" Value="Translatable" />
+                        <Property Name="HorzExtent" Value="77" />
+                        <Property Name="VertExtent" Value="17.8576" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                    <Window Type="TaharezLook/StaticText" Name="GameMain/PlayerPlacedTabWindow/Song" >
+                        <Property Name="Text" Value="Song" />
+                        <Property Name="HorzExtent" Value="32" />
+                        <Property Name="VertExtent" Value="17.8576" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                    <Window Type="TaharezLook/StaticText" Name="GameMain/PlayerPlacedTabWindow/SimplePost" >
+                        <Property Name="Text" Value="Simple post" />
+                        <Property Name="HorzExtent" Value="73" />
+                        <Property Name="VertExtent" Value="17.8576" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="TaharezLook/Button" Name="GameMain/BtnCustomizeVehicle" >
+                <Property Name="Text" Value="Customize my vehicle" />
+                <Property Name="UnifiedAreaRect" Value="{{0.018448,0},{0.877563,0},{0.193778,0},{0.926969,0}}" />
+            </Window>
+            <Window Type="TaharezLook/FrameWindow" Name="GameMain/Effect" >
+                <Property Name="Text" Value="Fullscreen Effects" />
+                <Property Name="Alpha" Value="0.75" />
+                <Property Name="TitlebarFont" Value="DejaVuSans-10" />
+                <Property Name="TitlebarEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.603807,0},{0.314859,0},{0.853807,0},{0.924443,0}}" />
+                <Window Type="TaharezLook/Listbox" Name="GameMain/LbEffects" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{1,-4},{0.5,-4}}" />
+                </Window>
+                <Window Type="TaharezLook/Listbox" Name="GameMain/LbStackedEffects" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,4},{0.5,28},{1,-4},{1,-4}}" />
+                </Window>
+                <Window Type="TaharezLook/Button" Name="GameMain/BtnPushFx" >
+                    <Property Name="Text" Value="Push selected" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,4},{0.5,0},{0.4,0},{0.5,24}}" />
+                </Window>
+                <Window Type="TaharezLook/Button" Name="GameMain/BtnPopFx" >
+                    <Property Name="Text" Value="Pop last" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.5,0},{0.7,0},{0.5,24}}" />
+                </Window>
+                <Window Type="TaharezLook/Button" Name="GameMain/BtnClearFx" >
+                    <Property Name="Text" Value="Clear all" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.5,0},{1,-4},{0.5,24}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

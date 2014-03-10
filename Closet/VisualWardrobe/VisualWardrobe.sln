@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VisualWardrobe", "VisualWardrobe.vcproj", "{BBE0D4CC-6848-496A-A9F4-479FBEDD135D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Shell", "..\Shell\Shell.vcproj", "{86CEA3C4-4F3D-4A56-BA77-CC1EFEB8430A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BBE0D4CC-6848-496A-A9F4-479FBEDD135D} = {BBE0D4CC-6848-496A-A9F4-479FBEDD135D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WxWidgetShell", "..\WxWidgetShell\WxWidgetShell.vcproj", "{DED0EF0B-51B7-403D-A0F4-BA86776510CF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BBE0D4CC-6848-496A-A9F4-479FBEDD135D} = {BBE0D4CC-6848-496A-A9F4-479FBEDD135D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBE0D4CC-6848-496A-A9F4-479FBEDD135D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BBE0D4CC-6848-496A-A9F4-479FBEDD135D}.Debug|Win32.Build.0 = Debug|Win32
+		{BBE0D4CC-6848-496A-A9F4-479FBEDD135D}.Release|Win32.ActiveCfg = Release|Win32
+		{BBE0D4CC-6848-496A-A9F4-479FBEDD135D}.Release|Win32.Build.0 = Release|Win32
+		{86CEA3C4-4F3D-4A56-BA77-CC1EFEB8430A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{86CEA3C4-4F3D-4A56-BA77-CC1EFEB8430A}.Debug|Win32.Build.0 = Debug|Win32
+		{86CEA3C4-4F3D-4A56-BA77-CC1EFEB8430A}.Release|Win32.ActiveCfg = Release|Win32
+		{86CEA3C4-4F3D-4A56-BA77-CC1EFEB8430A}.Release|Win32.Build.0 = Release|Win32
+		{DED0EF0B-51B7-403D-A0F4-BA86776510CF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DED0EF0B-51B7-403D-A0F4-BA86776510CF}.Debug|Win32.Build.0 = Debug|Win32
+		{DED0EF0B-51B7-403D-A0F4-BA86776510CF}.Release|Win32.ActiveCfg = Release|Win32
+		{DED0EF0B-51B7-403D-A0F4-BA86776510CF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

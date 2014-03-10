@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<Mesh name="testnode" mesh="mesh/teapot.obj">
+  <Children>
+    <Transform>
+      <SeqWS offset="0 0 10" rotate="0 30 0"/>
+      <Children>
+        <Mesh mesh="mesh/box.obj"/>
+      </Children>
+    </Transform>
+  </Children>
+</Mesh>

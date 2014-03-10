@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<Component name="ppdv" mass="1" price="10">
+  <Children>
+    <Transform translate="0 0 -5">
+      <Children>
+        <Material color="0.4 0.45 0.3">
+          <Children>
+            <Mesh mesh="mesh/ppdv0.obj"/>
+          </Children>
+        </Material>
+        <Material color="2.5 1.5 0.5">
+          <Children>
+            <Mesh mesh="mesh/ppdv1.obj"/>
+          </Children>
+        </Material>
+        <Material color="0.4 0.55 0.25">
+          <Children>
+            <Mesh mesh="mesh/ppdv2.obj"/>
+          </Children>
+        </Material>
+        <Material color="0.7 4 4">
+          <Children>
+            <Mesh mesh="mesh/ppdv3.obj"/>
+          </Children>
+        </Material>
+      </Children>
+    </Transform>
+  </Children>
+</Component>
