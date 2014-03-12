@@ -1,0 +1,2 @@
+I = im2single(imread('baboon.bmp'));
+MeanShiftDPSFilterCPP(I,8,0.1,500,1e-8);

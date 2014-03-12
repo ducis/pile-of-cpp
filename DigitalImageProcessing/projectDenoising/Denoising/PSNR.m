@@ -1,0 +1,4 @@
+function [ psnr ] = PSNR( lhs,rhs,maxValue )
+    psnr = 10*log10((maxValue^2)/MeanSquareError(lhs,rhs));
+end
+

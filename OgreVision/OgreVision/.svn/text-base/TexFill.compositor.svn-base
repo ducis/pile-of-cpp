@@ -1,0 +1,15 @@
+compositor TexFill
+{
+	technique
+	{
+		target_output
+		{
+			pass clear{ }
+			
+			pass render_quad
+			{
+				material TexFillMtl
+			}
+		}
+	}
+}

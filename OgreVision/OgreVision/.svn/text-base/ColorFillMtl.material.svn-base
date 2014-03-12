@@ -1,0 +1,14 @@
+material ColorFillMtl
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 1 0.5
+			diffuse 0 0 1 0.5
+			specular 0 0 0 1 10
+		}
+	}
+}
+
+

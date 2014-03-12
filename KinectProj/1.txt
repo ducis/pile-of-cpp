@@ -1,0 +1,36 @@
+
+F:\PRP\b\b\b>Sample-SingleControl.exe Click 0  | Sample-SingleControl.exe Wave 1
+   | opencvhello.exe
+      245 INFO       OpenNI version is 1.3.2 (Build 3)-Win32 (Jul 19 2011 16:04:
+50)
+      255 INFO       Filter Info - minimum severity: ERROR, masks: NONE
+Setting resolution to VGA
+      249 INFO       OpenNI version is 1.3.2 (Build 3)-Win32 (Jul 19 2011 16:04:
+50)
+      259 INFO       Filter Info - minimum severity: ERROR, masks: NONE
+Setting resolution to VGA
+df
+Please perform focus gesture to start session
+Hit any key to exit
+Please perform focus gesture to start session
+Hit any key to exit
+df
+
+
+ghju
+ghju
+po
+po
+//Session progress (154.67,-192.56,1039.25) -   0.50 [Wave]
+//Session progress ( 26.22,-35.50,1211.54) -   0.50 [Click]
+//Session started. Please wave ( 84.08, 10.95,1363.58)...
+$$ 0 0 Start
+0 0
+Setting resolution to QQVGA
+//Session progress (-230.80, 52.32,1409.30) -   0.50 [Wave]
+//Session started. Please wave (-199.73,  0.53,1430.40)...
+$$ 0 1 Start
+0 0
+Setting resolution to QQVGA
+$$ 0 1 Push 0.464187 25.8715
+0 0

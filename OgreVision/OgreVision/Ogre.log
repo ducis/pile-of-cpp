@@ -1,0 +1,177 @@
+12:25:54: Creating resource group General
+12:25:54: Creating resource group Internal
+12:25:54: Creating resource group Autodetect
+12:25:54: SceneManagerFactory for type 'DefaultSceneManager' registered.
+12:25:54: Registering ResourceManager for type Material
+12:25:54: Registering ResourceManager for type Mesh
+12:25:54: Registering ResourceManager for type Skeleton
+12:25:54: MovableObjectFactory for type 'ParticleSystem' registered.
+12:25:54: OverlayElementFactory for type Panel registered.
+12:25:54: OverlayElementFactory for type BorderPanel registered.
+12:25:54: OverlayElementFactory for type TextArea registered.
+12:25:54: Registering ResourceManager for type Font
+12:25:54: ArchiveFactory for archive type FileSystem registered.
+12:25:54: ArchiveFactory for archive type Zip registered.
+12:25:54: DDS codec registering
+12:25:54: FreeImage version: 3.13.1
+12:25:54: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+12:25:54: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2,pfm,pct,pict,pic,bay,bmq,cr2,crw,cs1,dc2,dcr,dng,erf,fff,hdr,k25,kdc,mdc,mos,mrw,nef,orf,pef,pxn,raf,raw,rdc,sr2,srf,arw,3fr,cine,ia,kc2,mef,nrw,qtk,rw2,sti,drf,dsc,ptx,cap,iiq,rwz
+12:25:54: Registering ResourceManager for type HighLevelGpuProgram
+12:25:55: Registering ResourceManager for type Compositor
+12:25:55: MovableObjectFactory for type 'Entity' registered.
+12:25:55: MovableObjectFactory for type 'Light' registered.
+12:25:55: MovableObjectFactory for type 'BillboardSet' registered.
+12:25:55: MovableObjectFactory for type 'ManualObject' registered.
+12:25:55: MovableObjectFactory for type 'BillboardChain' registered.
+12:25:55: MovableObjectFactory for type 'RibbonTrail' registered.
+12:25:55: *-*-* OGRE Initialising
+12:25:55: *-*-* Version 1.7.3 (Cthugha)
+12:25:55: Installing plugin: D3D9 RenderSystem
+12:25:55: D3D9 : Direct3D9 Rendering Subsystem created.
+12:25:55: D3D9: Driver Detection Starts
+12:25:55: D3D9: Driver Detection Ends
+12:25:55: Plugin successfully installed
+12:25:55: D3D9 : RenderSystem Option: Allow NVPerfHUD = Yes
+12:25:55: D3D9 : RenderSystem Option: FSAA = 0
+12:25:55: D3D9 : RenderSystem Option: Floating-point mode = Consistent
+12:25:55: D3D9 : RenderSystem Option: Full Screen = No
+12:25:55: D3D9 : RenderSystem Option: Rendering Device = Monitor-1-NVIDIA GeForce G105M
+12:25:55: D3D9 : RenderSystem Option: Resource Creation Policy = Create on all devices
+12:25:55: D3D9 : RenderSystem Option: VSync = No
+12:25:55: D3D9 : RenderSystem Option: VSync Interval = 1
+12:25:55: D3D9 : RenderSystem Option: Video Mode = 1280 x 720 @ 32-bit colour
+12:25:55: D3D9 : RenderSystem Option: sRGB Gamma Conversion = No
+12:25:56: CPU Identifier & Features
+12:25:56: -------------------------
+12:25:56:  *   CPU ID: GenuineIntel: Pentium(R) Dual-Core CPU       T4200  @ 2.00GHz
+12:25:56:  *      SSE: yes
+12:25:56:  *     SSE2: yes
+12:25:56:  *     SSE3: yes
+12:25:56:  *      MMX: yes
+12:25:56:  *   MMXEXT: yes
+12:25:56:  *    3DNOW: no
+12:25:56:  * 3DNOWEXT: no
+12:25:56:  *     CMOV: yes
+12:25:56:  *      TSC: yes
+12:25:56:  *      FPU: yes
+12:25:56:  *      PRO: yes
+12:25:56:  *       HT: no
+12:25:56: -------------------------
+12:25:56: D3D9 : Subsystem Initialising
+12:25:56: Registering ResourceManager for type Texture
+12:25:56: Registering ResourceManager for type GpuProgram
+12:25:56: D3D9RenderSystem::_createRenderWindow "OGRE Render Window", 1280x720 windowed  miscParams: FSAA=0 FSAAHint= colourDepth=32 gamma=false monitorIndex=0 useNVPerfHUD=true vsync=false vsyncInterval=1 
+12:25:56: D3D9 : Created D3D9 Rendering Window 'OGRE Render Window' : 1280x710, 32bpp
+12:25:56: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+12:25:56: D3D9: Vertex texture format supported - PF_FLOAT16_RGB
+12:25:56: D3D9: Vertex texture format supported - PF_FLOAT16_RGBA
+12:25:56: D3D9: Vertex texture format supported - PF_FLOAT32_RGB
+12:25:56: D3D9: Vertex texture format supported - PF_FLOAT32_RGBA
+12:25:56: D3D9: Vertex texture format supported - PF_FLOAT16_R
+12:25:56: D3D9: Vertex texture format supported - PF_FLOAT32_R
+12:25:56: D3D9: Vertex texture format supported - PF_FLOAT16_GR
+12:25:56: D3D9: Vertex texture format supported - PF_FLOAT32_GR
+12:25:56: RenderSystem capabilities
+12:25:56: -------------------------
+12:25:56: RenderSystem Name: Direct3D9 Rendering Subsystem
+12:25:56: GPU Vendor: nvidia
+12:25:56: Device Name: Monitor-1-NVIDIA GeForce G105M
+12:25:56: Driver Version: 6.14.11.9744
+12:25:56:  * Fixed function pipeline: yes
+12:25:56:  * Hardware generation of mipmaps: yes
+12:25:56:  * Texture blending: yes
+12:25:56:  * Anisotropic texture filtering: yes
+12:25:56:  * Dot product texture operation: yes
+12:25:56:  * Cube mapping: yes
+12:25:56:  * Hardware stencil buffer: yes
+12:25:56:    - Stencil depth: 8
+12:25:56:    - Two sided stencil support: yes
+12:25:56:    - Wrap stencil values: yes
+12:25:56:  * Hardware vertex / index buffers: yes
+12:25:56:  * Vertex programs: yes
+12:25:56:  * Number of floating-point constants for vertex programs: 256
+12:25:56:  * Number of integer constants for vertex programs: 16
+12:25:56:  * Number of boolean constants for vertex programs: 16
+12:25:56:  * Fragment programs: yes
+12:25:56:  * Number of floating-point constants for fragment programs: 224
+12:25:56:  * Number of integer constants for fragment programs: 16
+12:25:56:  * Number of boolean constants for fragment programs: 16
+12:25:56:  * Geometry programs: no
+12:25:56:  * Number of floating-point constants for geometry programs: 0
+12:25:56:  * Number of integer constants for geometry programs: 0
+12:25:56:  * Number of boolean constants for geometry programs: 0
+12:25:56:  * Supported Shader Profiles: hlsl ps_1_1 ps_1_2 ps_1_3 ps_1_4 ps_2_0 ps_2_a ps_2_b ps_2_x ps_3_0 vs_1_1 vs_2_0 vs_2_a vs_2_x vs_3_0
+12:25:56:  * Texture Compression: yes
+12:25:56:    - DXT: yes
+12:25:56:    - VTC: no
+12:25:56:    - PVRTC: no
+12:25:56:  * Scissor Rectangle: yes
+12:25:56:  * Hardware Occlusion Query: yes
+12:25:56:  * User clip planes: yes
+12:25:56:  * VET_UBYTE4 vertex element type: yes
+12:25:56:  * Infinite far plane projection: yes
+12:25:56:  * Hardware render-to-texture: yes
+12:25:56:  * Floating point textures: yes
+12:25:56:  * Non-power-of-two textures: yes
+12:25:56:  * Volume textures: yes
+12:25:56:  * Multiple Render Targets: 4
+12:25:56:    - With different bit depths: yes
+12:25:56:  * Point Sprites: yes
+12:25:56:  * Extended point parameters: yes
+12:25:56:  * Max Point Size: 10
+12:25:56:  * Vertex texture fetch: yes
+12:25:56:  * Number of world matrices: 0
+12:25:56:  * Number of texture units: 8
+12:25:56:  * Stencil buffer depth: 8
+12:25:56:  * Number of vertex blend matrices: 0
+12:25:56:    - Max vertex textures: 4
+12:25:56:    - Vertex textures shared: no
+12:25:56:  * Render to Vertex Buffer : no
+12:25:56:  * DirectX per stage constants: yes
+12:25:56: ***************************************
+12:25:56: *** D3D9 : Subsystem Initialised OK ***
+12:25:56: ***************************************
+12:25:56: DefaultWorkQueue('Root') initialising on thread main.
+12:25:56: Particle Renderer Type 'billboard' registered
+12:25:56: Added resource location '' of type 'FileSystem' to resource group 'General'
+12:25:56: Parsing scripts for resource group Autodetect
+12:25:56: Finished parsing scripts for resource group Autodetect
+12:25:56: Parsing scripts for resource group General
+12:25:56: Parsing script 1.material
+12:25:56: Parsing script 2.material
+12:25:56: Parsing script CapturedMaterial.material
+12:25:56: Parsing script ColorFillMtl.material
+12:25:56: Parsing script CorrelateMtl.material
+12:25:56: Parsing script sq.material
+12:25:56: Parsing script TexFillMtl.material
+12:25:56: Parsing script correlate.compositor
+12:25:56: Parsing script TexFill.compositor
+12:25:56: Finished parsing scripts for resource group General
+12:25:56: Parsing scripts for resource group Internal
+12:25:56: Finished parsing scripts for resource group Internal
+12:25:56: Mesh: Loading sq.mesh.
+12:25:57: Texture: sq.png: Loading 1 faces(PF_R8G8B8,2048x2048x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,2048x2048x1.
+12:27:34: D3D9 device: 0x[0016CD80] lost. Releasing D3D9 texture: FirstRTT
+12:27:34: Released D3D9 texture: FirstRTT
+12:27:34: D3D9 device: 0x[0016CD80] lost. Releasing D3D9 texture: CamIn
+12:27:34: Released D3D9 texture: CamIn
+12:27:34: D3D9 device: 0x[0016CD80] lost. Releasing D3D9 texture: CorrelationRTT
+12:27:34: Released D3D9 texture: CorrelationRTT
+12:27:34: D3D9 device: 0x[0016CD80] lost. Releasing D3D9 texture: LastRTT
+12:27:34: Released D3D9 texture: LastRTT
+12:27:34: D3D9 Device 0x[0016CD80] entered lost state
+12:27:34: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+12:27:34: !!! Direct3D Device successfully restored.
+12:27:34: D3D9 device: 0x[0016CD80] was reset
+12:27:44: D3D9 device: 0x[0016CD80] lost. Releasing D3D9 texture: FirstRTT
+12:27:45: Released D3D9 texture: FirstRTT
+12:27:45: D3D9 device: 0x[0016CD80] lost. Releasing D3D9 texture: CamIn
+12:27:45: Released D3D9 texture: CamIn
+12:27:45: D3D9 device: 0x[0016CD80] lost. Releasing D3D9 texture: CorrelationRTT
+12:27:45: Released D3D9 texture: CorrelationRTT
+12:27:45: D3D9 device: 0x[0016CD80] lost. Releasing D3D9 texture: LastRTT
+12:27:45: Released D3D9 texture: LastRTT
+12:27:45: D3D9 Device 0x[0016CD80] entered lost state
+12:27:45: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+12:27:45: !!! Direct3D Device successfully restored.
+12:27:45: D3D9 device: 0x[0016CD80] was reset

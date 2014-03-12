@@ -1,0 +1,5 @@
+function [ denoised ] = NonLocalDenoiseFull( withNoise, searchWindowRadius, similarityWindowRadius, h )
+    s = [searchWindowRadius, similarityWindowRadius, h )
+    denoised = NonLocalDenoise(padarray(withNoise,similarityWindowRadius,'replicate'),similarityWindowRadius+1,similarityWindowRadius+size(withNoise),searchWindowRadius, similarityWindowRadius, h );
+end
+

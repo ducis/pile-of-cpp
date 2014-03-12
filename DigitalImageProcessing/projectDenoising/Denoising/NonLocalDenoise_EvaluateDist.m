@@ -1,0 +1,8 @@
+
+function [ dist ] = NonLocalDenoise_EvaluateDist( withNoise, gaussianWeights, iRowFirst, iColumnFirst, iRowSecond, iColumnSecond, rSim )
+    neighborhoodFirst = withNoise(iRowFirst-rSim:iRowFirst+rSim,iColumnFirst-rSim:iColumnFirst+rSim); %GetNeighborhood( iRowFirst, iColumnFirst, rSim, withNoise );
+    neighborhoodSecond = withNoise(iRowSecond-rSim:iRowSecond+rSim, iColumnSecond-rSim:iColumnSecond+rSim); %GetNeighborhood( iRowSecond, iColumnSecond, rSim, withNoise );
+    wd2 = (neighborhoodFirst-neighborhoodSecond).^2.*gaussianWeights;
+    dist = sum(wd2(:));
+    %similarity = sum(sum((withNoise(iRowFirst-rSim:iRowFirst+rSim,iColumnFirst-rSim:iColumnFirst+rSim)-withNoise(iRowSecond-rSim:iRowSecond+rSim, iColumnSecond-rSim:iColumnSecond+rSim)).^2.*gaussianWeights));
+end

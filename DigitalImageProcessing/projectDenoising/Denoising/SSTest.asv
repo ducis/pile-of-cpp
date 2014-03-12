@@ -1,0 +1,9 @@
+I = im2single(imread('lena.bmp'));
+%nIs = {imnoise(I,'salt & pepper') imnoise(I,'gaussian')};
+nIs = [ cellfun(@(d)imnoise(I,'salt & pepper',d),[0.01:0.02:0.09]) cellfun(@(v)imnoise(I,'gaussian'
+hs = transpose(3:2:31);
+dnIs = arrayfun( @(h)cellfun( @(nI)imfilter(nI,fspecial('gaussian',h,0.2*h),'replicate'),nIs, 'UniformOutput', false ), hs,'UniformOutput', false );
+dnIs = vertcat(dnIs{:});
+show = vertcat(cell2mat([nIs;dnIs]));
+mse = cellfun( @(dnI)MeanSquareError(dnI,I),dnIs )*(255^2);
+psnr = cellfun( @(dnI)PSNR(dnI,I,1),dnIs );

@@ -1,0 +1,163 @@
+ 
+<html><head> 
+ 
+ 
+ 
+ 
+ 
+ 
+  <meta http-equiv="content-type" content="text/html; charset=gb2312"><!--put_head_here--><title>IVM Courses</title> 
+ 
+  <meta name="author" content="Jingtao Chen"> 
+
+  <meta name="description" content="IVM LAB"> 
+  <link type="text/css" rel="stylesheet" href="style.css">
+
+		<SCRIPT src="./js/jsframework.js" type=text/javascript></SCRIPT>
+		<SCRIPT src="./js/Global.js" type=text/javascript></SCRIPT>
+		<SCRIPT src="./js/MzDataProvider.js" type=text/javascript></SCRIPT>
+		<SCRIPT src="./js/MzEffect.js" type=text/javascript></SCRIPT>
+		<SCRIPT src="./js/MzBehavior.js" type=text/javascript></SCRIPT>
+		<SCRIPT src="./js/MzRotateImage.js" type=text/javascript></SCRIPT>		
+        <style type="text/css">
+<!--
+.style1 {font-size: 12px}
+.style3 {font-size: 12px; font-family: tahoma; }
+.style4 {font-family: tahoma}
+-->
+        </style
+		</head>
+		
+<body bgcolor="black"> 
+  <table border="0" cellpadding="4" cellspacing="0" width="100%"> 
+    <tbody><tr> 
+      <td style="text-align: center; background-color: white;"> 
+        <center> 
+          <table border="0" cellpadding="0" cellspacing="0" width="95%"> 
+            <tbody><tr><td style="text-align: center;"> 
+                <img src="images/IVM_Logo.jpg" alt="IVM LAB" width="650" height="78"> 
+            </td></tr> 
+          </tbody></table> 
+        </center> 
+      </td> 
+    </tr> 
+    <tr> 
+      <td style="text-align: center; background-color: white;"> 
+        <div id="navigator"> 
+          <center> 
+            <table border="0" cellpadding="8" cellspacing="3"> 
+              <tbody><tr> 
+                <td><a href="index.asp">Home</a></td> 
+                <td><a href="research.asp">Research</a> </td> 
+                <td><a href="courses.asp">Courses</a> </td> 
+                <td><a href="publications.asp">Publications</a> </td> 
+                
+                <td><a href="people.asp">People</a> </td> 
+                <td><a href="biography.asp">Biography</a> </td> 
+				<td><a href="admin.asp">Admin Login</a> </td>
+              </tr> 
+            </tbody></table> 
+          </center> 
+        </div> 
+      </td> 
+    </tr> 
+    <tr> 
+      <td style="border-top: 2px dotted grey; border-bottom: 2px dotted grey; background-color: white;"> 
+        <div id="body"> 
+          <center> 
+            <table border="0" cellpadding="10" cellspacing="0" width="650"> 
+              <tbody><tr><td> 
+                  <!--put_body_here--> 
+	    
+    <h1> Project One: Denoising </h1> 
+ 
+    <div id="contents"> 
+    </div> 
+ 
+    <p> 	1.对测试图像分别加入不同程度的椒盐噪声、高斯噪声，并用基本滤波方法进行去噪：空间域平滑去噪、中值滤波、频域滤波等。要求分别改变噪声参数和各种滤波方法参数，用PSNR指数衡量重建图像客观质量，对比不同方法的去噪效果并加以说明。</br></br>
+	2.阅读文献，实现任意一种目前比较主流的去噪方法，现有Block Matching and 3D Filtering，BLS-GSM Image Denoising，Non-Local Means Denoising的相关论文以供参考，也可选择实现其他发表于国际主流期刊会议论文的去噪方法，如KSVD等。阅读文献，熟悉算法思想，选用其他方法请附上参考文献以及来源。</br></br>
+	3.两人一组，独立撰写实验报告。报告内容包括但不限于以下部分：基本滤波方法进行去噪，调节噪声参数和滤波器参数，对滤波效果进行横向和纵向对比；实现论文算法，要求详述算法思想及流程，并进行不同对比实验，调节参数完成实验；对不同方法、算法去噪结果进行分析总结。</br></br>
+	4.请保持论文独创性，请注意论文排版格式，Word即可，Tex更佳，请注明引用。<br><br>
+	5.提交时把报告论文，程序代码及其他文件rar打包，命名为DIP_Pro1-****-####-%%%%，****-学号，####-班级，%%%%-姓名<br><br>
+	6.提供部分参考资料，其他内容请自行搜索。<br>
+	<h3>KSVD Denosing</h>
+	<img src="\files\dip\pro1\boat_ori.jpg"  align="center" hspace="10">
+	<img src="\files\dip\pro1\boat_dic.jpg"  align="center" hspace="10">
+	<img src="\files\dip\pro1\boat_noi.jpg"  align="center" hspace="10">
+	<img src="\files\dip\pro1\boat_den.jpg"  align="center" hspace="10">
+	<h3>Reference</h3>
+	1.<a style="color: blue;" href="./files/dip/pro1/test image.rar">Test images</a style="color: blue;" ><br><br>
+	2.Block Matching and 3D Filtering<br>
+	<a style="color: blue;" href="./files/dip/pro1/BM3D1.pdf">Image denoising with block-matching and 3D filtering</a style="color: blue;" ><br>
+	<a style="color: blue;" href="./files/dip/pro1/BM3D2.pdf">Image denoising by sparse 3D transform-domain collaborative filtering</a style="color: blue;" ><br><br>
+	3.BLS-GSM Image Denoising<br>
+	<a style="color: blue;" href="./files/dip/pro1/BLS-GSM.pdf">Image Denoising Using Scale Mixtures of Gaussians in the Wavelet Domain</a style="color: blue;" ><br><br>
+	4.Non-Local Means Denoising<br>
+	<a style="color: blue;" href="./files/dip/pro1/NL1.pdf">A non-local algorithm for image denoising</a style="color: blue;" ><br>
+	<a style="color: blue;" href="./files/dip/pro1/NL2.pdf">A REVIEW OF IMAGE DENOISING ALGORITHMS, WITH A NEW ONE</a style="color: blue;" ><br>
+	<h3>Submitting</h3>
+	1.ftp://202.120.39.234:221<br><br>
+	2.Deadline:2011/3/31 24:00
+			
+    </p> 
+    
+  </td> 
+</tr> 
+
+
+
+<tr> 
+  <td> 
+ 
+              <br> 
+</td></tr> 
+            </tbody></table> 
+          </center> 
+        </div> 
+      </td> 
+    </tr> 
+    <tr> 
+ 
+      <td style="text-align: center; background-color: white;"> 
+        
+      <center> 
+          
+      <table border="0" cellpadding="0" cellspacing="0" width="95%"> 
+ 
+            <tbody> 
+          <tr> 
+ 
+               
+ 
+                <td style="text-align: center;">            <div id="footer"> 
+                    Maintained by Jingtao Chen | Last Revised: Feb 20, 2011 |Best viewed on <a href="http://www.google.com/chrome">Google Chrome</a> <br>
+					<a href="http://cert.sjtu.edu.cn/beian_user/show.asp?number=834" target="_blank">沪交ICP备2010834</a> | 
+                    You are the <img src=images/num/2.gif><img src=images/num/7.gif><img src=images/num/7.gif><img src=images/num/4.gif><img src=images/num/5.gif><sup>th</sup> visitor.
+                  </div> 
+ 
+ 
+                </td> 
+ 
+                <td style="text-align: right;">&nbsp;
+ 
+                  <!--put_date_here--> 
+              </td> 
+ 
+            </tr> 
+ 
+          
+        </tbody> 
+      </table> 
+ 
+        </center> 
+ 
+      </td> 
+ 
+    </tr> 
+ 
+  
+  </tbody> 
+</table> 
+ 
+ 
+</body></html>

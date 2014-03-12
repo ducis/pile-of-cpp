@@ -1,0 +1,10 @@
+function [ boundaryMap ] = RegionBoundary( regionIDMap, drawOn, boundaryVal )
+    [dRow,dCol] = ndgrid(-1:1);
+    for r = 1:size(regionIDMap,1)
+        for c = 1:size(regionIDMap,2)
+            for
+             if(regionIDMap(r,c)~=regionIDMap(r+
+        end
+    end
+end
+

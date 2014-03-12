@@ -1,0 +1,35 @@
+#include "vrtreeval.h"
+
+#define	HEADER	258
+#define	DEF	259
+#define	USE	260
+#define	PROTO	261
+#define	EXTERNPROTO	262
+#define	TO	263
+#define	IS	264
+#define	ROUTE	265
+#define	SFN_NULL	266
+#define	EVENTIN	267
+#define	EVENTOUT	268
+#define	FIELD	269
+#define	EXPOSEDFIELD	270
+#define	TYPENAME	271
+#define	FIELDNAME	272
+#define	ID	273
+#define	STRING	274
+#define	ANINT	275
+#define	AFLOAT	276
+#define	ATIME	277
+#define	V2FLOAT	278
+#define	V3FLOAT	279
+#define	V4FLOAT	280
+#define	BTRUE	281
+#define	BFALSE	282
+#define	M_FLOAT	283
+#define	M_V2FLOAT	284
+#define	M_V3FLOAT	285
+#define	M_V4FLOAT	286
+#define	MINT	287
+#define	MSTRING	288
+#define	INLINE	289
+#define	STARTMFNODE	290

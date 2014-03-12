@@ -1,0 +1,7 @@
+I = im2single([imread('butterfly.jpg') imread('chair.jpg') imread('cougar.jpg') imread('helicopter.jpg')]);
+[A,B] = MeanShiftSegmentationCPP(I,8,0.15,20,500,1e-8);
+O = VisualizeSegmentation([A,B]);
+P = RegionBoundaryOverlay([A,B],[I,I],[1 0 0]);
+imwrite(O,'SegTest.png');
+imtool(I);
+imtool(O);

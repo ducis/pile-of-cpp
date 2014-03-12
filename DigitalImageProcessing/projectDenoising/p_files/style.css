@@ -1,0 +1,111 @@
+BODY {
+	TEXT-ALIGN: justify; PADDING-BOTTOM: 0px; FONT-STYLE: normal; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: "Trebuchet MS", "Bitstream Vera Sans", sans-serif; COLOR: black; FONT-SIZE: 10pt; PADDING-TOP: 0px
+}
+P {
+	TEXT-ALIGN: justify; PADDING-BOTTOM: 2px; FONT-STYLE: normal; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; FONT-FAMILY: "Trebuchet MS", "Bitstream Vera Sans", sans-serif; COLOR: black; FONT-SIZE: 10pt; PADDING-TOP: 2px
+}
+ADDRESS {
+	PADDING-BOTTOM: 2px; FONT-STYLE: normal; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; FONT-SIZE: 10pt; PADDING-TOP: 2px
+}
+UL {
+	PADDING-BOTTOM: 2px; MARGIN: 0px 0px 0px 2px; PADDING-LEFT: 40px; PADDING-RIGHT: 20px; PADDING-TOP: 2px
+}
+OL {
+	PADDING-BOTTOM: 2px; MARGIN: 0px 2px; PADDING-LEFT: 50px; PADDING-RIGHT: 20px; PADDING-TOP: 2px
+}
+LI {
+	PADDING-BOTTOM: 1px; PADDING-LEFT: 5px; PADDING-RIGHT: 0px; FONT-SIZE: 10pt; PADDING-TOP: 1px
+}
+ADDRESS {
+	FONT-STYLE: normal; FONT-FAMILY: "Bitstream Vera Sans Mono", "Andale Mono", monospace
+}
+BLOCKQUOTE {
+	FONT-STYLE: italic; PADDING-LEFT: 2em; PADDING-RIGHT: 2em; FONT-FAMILY: "Garamond", serif; COLOR: black; MARGIN-LEFT: 0.5em; FONT-SIZE: 12pt; MARGIN-RIGHT: 0.5em
+}
+A {
+	TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #16264d
+}
+A:visited {
+	COLOR: #16264d
+}
+A:active {
+	COLOR: #2138b6
+}
+A:hover {
+	BORDER-BOTTOM: #2138b6 1px dotted; COLOR: #2138b6
+}
+H1 {
+	TEXT-ALIGN: left; FONT-FAMILY: "Times New Roman", "Luxi Serif", serif; COLOR: black
+}
+H2 {
+	TEXT-ALIGN: left; FONT-FAMILY: "Times New Roman", "Luxi Serif", serif; COLOR: black
+}
+H3 {
+	TEXT-ALIGN: left; FONT-FAMILY: "Times New Roman", "Luxi Serif", serif; COLOR: black
+}
+H4 {
+	TEXT-ALIGN: left; FONT-FAMILY: "Times New Roman", "Luxi Serif", serif; COLOR: black
+}
+H5 {
+	TEXT-ALIGN: left; FONT-FAMILY: "Times New Roman", "Luxi Serif", serif; COLOR: black
+}
+H6 {
+	TEXT-ALIGN: left; FONT-FAMILY: "Times New Roman", "Luxi Serif", serif; COLOR: black
+}
+H1 {
+	LETTER-SPACING: 0.08em; FONT-SIZE: 18pt
+}
+H2 {
+	BORDER-BOTTOM: #000000 1px dotted; PADDING-LEFT: 0em; LETTER-SPACING: 0.05em; FONT-SIZE: 12pt
+}
+H3 {
+	PADDING-LEFT: 1em; FONT-SIZE: 10pt; FONT-WEIGHT: bold
+}
+#header {
+	TEXT-ALIGN: center; MARGIN: 10px; FONT-FAMILY: "Times New Roman", "Luxi Serif", sans-serif; LETTER-SPACING: 0.05em; COLOR: navy; FONT-SIZE: 20pt
+}
+#navigator {
+	TEXT-ALIGN: center; FONT-VARIANT: small-caps; FONT-FAMILY: "Arial", "Luxi Sans", sans-serif; WHITE-SPACE: nowrap; COLOR: black; FONT-SIZE: 14pt; TEXT-DECORATION: none
+}
+#navigator A {
+	TEXT-ALIGN: center; FONT-VARIANT: small-caps; FONT-FAMILY: "Arial", "Luxi Sans", sans-serif; WHITE-SPACE: nowrap; COLOR: black; FONT-SIZE: 14pt; TEXT-DECORATION: none
+}
+#navigator A {
+	COLOR: #16264d
+}
+#navigator A:visited {
+	COLOR: #16264d
+}
+#navigator A:active {
+	COLOR: #2138b6
+}
+#navigator A:hover {
+	BORDER-BOTTOM: #2138b6 1px dotted; COLOR: #2138b6
+}
+#footer {
+	FONT-FAMILY: "Arial", "Luxi Sans", serif; WHITE-SPACE: nowrap; COLOR: black; FONT-SIZE: 10pt
+}
+#footer A {
+	FONT-FAMILY: "Arial", "Luxi Sans", serif; WHITE-SPACE: nowrap; COLOR: black; FONT-SIZE: 10pt
+}
+#contents {
+	TEXT-ALIGN: left; FONT-FAMILY: "Times New Roman", "Luxi Serif", serif; WHITE-SPACE: nowrap; LETTER-SPACING: 0.05em; COLOR: navy; FONT-SIZE: 11pt; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+#contents A {
+	TEXT-ALIGN: left; FONT-FAMILY: "Times New Roman", "Luxi Serif", serif; WHITE-SPACE: nowrap; LETTER-SPACING: 0.05em; COLOR: navy; FONT-SIZE: 11pt; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+#contents A {
+	COLOR: #16264d
+}
+#contents A:visited {
+	COLOR: #16264d
+}
+#contents A:active {
+	COLOR: #2138b6
+}
+#contents A:hover {
+	COLOR: #2138b6
+}

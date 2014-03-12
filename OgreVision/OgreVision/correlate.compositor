@@ -1,0 +1,13 @@
+compositor Correlate
+{
+	technique
+	{
+		target_output
+		{
+			pass render_quad
+			{
+				material CorrelateMtl
+			}
+		}
+	}
+}

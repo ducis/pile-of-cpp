@@ -1,0 +1,4 @@
+function [ o ] = VisualizeSegmentation( ulimg )
+    o = zeros([size
+end
+

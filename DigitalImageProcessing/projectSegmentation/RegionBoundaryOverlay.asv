@@ -1,0 +1,16 @@
+function [ result ] = RegionBoundaryOverlay( regionIDMap, drawOn, boundaryVal )
+    delta = [-1 0 1];
+    result = drawOn;
+    for r = 1:size(regionIDMap,1)
+        for c = 1:size(regionIDMap,2)
+            for dr = delta
+                for dc = delta
+                    if( inrange regionIDMap(r,c)~=regionIDMap(r+dr,c+dc))
+                        result(r,c) = boundaryVal;
+                    end
+                end
+            end
+        end
+    end
+end
+

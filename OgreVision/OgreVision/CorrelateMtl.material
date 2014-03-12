@@ -1,0 +1,25 @@
+fragment_program CorrShader hlsl
+{
+	source CorrShader.hlsl
+	entry_point main
+	target ps_3_0
+}
+material CorrelateMtl
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 0 1 1
+			diffuse 1 0 1 1
+			specular 0 0 0 1 10
+			fragment_program_ref CorrShader
+			{
+			}
+		}
+
+	}
+
+}
+
+
